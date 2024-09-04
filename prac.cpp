@@ -74,9 +74,9 @@ int main(){
 }
 */
 string add(string a, string b){
-    
+
 }
 int main(){
-    String num, num1, num2, num3;
-    
+    string num, num1, num2, num3;
+    return 0;
 }
