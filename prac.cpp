@@ -33,3 +33,20 @@ int main(){
     return 0;
 }
 */
+
+int factorial(int x){
+  if(x=0)
+	  return 1;
+  return x*factorial(x-1);
+}
+int main(){
+ int x;
+ cout<<"Enter a postiive integer";
+ cin>>x; 
+ while(x<0){
+   cout<<"Enter a positive integer";
+   cin>>x;
+ }
+ cout<<"The factorial of the number you enter is : "<< factorial(x); 
+ return 0;
+}
