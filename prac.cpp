@@ -33,7 +33,7 @@ int main(){
     return 0;
 }
 */
-
+/*
 int factorial(int x){
   if(x<=1){
       return 1;
@@ -51,3 +51,4 @@ int main(){
  cout<<"The factorial of the number you enter is : "<< factorial(x); 
  return 0;
 }
+*/
