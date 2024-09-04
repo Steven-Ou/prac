@@ -52,3 +52,22 @@ int main(){
  return 0;
 }
 */
+void modifyValue(int x){
+    x+=10;
+    cout<<"Inside Function: "<<x << endl;
+}
+
+void modifyReference(int& x){
+    x+=10;
+    cout<<"Inside function: "<<x<<endl;
+}
+
+int main(){
+    int num =5;
+    modifyValue(num);
+    cout<< "After call by value: "<< num <<endl;
+    modifyReference(num);
+    cout<<"After call by reference: "<<num<<endl;
+
+    return 0;
+}
