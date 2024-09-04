@@ -52,6 +52,7 @@ int main(){
  return 0;
 }
 */
+/*
 void modifyValue(int x){
     x+=10;
     cout<<"Inside Function: "<<x << endl;
@@ -70,4 +71,4 @@ int main(){
     cout<<"After call by reference: "<<num<<endl;
 
     return 0;
-}
+}*/
