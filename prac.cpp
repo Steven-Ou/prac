@@ -13,7 +13,7 @@ int main(){
     }
     return 0;
 }*/
-
+/*
 int main(){
     int n;
     cout<<"Enter a positive integer: ";
@@ -32,3 +32,4 @@ int main(){
     cout<<"Sum using for loop: "<< forSum<< endl;
     return 0;
 }
+*/
