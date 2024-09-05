@@ -73,10 +73,46 @@ int main(){
     return 0;
 }
 */
-string add(string a, string b){
 
+int toInt(string s)
+{
+    string digits[] = {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9"};
+    for (int i = 0; i < 10; i++)
+    {
+        if (s == digits[i])
+        {
+            return i;
+        }
+    }
+    return 0;
 }
-int main(){
-    string num, num1, num2, num3;
+
+string toString(int n)
+{
+    string digits[] = {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9"};
+    for (int i = 0; i < 10; i++)
+    {
+        if (n == i)
+        {
+            return digits[i];
+        }
+    }
+    return "0";
+}
+
+string add(string a, string b)
+{
+    string total = "";
+    for (int i = 0; i < a.size() || i < b.size(); i++)
+    {
+        string sum = toString(toInt(a.substr(a.size()-i-1, 1))+toInt(b.substr(a.size()-i-1, 1)));
+        total = sum+total;
+    }
+    return total;
+}
+
+int main()
+{
+    cout << add("4444444", "5555555") << endl;
     return 0;
 }
