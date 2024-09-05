@@ -118,3 +118,38 @@ int main()
     return 0;
 }
 */
+string addLargeNumbers(const string& num1, const string& num2) {
+    string result;
+    int carry = 0;
+    int n1 = num1.size();
+    int n2 = num2.size();
+    int maxLength = max(n1, n2);
+
+    for (int i = 0; i < maxLength; ++i) {
+        int digit1 = (i < n1) ? num1[n1 - 1 - i] - '0' : 0;
+        int digit2 = (i < n2) ? num2[n2 - 1 - i] - '0' : 0;
+        int sum = digit1 + digit2 + carry;
+        carry = sum / 10;
+        result.push_back((sum % 10) + '0');
+    }
+
+    if (carry) {
+        result.push_back(carry + '0');
+    }
+
+    reverse(result.begin(), result.end());
+    return result;
+}
+
+int main() {
+    string num1, num2;
+    cout << "Enter the first number: ";
+    cin >> num1;
+    cout << "Enter the second number: ";
+    cin >> num2;
+
+    string sum = addLargeNumbers(num1, num2);
+    cout << "The sum is: " << sum << endl;
+
+    return 0;
+}
