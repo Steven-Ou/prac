@@ -73,7 +73,8 @@ int main(){
     return 0;
 }
 */
-
+//Allen work
+/*
 int toInt(string s)
 {
     string digits[] = {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9"};
@@ -116,3 +117,4 @@ int main()
     cout << add("4444444", "5555555") << endl;
     return 0;
 }
+*/
