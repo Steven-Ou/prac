@@ -166,15 +166,16 @@ string add(string a, string b){
         int digitB = lengthB >0 ? b[lengthB-1]-'0':0;
         int temp = digitA+digitB+carry;
         int carry = temp/10;
-         result.insert(0, temp%10);
-        if(digitA+digitB >9){
-            carry =1;
-        }else{
-            carry =0;
-        }
-        result.insert(0, temp%10);
+        result.insert(0, to_String(temp%10));
         lengthA--;
         lengthB--; 
+        
+       
+    }
+    if(carry ==1){
+        return "1" + result;
+    }else{
+        return result;
     }
 
     return result;
