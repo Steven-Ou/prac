@@ -160,12 +160,13 @@ string add(string a, string b){
     string result ="";
     int lengthA = a.length();
     int lengthB= b.length();
-    int carry =false;
-    while(a.length()>0 || b.length()>0){
+    int carry =0;
+    while(lengthA>0 || lengthB>0){
         int digitA = lengthA >0 ? a[lengthA-1]-'0':0;
         int digitB = lengthB >0 ? b[lengthB-1]-'0':0;
         int temp = digitA+digitB+carry;
-        
+        int carry = temp/10;
+         result.insert(0, temp%10);
         if(digitA+digitB >9){
             carry =1;
         }else{
