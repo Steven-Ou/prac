@@ -164,9 +164,16 @@ string add(string a, string b){
     while(a.length()>0 || b.length()>0){
         int digitA = lengthA >0 ? a[lengthA-1]-'0':0;
         int digitB = lengthB >0 ? b[lengthB-1]-'0':0;
+        int temp = digitA+digitB+carry;
         
-        
-        result = to_string(digitA+digitB);
+        if(digitA+digitB >9){
+            carry =1;
+        }else{
+            carry =0;
+        }
+        result.insert(0, temp%10);
+        lengthA--;
+        lengthB--; 
     }
 
     return result;
