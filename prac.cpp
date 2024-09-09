@@ -166,7 +166,7 @@ string add(string a, string b){
         int digitB = lengthB >0 ? b[lengthB-1]-'0':0;
         int temp = digitA+digitB+carry;
         int carry = temp/10;
-        result.insert(0, to_String(temp%10));
+        result.insert(0, to_string(temp%10));
         lengthA--;
         lengthB--; 
         
@@ -178,7 +178,6 @@ string add(string a, string b){
         return result;
     }
 
-    return result;
 }
 int main(int argc, const char * argv[]){
     char num_1[100];
