@@ -118,6 +118,8 @@ int main()
     return 0;
 }
 */
+/*
+
 string add(const string& num1, const string& num2) {
     string result;
     int carry = 0;
@@ -152,4 +154,16 @@ int main() {
     cout << "The sum is: " << sum << endl;
 
     return 0;
+}
+*/
+string add(string a, string b){
+
+}
+int main(){
+    string a, b;
+    cout<<"Enter a number":
+    cin>>a;
+    cout<<"Enter a number":
+    cin>>b;
+    
 }
