@@ -171,11 +171,13 @@ string add(string a, string b){
 
     return result;
 }
-int main(){
+int main(int argc, const char * argv[]){
     string a, b;
     cout<<"Enter a number":
     cin>>a;
     cout<<"Enter a number":
     cin>>b;
     cout<<"The sum of a and b is: "<<add(a,b);
+    
+    return 0;
 }
