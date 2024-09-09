@@ -172,12 +172,10 @@ string add(string a, string b){
     return result;
 }
 int main(int argc, const char * argv[]){
-    string a, b;
-    cout<<"Enter a number":
-    cin>>a;
-    cout<<"Enter a number":
-    cin>>b;
-    cout<<"The sum of a and b is: "<<add(a,b);
-    
+    char num_1[100];
+    char num_2[100];
+    cin>>num_1>>num_2;
+    cout<<add(num_1,num_2)<<endl;
+
     return 0;
 }
