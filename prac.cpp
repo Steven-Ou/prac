@@ -160,7 +160,7 @@ string add(string a, string b){
     string result ="";
     int lengthA = a.length();
     int lengthB= b.length();
-    bool carry =false;
+    int carry =false;
     while(a.length()>0 || b.length()>0){
         int digitA = lengthA >0 ? a[lengthA-1]-'0':0;
         int digitB = lengthB >0 ? b[lengthB-1]-'0':0;
