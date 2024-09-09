@@ -157,7 +157,11 @@ int main() {
 }
 */
 string add(string a, string b){
-
+    string result ="";
+    int lengthA = a.length();
+    int lengthB= b.length();
+    
+    return result;
 }
 int main(){
     string a, b;
