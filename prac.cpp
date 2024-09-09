@@ -164,6 +164,8 @@ string add(string a, string b){
     while(a.length()>0 || b.length()>0){
         int digitA = lengthA >0 ? a[lengthA-1]-'0':0;
         int digitB = lengthB >0 ? b[lengthB-1]-'0':0;
+        
+        
         result = to_string(digitA+digitB);
     }
 
