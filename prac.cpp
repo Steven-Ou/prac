@@ -118,7 +118,7 @@ int main()
     return 0;
 }
 */
-string addLargeNumbers(const string& num1, const string& num2) {
+string add(const string& num1, const string& num2) {
     string result;
     int carry = 0;
     int n1 = num1.size();
@@ -148,7 +148,7 @@ int main() {
     cout << "Enter the second number: ";
     cin >> num2;
 
-    string sum = addLargeNumbers(num1, num2);
+    string sum = add(num1, num2);
     cout << "The sum is: " << sum << endl;
 
     return 0;
