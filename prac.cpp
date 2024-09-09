@@ -165,5 +165,5 @@ int main(){
     cin>>a;
     cout<<"Enter a number":
     cin>>b;
-    
+    cout<<"The sum of a and b is: "<<add(a,b);
 }
