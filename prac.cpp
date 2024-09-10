@@ -182,7 +182,9 @@ string add(string a, string b){
 int main(int argc, const char * argv[]){
     char num_1[100];
     char num_2[100];
-    cin>>num_1>>num_2;
+    cout<<"Enter a number";
+
+    cin>>num_1;
     cout<<add(num_1,num_2)<<endl;
 
     return 0;
