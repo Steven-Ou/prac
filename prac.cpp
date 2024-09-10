@@ -185,7 +185,7 @@ int main(int argc, const char * argv[]){
     cout<<"Enter a number"<<endl;
     cin>>num_1;
     cout<<"Enter a number"<<endl;
-    cin>>num_1;
+    cin>>num_2;
     cout<<add(num_1,num_2)<<endl;
 
     return 0;
