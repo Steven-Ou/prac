@@ -13,7 +13,7 @@ int main(){
                     win[3]=i3;
                     for(int i4=0;i4<10;i4++){
                         win[4]=i4;
-                        for(int i5=0;i5<10;i5++){
+                        for(int i=0;i<5;i++){
                             cout<<win[i];
                         }
                         cout<<endl;
