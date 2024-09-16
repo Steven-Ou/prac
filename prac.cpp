@@ -195,5 +195,8 @@ int main(int argc, const char * argv[]){
 
 int main(){
     int i=0;
-    
+    Loop:
+        cout<<i<<"th loop"<<endl;
+        i++;
+    goto Loop;
 }
