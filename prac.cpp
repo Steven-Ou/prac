@@ -198,5 +198,10 @@ int main(){
     Loop:
         cout<<i<<"th loop"<<endl;
         i++;
-    goto Loop;
+        if(i !=30){
+            goto Loop;
+        }
+        else 
+        return 0;
+
 }
