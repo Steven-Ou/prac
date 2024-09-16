@@ -199,9 +199,8 @@ int main(){
     cout<<i<<"th loop"<<endl;
     i++;
     if(i !=30){
-            goto Loop;
-        }
-        else 
+        goto Loop;
+    }
+    else 
         return 0;
-
 }
