@@ -20,10 +20,14 @@ nextCol:
    }
    r=-1;
 nextRow:
-   r++;
    // Move to the next row
+      r++;
    // If have passed the end of the column goto backtrack;
+      if(r==8){
+         goto backtrack;
+      }
    // If there is a queen in the same row (to the left), goto nextRow
+   
    // If there is a queen in the upper-left diagonal, goto nextRow
    // If there is a queen in the lower-left diagonal, goto nextRow
    // Place a queen in the current square (2D version only)
