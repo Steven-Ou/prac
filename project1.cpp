@@ -27,7 +27,10 @@ nextRow:
          goto backtrack;
       }
    // If there is a queen in the same row (to the left), goto nextRow
-   
+      for(int i=0;i<c;i++){
+         if(q[r][i]==1)
+            goto nextRow;
+      }
    // If there is a queen in the upper-left diagonal, goto nextRow
    // If there is a queen in the lower-left diagonal, goto nextRow
    // Place a queen in the current square (2D version only)
