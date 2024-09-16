@@ -15,8 +15,12 @@ nextCol:
    // IF you have passed the last column goto print;
    // Move to one before the first row
    c++;
-   if(c==8)
+   if(c==8){
+      goto print;
+   }
+   r=-1;
 nextRow:
+   r++;
    // Move to the next row
    // If have passed the end of the column goto backtrack;
    // If there is a queen in the same row (to the left), goto nextRow
