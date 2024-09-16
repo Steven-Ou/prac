@@ -6,12 +6,13 @@ int main()
 {
    // Initialize the board to 0
    // Start in the 1st row, 1st column, and place a queen there
-   int q[8][8]={};
+   int q[8][8]={0};
    int r =0, c =0;
    q[r][c]=1;
-    
+
 nextCol:
    // Move to the next column
+
    // IF you have passed the last column goto print;
    // Move to one before the first row
 
@@ -35,6 +36,12 @@ print:
    // Print the solution number
    // Use a nested loop to print the chessboard
    // goto backtrack;
-
+   for(int i=0; i<8;i++){
+      for(int j=0; j<8; j++){
+         cout<<q[i][j];
+      }
+      cout<<endl;
+   }
+      goto backtrack;
    return 0;
 }
