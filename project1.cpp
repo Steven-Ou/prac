@@ -6,7 +6,10 @@ int main()
 {
    // Initialize the board to 0
    // Start in the 1st row, 1st column, and place a queen there
-
+   int q[8][8]={};
+   int r =0, c =0;
+   q[r][c]=1;
+    
 nextCol:
    // Move to the next column
    // IF you have passed the last column goto print;
