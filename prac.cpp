@@ -196,9 +196,9 @@ int main(int argc, const char * argv[]){
 int main(){
     int i=0;
     Loop:
-        cout<<i<<"th loop"<<endl;
-        i++;
-        if(i !=30){
+    cout<<i<<"th loop"<<endl;
+    i++;
+    if(i !=30){
             goto Loop;
         }
         else 
