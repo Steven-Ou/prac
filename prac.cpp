@@ -156,6 +156,7 @@ int main() {
     return 0;
 }
 */
+/*
 string add(string a, string b){
     string result ="";
     int lengthA = a.length();
@@ -190,3 +191,4 @@ int main(int argc, const char * argv[]){
 
     return 0;
 }
+*/
