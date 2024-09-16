@@ -12,10 +12,10 @@ int main()
 
 nextCol:
    // Move to the next column
-
    // IF you have passed the last column goto print;
    // Move to one before the first row
-
+   c++;
+   if(c==8)
 nextRow:
    // Move to the next row
    // If have passed the end of the column goto backtrack;
