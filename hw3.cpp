@@ -3,5 +3,7 @@ using namespace std;
 
 int main(){
     string outcome="";
-    while(outcome != "done")
+    while(outcome != "done"){
+        
+    }
 }
