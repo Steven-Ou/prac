@@ -10,6 +10,7 @@ int main(){
         double score[26]={0};
         for(int i=0;i<result.length();i++){
             team[result[i]-'A']++;
+            score[result[i]-'A']+= i+1;
         }
     }
 }
