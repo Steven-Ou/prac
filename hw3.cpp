@@ -3,6 +3,8 @@ using namespace std;
 
 int main(){
     string result="";
+    cout<<"Enter a word";
+    cin>>result;
     while(result != "done"){
         int team[26]={0};
         double score[26]={0};
