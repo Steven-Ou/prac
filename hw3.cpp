@@ -1,12 +1,13 @@
 #include <iostream>
 using namespace std;
-
+void checking(string& result){
 /*int team[26]={0};
         double score[26]={0};
         for(int i=0;i<result.length();i++){
             team[result[i]-'A']++;
             score[result[i]-'A']+= i+1;
         }*/
+}
 int main(){
     string result;
     while(true){
