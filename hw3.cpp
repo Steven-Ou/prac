@@ -16,6 +16,7 @@ int main(){
             break;
         }
         checking(result);
-        
+
     }
+    return 0; 
 }
