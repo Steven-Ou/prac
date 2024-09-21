@@ -11,7 +11,11 @@ void checking(const string& result){
         //Checking if it the same amount runners per team:
         int runner = 0;
         for(int i=0; i<26;i++){
-
+            if(team[i]>0){
+                if(runner==0){
+                    runner = team[i];
+                }
+            }
         }
 
 }
