@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-
+#include<iomanip>
 #include <map>
 using namespace std;
 void checking(const string& result){
