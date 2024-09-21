@@ -10,7 +10,12 @@ using namespace std;
 int main(){
     string result;
     while(true){
-
+        cout<<"Enter the results of the race (or 'done' to finish): \n";
+        cin>> result;
+        if(result == "done"){
+            break;
+        }
+        checking(result);
         
     }
 }
