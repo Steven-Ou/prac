@@ -1,4 +1,5 @@
 #include <iostream>
+#include <map>
 using namespace std;
 void checking(const string& result){
         int team[26]={0};
@@ -20,8 +21,9 @@ void checking(const string& result){
                 }
             }
         }
+        //Storing team into a map for sorting:
+        map<char,double> points;
         
-
 }
 int main(){
     string result;
