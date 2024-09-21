@@ -8,6 +8,9 @@ void checking(const string& result){
             team[result[i]-'A']++;
             score[result[i]-'A']+= i+1;
         }
+        //Checking if it the same amount runners per team:
+        int runner = 0;
+        
 }
 int main(){
     string result;
