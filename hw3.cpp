@@ -16,9 +16,11 @@ void checking(const string& result){
                     runner = team[i];
                 }else if(runner != team[i]){
                     cout<<"ERROR: TEAMS DON'T HAVE THE SAME AMOUNT OF RUNNERS. \n";
+                    return;
                 }
             }
         }
+        
 
 }
 int main(){
