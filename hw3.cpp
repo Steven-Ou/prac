@@ -1,8 +1,9 @@
 #include <iostream>
 using namespace std;
-void checking(string& result){
+void checking(const string& result){
         int team[26]={0};
         double score[26]={0};
+        //calculating the scores:
         for(int i=0;i<result.length();i++){
             team[result[i]-'A']++;
             score[result[i]-'A']+= i+1;
