@@ -35,7 +35,7 @@ void checking(const string& result){
         cout<<"There are "<< points.size() <<" teams. \n"; 
         cout<<"Each team has "<< runner << " runners.\n";
         cout<<"Team Scores:\n";
-        for(const auto& entry: points){
+        for(const auto& entry: points){ //goes through the points folder and print out score!
             cout<< entry.first << ": "<<fixed<< setprecision(2) <<entry.second<<endl;
         }
 }
