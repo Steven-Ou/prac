@@ -1,4 +1,6 @@
 #include <iostream>
+#include <string>
+
 #include <map>
 using namespace std;
 void checking(const string& result){
@@ -31,7 +33,10 @@ void checking(const string& result){
         //Showing the team size/number of runners/the points of the team
         cout<<"There are "<< points.size() <<" teams. \n"; 
         cout<<"Each team has "<< runner << " runners.\n";
-        
+        cout<<"Team Scores:\n";
+        for(const auto& entry: points){
+            cout<< entry.first << ": "<<fixed<< setprecision(2) <<entry.second<<endl;
+        }
 }
 int main(){
     string result;
