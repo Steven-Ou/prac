@@ -30,7 +30,8 @@ void checking(const string& result){
         }
         //Showing the team size/number of runners/the points of the team
         cout<<"There are "<< points.size() <<" teams. \n"; 
-        c
+        cout<<"Each team has "<< runner << " runners.\n";
+        
 }
 int main(){
     string result;
