@@ -2,6 +2,7 @@
 #include <string>
 #include<iomanip>
 #include <map>
+#include <algorithm>
 using namespace std;
 void checking(const string& result){
         int team[26]={0};
