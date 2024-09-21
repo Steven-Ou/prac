@@ -23,7 +23,13 @@ void checking(const string& result){
         }
         //Storing team into a map for sorting:
         map<char,double> points;
-        
+        for(int i=0;i<26;i++){
+            if(team[i]>0){
+                points['A'+i]= score[i]/team[i];
+            }
+        }
+        //Showing the team size/number of runners/the points of the team
+         
 }
 int main(){
     string result;
