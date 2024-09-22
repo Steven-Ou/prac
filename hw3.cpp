@@ -39,11 +39,12 @@ void checking(const string& result){
             cout<< entry.first << ": "<<fixed<< setprecision(2) <<entry.second<<endl;
         }
         //Using algorithms to determine the winning team:
-        auto winner = min_element(points.begin(), points.end(),
-        [](const pair<char,double>&a,const pair<char,double>&b)
-     {
-        return a.second < b.second;
-    }); 
+        auto winner = min_element(points.begin(), points.end(), 
+            [](const pair<char,double>&a,const pair<char,double>&b)
+        {
+            return a.second < b.second;
+        }
+        ); 
         cout<< "The winning team is team :"<< winner-> first<< " with a score of "<< fixed<< setprecision(2)<< winner->second<< "!\n";
 }
 int main(){
@@ -53,6 +54,10 @@ int main(){
         cin>> result;
         if(result == "done"){
             break;
+        }
+         if (result.empty()) {
+            cout << "ERROR: No input given.\n";
+            continue;
         }
         checking(result);
 
