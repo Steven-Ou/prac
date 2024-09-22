@@ -40,9 +40,10 @@ void checking(const string& result){
         }
         //Using algorithms to determine the winning team:
         auto winner = min_element(points.begin(), points.end(),
-            {
-                return a.second < b.second
-            });
+        [](const pair<char,double>&a,const pair<char,double>&b)
+     {
+        return a.second < b.second;
+    }); 
         cout<< "The winning team is team :"<< winner-> first<< " with a score of "<< fixed<< setprecision(2)<< winner->second<< "!\n";
 }
 int main(){
