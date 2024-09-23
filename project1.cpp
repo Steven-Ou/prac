@@ -39,7 +39,9 @@ nextRow:
       }   
    // If there is a queen in the lower-left diagonal, goto nextRow
       for(int i=1; r+i<8 && c-i>-1;i++){
-         
+         if(){
+            
+         }
       }
    // Place a queen in the current square (2D version only)
    // goto nextCol;
