@@ -50,8 +50,11 @@ nextRow:
 backtrack:
    // Move to the previous column
    c--;
-   
+
    // If you have moved to the left of the chessboard exit the program
+   if(c==-1){
+      return 0;
+   }
    // Find the square in the column with a queen in it and set r to the row number of that square
    // Remove the queen from the current square
    // goto nextRow;
