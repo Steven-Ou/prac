@@ -44,11 +44,13 @@ nextRow:
          }
       }
    // Place a queen in the current square (2D version only)
-   
+      b[r][c] ==1;
    // goto nextCol;
-
+      goto nextCol; 
 backtrack:
    // Move to the previous column
+   c--;
+   
    // If you have moved to the left of the chessboard exit the program
    // Find the square in the column with a queen in it and set r to the row number of that square
    // Remove the queen from the current square
