@@ -61,7 +61,7 @@ backtrack:
       r++;
    }
    // Remove the queen from the current square
-   
+   b[r][c]=0;
    // goto nextRow;
 
 print:
