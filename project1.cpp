@@ -68,13 +68,14 @@ print:
    // Print the solution number
    cout<<"Solution Number "<< ++count<<" : \n";
    // Use a nested loop to print the chessboard
-   // goto backtrack;
+
    for(int i=0; i<8;i++){
       for(int j=0; j<8; j++){
          cout<<q[i][j];
       }
       cout<<endl;
    }
+   // goto backtrack;
       goto backtrack;
    return 0;
 }
