@@ -56,6 +56,7 @@ backtrack:
       return 0;
    }
    // Find the square in the column with a queen in it and set r to the row number of that square
+   
    // Remove the queen from the current square
    // goto nextRow;
 
