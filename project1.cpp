@@ -56,8 +56,12 @@ backtrack:
       return 0;
    }
    // Find the square in the column with a queen in it and set r to the row number of that square
-   
+   r=0;
+   while(b[r][c]!=1){
+      r++;
+   }
    // Remove the queen from the current square
+   
    // goto nextRow;
 
 print:
