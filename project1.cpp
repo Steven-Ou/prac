@@ -32,6 +32,7 @@ nextRow:
             goto nextRow;
       }
    // If there is a queen in the upper-left diagonal, goto nextRow
+      
    // If there is a queen in the lower-left diagonal, goto nextRow
    // Place a queen in the current square (2D version only)
    // goto nextCol;
