@@ -66,6 +66,7 @@ backtrack:
    goto nextRow;
 print:
    // Print the solution number
+   cout<<"Solution Number "<< ++count<<" : \n";
    // Use a nested loop to print the chessboard
    // goto backtrack;
    for(int i=0; i<8;i++){
