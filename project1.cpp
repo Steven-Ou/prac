@@ -63,7 +63,7 @@ backtrack:
    // Remove the queen from the current square
    b[r][c]=0;
    // goto nextRow;
-
+   goto nextRow;
 print:
    // Print the solution number
    // Use a nested loop to print the chessboard
