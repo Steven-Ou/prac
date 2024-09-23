@@ -9,7 +9,7 @@ int main()
    int q[8][8]={0};
    int r =0, c =0;
    q[r][c]=1;
-
+   int count=0;
 nextCol:
    // Move to the next column
    // IF you have passed the last column goto print;
