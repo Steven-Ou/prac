@@ -25,4 +25,22 @@ int main(int argc, const char * argv[]) {
      }
 
     return 0;
+
+
+
+    //quiz 2
+
+    int array[2] = {};
+    for (int i=2; i>0; i--) {
+        for (int j=0; j<2; j++) {
+            array[0] = i;
+            array[1] = j;
+
+            cout << array[0] << array[1] << " "; 
+        }
+    }
+
+    return 0;
+  
+
 }
