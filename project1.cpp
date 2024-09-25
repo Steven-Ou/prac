@@ -33,18 +33,18 @@ nextRow:
       }
    // If there is a queen in the upper-left diagonal, goto nextRow
       for(int i=1; r-i>-1 && c-i >-1;i++ ){
-         if(b[r-i][c-i]==1){
+         if(q[r-i][c-i]==1){
             goto nextRow;
          }
       }   
    // If there is a queen in the lower-left diagonal, goto nextRow
       for(int i=1; r+i<8 && c-i>-1;i++){
-         if(b[r+i][c-i]==1){
+         if(q[r+i][c-i]==1){
             goto nextRow; 
          }
       }
    // Place a queen in the current square (2D version only)
-      b[r][c] ==1;
+      q[r][c] ==1;
    // goto nextCol;
       goto nextCol; 
 backtrack:
@@ -57,7 +57,7 @@ backtrack:
    }
    // Find the square in the column with a queen in it and set r to the row number of that square
    r=0;
-   while(b[r][c]!=1){
+   while(q[r][c]!=1){
       r++;
    }
    // Remove the queen from the current square
