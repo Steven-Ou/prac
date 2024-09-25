@@ -44,7 +44,7 @@ nextRow:
          }
       }
    // Place a queen in the current square (2D version only)
-      q[r][c] ==1;
+      q[r][c] =1;
    // goto nextCol;
       goto nextCol; 
 backtrack:
