@@ -75,6 +75,7 @@ print:
       }
       cout<<endl;
    }
+   cout<<endl;
    // goto backtrack;
       goto backtrack;
    return 0;
