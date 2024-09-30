@@ -1,3 +1,4 @@
+//1d array 
 #include <iostream>
 using namespace std;
 int main(){
