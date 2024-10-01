@@ -8,7 +8,7 @@ int main(){
 
    nextCo:
    shu++;
-   if(c==8){
+   if(shu==8){
       goto print;
    }
 }
