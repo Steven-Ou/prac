@@ -14,6 +14,12 @@ int main(){
    q[shu]=-1;
 
    nextR:
+   q[shu]++;
+   if(q[shu]==8){
+      goto backtrack;
+   }
    
+   backtrack:
+
    print:
 }
