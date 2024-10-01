@@ -12,5 +12,5 @@ int main(){
       goto print;
    }
    q[shu]=-1;
-
+   print:
 }
