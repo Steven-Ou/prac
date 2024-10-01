@@ -2,5 +2,7 @@
 #include <iostream>
 using namespace std;
 int main(){
-   return 0; 
+   int q[8]={0};
+   int count =0;
+   int solution=0;
 }
