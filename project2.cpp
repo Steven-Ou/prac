@@ -3,6 +3,8 @@
 using namespace std;
 int main(){
    int q[8]={0};
-   int count =0;
-   int solution=0;
+   int shu =0;
+   int daan=0;
+
+   
 }
