@@ -19,8 +19,12 @@ int main(){
       goto backtrack;
    }
    for(int i=0;i<shu;i++){
-
+      if(q[shu]==q[i] || shu-i==q[shu]|| shu-i==q[i]-q[shu] ){
+         goto nextR;
+      }
    }
+   goto nextCo;
+   
    backtrack:
 
    print:
