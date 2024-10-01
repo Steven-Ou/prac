@@ -18,7 +18,9 @@ int main(){
    if(q[shu]==8){
       goto backtrack;
    }
-   
+   for(int i=0;i<shu;i++){
+
+   }
    backtrack:
 
    print:
