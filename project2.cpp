@@ -11,4 +11,6 @@ int main(){
    if(shu==8){
       goto print;
    }
+   q[shu]=-1;
+
 }
