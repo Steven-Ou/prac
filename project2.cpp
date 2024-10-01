@@ -6,6 +6,5 @@ int main(){
    int shu =0;
    int daan=0;
 
-   
->>>>>>> 20037bf290846a730adc1b2adbae1e591ffbb17d
+   nextCo:
 }
