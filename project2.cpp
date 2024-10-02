@@ -11,7 +11,7 @@ int main(){
    if(shu==8){
       goto print;
    }
-   q[shu]=-1;
+   q[shu] = -1;
 
    nextR:
    q[shu]++;
@@ -33,7 +33,7 @@ int main(){
    goto nextR;
 
    print:
-   cout<<"Solution"<< ++daan<<": \n :";
+   cout<<"Solution"<< ++daan<<": \n ";
    for(int a=0;a<8;a++){
       for(int b=0;b<8;b++){
          if(q[a]==b){
