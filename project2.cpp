@@ -36,7 +36,7 @@ int main(){
    cout<<"Solution"<< ++daan<<": \n :";
    for(int a=0;a<8;a++){
       for(int b=0;b<8;b++){
-         if(q[shu]==a){
+         if(q[a]==b){
             cout<<"1";
          }
          else{
