@@ -24,8 +24,13 @@ int main(){
       }
    }
    goto nextCo;
-   
-   backtrack:
 
+   backtrack:
+   shu--;
+   if(shu==-1){
+      return 0;
+   }
+   goto nextR;
+   
    print:
 }
