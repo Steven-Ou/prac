@@ -31,6 +31,19 @@ int main(){
       return 0;
    }
    goto nextR;
-   
+
    print:
+   cout<<"Solution"<< ++daan<<": \n :";
+   for(int a=0;a<8;a++){
+      for(int b=0;b<8;b++){
+         if(q[shu]==a){
+            cout<<"1";
+         }
+         else{
+            cout<<"0";
+         }
+      }
+      cout<<endl;
+   }
+   goto backtrack;
 }
