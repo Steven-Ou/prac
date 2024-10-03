@@ -15,8 +15,8 @@ bool ok(int b[]){
    return true;  // when everything is correct returns true
 }
 
-void print(int c[]){
-      
+void printB(int c[]){
+
 }
 int main(){
    return 0; 
