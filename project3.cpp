@@ -23,5 +23,23 @@ void printB(int c[]){
    cout<< endl;
 }
 int main(){
+   int q[8]={0};
+   
+   for(int a0=0;a0<8; a0++){
+      
+      q[0]=a0;
+
+      for(int a1 =0; a1<8; a1++){
+
+         q[1]= a1;
+         
+         for(int a2=0; a2<8; a2++){
+
+            q[2]=a2;
+
+            
+         }
+      }
+   }
    return 0; 
 }
