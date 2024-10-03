@@ -25,7 +25,7 @@ void printB(int c[]){
 int main(){
    int q[8]={0};
    
-   for(int a0=0;a0<8; a0++){
+   for(int a0=0;a0<8; a0++){ //going through each and every row and column step by step
       
       q[0]=a0;
 
@@ -56,8 +56,8 @@ int main(){
                         for( int a7=0; a7<8; a7++){
                            
                            q[7]=a7;
-                           if(ok(q)){
-                              printB(q); 
+                           if(ok(q)){//checks if the q array is good.
+                              printB(q); //prints
                            }
                         }
                      }
