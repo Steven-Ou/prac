@@ -13,6 +13,7 @@ bool ok(int b[]){
       }
    }
 }
+
 int main(){
    return 0; 
 }
