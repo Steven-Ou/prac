@@ -16,7 +16,7 @@ bool ok(int b[]){
 }
 
 void printB(int c[]){
-
+   cout<< "Solution # " << ++ans << ":\n |"; 
 }
 int main(){
    return 0; 
