@@ -12,6 +12,7 @@ bool ok(int b[]){
          }
       }
    }
+   return true;  // when everything is correct returns true
 }
 
 int main(){
