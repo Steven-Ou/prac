@@ -18,7 +18,7 @@ bool ok(int b[]){
 void printB(int c[]){
    cout<< "Solution # " << ++ans << ":\n |"; 
    for(int i=0; i<8; i++){
-      cout<<c[i]<< "| ";
+      cout<<"| "<<c[i]<< " |";
    }
    cout<< endl;
 }
