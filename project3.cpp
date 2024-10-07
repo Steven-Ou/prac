@@ -21,6 +21,16 @@ void printB(int c[]){
       cout<<"| "<<c[i]<< " |";
    }
    cout<< endl;
+   for(int i =0; i<8; i++){
+      for ( int b =0; b<8; b++){
+         if (c[b]==i){
+            cout<<"1";
+         }else{
+            cout<<"0";
+         }
+      }
+      cout<<endl;
+   }
 }
 int main(){
    int q[8]={0};
