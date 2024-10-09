@@ -35,7 +35,7 @@ int main() {
     print:
     cout << "Solution #"<<++daan<<": \n";
     for(int i=0; i<8; i++){
-      cout<<q[a]<<" "; 
+      cout<<q[i]<<" "; 
     }
     for(int a=0;a<8;a++){
         for(int b=0;b<8;b++){
