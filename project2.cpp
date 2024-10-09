@@ -37,6 +37,7 @@ int main() {
     for(int i=0; i<8; i++){
       cout<<q[i]<<" "; 
     }
+    cout<<endl; 
     for(int a=0;a<8;a++){
         for(int b=0;b<8;b++){
             if(q[a]==b){
