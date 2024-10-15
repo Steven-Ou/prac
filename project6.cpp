@@ -28,17 +28,19 @@ bool ok(int b[], int c){
 }
 
 void print(int b[]){
-    count =0;
+    int count =0;
     cout<<" Solution Number # "<<count++<<": \n"; 
+
 }
 int main(){ 
     int q[3]={};
     int c=0;
     q[c]=0;
     while(c>=0){
+        c++;
         if(c==3){
             print(q);
-            c--
+            c--;
         }else{
             q[c]=-1;
         }
@@ -46,7 +48,7 @@ int main(){
             q[c]++;
             if(q[c]>2){
                 c--;
-            }else if(ok(b,c)){
+            }else if(ok(q,c)){
                 return 0; 
             }
         }
