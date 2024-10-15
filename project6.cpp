@@ -28,7 +28,8 @@ bool ok(int b[], int c){
 }
 
 void print(int b[]){
-
+    count =0;
+    cout<<" Solution Number #"
 }
 int main(){ 
     int q[3]={};
@@ -38,8 +39,9 @@ int main(){
         if(c==3){
             print(q);
             c--
+        }else{
+            q[c]=-1;
         }
-        q[c]=-1;
         while(q[c]<3){
             q[c]++;
             if(q[c]>2){
