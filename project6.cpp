@@ -12,6 +12,15 @@ int wp[3][3] = {
     {2,0,1}
 };
 bool ok(int b[], int c){
+    for(int i =0;i<c;i++){
+        if(b[i]==b[c]){
+            return false;
+        }
+        if(wp[i][b[i]]<mp[i][b[i]] && wp[b[c]][i]<mp[b[c]][c]){
+            return false; 
+        }
+    }
+
     return true;
 }
 
