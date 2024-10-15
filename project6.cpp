@@ -49,7 +49,7 @@ int main(){
             if(q[c]>2){
                 c--;
             }else if(ok(q,c)){
-                return 0; 
+                break;
             }
         }
     }
