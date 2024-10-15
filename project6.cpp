@@ -19,7 +19,7 @@ bool ok(int b[], int c){
         if((mp[i][b[i]]<mp[i][b[i]]) && (wp[b[c]][i]<wp[b[c]][c])){
             return false; 
         }
-        if((mp[][]<mp[][])&&(wp[][]<wp[][])){
+        if((mp[c][b[i]]<mp[c][b[c]])&&(wp[b[i]][c]<wp[b[i]][i])){
             return false;
         }
     }
