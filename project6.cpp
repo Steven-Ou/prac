@@ -19,7 +19,9 @@ bool ok(int b[], int c){
         if((mp[i][b[i]]<mp[i][b[i]]) && (wp[b[c]][i]<wp[b[c]][c])){
             return false; 
         }
-        if((mp[][]<mp[][])&&(wp[][]<wp[][]))
+        if((mp[][]<mp[][])&&(wp[][]<wp[][])){
+            return false;
+        }
     }
 
     return true;
