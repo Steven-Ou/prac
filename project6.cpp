@@ -31,5 +31,23 @@ void print(int b[]){
 
 }
 int main(){ 
+    int q[3]={};
+    int c=0;
+    q[c]=0;
+    while(c>=0){
+        if(c==3){
+            print(q);
+            c--
+        }
+        q[c]=-1;
+        while(q[c]<3){
+            q[c]++;
+            if(q[c]>2){
+                c--;
+            }else if(ok(b,c)){
+                return 0; 
+            }
+        }
+    }
     return 0; 
 }   
