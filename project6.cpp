@@ -29,7 +29,7 @@ bool ok(int b[], int c){
 
 void print(int b[]){
     count =0;
-    cout<<" Solution Number #"
+    cout<<" Solution Number # "<<count++<<": \n"; 
 }
 int main(){ 
     int q[3]={};
