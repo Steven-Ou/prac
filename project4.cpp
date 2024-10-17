@@ -13,6 +13,10 @@ int adj[8][5]={
     {3,4,5,6,-1}
 };
 int count =0; //count variable. 
+
+bool ok(int cross[], int cap){
+    
+}
 int main(){
 
    return 0; 
