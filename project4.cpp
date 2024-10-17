@@ -16,7 +16,9 @@ int count =0; //count variable.
 
 bool ok(int cross[], int cap){
     for(int i=0;i<cap;i++){
-
+        if( cross[i] == cross[cap]){//checking if the number
+            return false;           //is on the same line
+        }
     }
 }
 int main(){
