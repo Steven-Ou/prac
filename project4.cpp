@@ -1,7 +1,7 @@
 //Eight number in a cross
 #include <iostream>
 using namespace std;
-//adjacents
+//helper array
 int adj[8][5]={
     {-1},
     {0,-1},
@@ -16,7 +16,7 @@ int count =0; //count variable.
 
 bool ok(int cross[], int cap){
     for(int i=0;i<cap;i++){
-        
+
     }
 }
 int main(){
