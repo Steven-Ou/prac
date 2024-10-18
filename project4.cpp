@@ -20,7 +20,7 @@ bool ok(int cross[], int cap){
             return false;           //is on the same line
         }
     }
-    for(int j=0; adj[cap][j] !=-1; j++){
+    for(int j=0; adj[cap][j] !=-1; j++){    //As long as the 
         if(abs(cross[cap]-cross[adj[cap][j]])==1){
             return false; 
         }
