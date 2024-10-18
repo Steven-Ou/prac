@@ -65,5 +65,5 @@ int main(){
     int ans[8];//This array holds the solution
     int a=0;// The starting index(position 0)
     eightNumbers(ans,a);// Begin the backtracking.
-   return 0; 
+    return 0; 
 }
