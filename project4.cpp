@@ -43,7 +43,7 @@ void print(int cross[], int cap){//This function is used to print all valid solu
     }
     cout<<endl;
     return;//Returns the solution
-    cout<<endl;
+    
 }
 void eightNumbers(int cross[],int cap){//This function does backtracking to generate and to test results.
     if(cap == 8){//If all 8 position are filled, print the solution
