@@ -40,8 +40,6 @@ void print(int cross[], int cap){//This function is used to print all valid solu
         }else{
             cout<<cross[i];
         }
-        cout<<endl;
-        
     }
 }
 void eightNumbers(int cross[],int cap){//This function does backtracking to generate and to test results.
