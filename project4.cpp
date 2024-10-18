@@ -1,5 +1,6 @@
 //Eight number in a cross
 #include <iostream>
+
 using namespace std;
 
 int shu =0; //used for counting the number of solution
