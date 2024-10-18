@@ -45,7 +45,7 @@ void print(int cross[], int cap){//This function is used to print all valid solu
     }
 }
 void eightNumbers(int cross[],int cap){//This function does backtracking to generate and to test results.
-    if(cap == 8){
+    if(cap == 8){//If all 8 position are filled, print the solution
         print(cross,cap);
         return;
     }
