@@ -44,12 +44,15 @@ void print(int cross[], int cap){//This function is used to print all valid solu
         return; 
     }
 }
-void eightNumbers(int cross[],int cap){
+void eightNumbers(int cross[],int cap){//This function does backtracking to generate and to test results.
     if(cap == 8){
         print(cross,cap);
         return;
     }
-}
+    for(int i=1; i<9;i++){
+        
+    }
+}   
 int main(){
 
    return 0; 
