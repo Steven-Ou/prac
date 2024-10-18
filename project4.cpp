@@ -38,7 +38,7 @@ void print(int cross[], int cap){//This function is used to print all valid solu
         }else if(i==1||i==5){ 
             cout<<cross[i]<<endl;
         }else{
-            cout<<cross[i];
+            cout<<cross[i]<<endl;
         }
     }
     cout<<endl;
