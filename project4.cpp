@@ -49,7 +49,7 @@ void eightNumbers(int cross[],int cap){//This function does backtracking to gene
         print(cross,cap);
         return;
     }
-    for(int i=1; i<9;i++){
+    for(int i=1; i<9;i++){//placing all the number from 1 to 8.
         
     }
 }   
