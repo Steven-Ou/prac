@@ -58,9 +58,6 @@ void eightNumbers(int cross[],int cap){//This function does backtracking to gene
             eightNumbers(cross,cap);//To recursively try the next positions.
             cap--;// Backtrack to try another number
         }
-        
-
-
     }
 }   
 int main(){
