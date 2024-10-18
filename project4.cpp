@@ -52,6 +52,10 @@ void eightNumbers(int cross[],int cap){//This function does backtracking to gene
     for(int i=1; i<9;i++){//placing all the number from 1 to 8.
         cross[cap]=i; //placing i's in position cap as the loops goes on.
 
+        //check if the i's that was put into cap valid.
+        if(ok(cross,cap)){
+            cap++;
+        }
 
     }
 }   
