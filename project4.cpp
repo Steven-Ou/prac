@@ -1,7 +1,8 @@
 //Eight number in a cross
 #include <iostream>
 using namespace std;
-//helper array
+
+int count =0; //used for counting the number of solution
 int adj[8][5]={//This is used to represent a position of each index. 
     {-1},//end of each row.
     {0,-1},
@@ -12,7 +13,6 @@ int adj[8][5]={//This is used to represent a position of each index.
     {2,3,4,-1},
     {3,4,5,6,-1}
 };
-int count =0; //used for counting the number of solution
 
 bool ok(int cross[], int cap){
     for(int i=0;i<cap;i++){
@@ -27,7 +27,9 @@ bool ok(int cross[], int cap){
     }
     return true;//if no conditions are violated, it's true!
 }
-
+void print(int cross[], int cap){
+    cout<<"Solution "<<++count<<": "<<endl;
+}
 int main(){
 
    return 0; 
