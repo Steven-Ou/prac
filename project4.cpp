@@ -63,6 +63,6 @@ void eightNumbers(int cross[],int cap){//This function does backtracking to gene
 }   
 int main(){
     int ans[8];//This array holds the solution
-    int c=0;
+    int a=0;// The starting index(position 0)
    return 0; 
 }
