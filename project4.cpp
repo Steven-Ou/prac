@@ -25,8 +25,9 @@ bool ok(int cross[], int cap){
             return false; 
         }
     }
-    return true;
+    return true;//if no conditions are violated, it's true!
 }
+
 int main(){
 
    return 0; 
