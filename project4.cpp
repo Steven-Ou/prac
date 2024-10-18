@@ -30,8 +30,19 @@ bool ok(int cross[], int cap){
 
 void print(int cross[], int cap){
   
-    cout<<"Solution "<<++shu<<": "<<endl;
-
+    cout<<"Solution "<<++shu<<": "<<endl;// For every solution found, it will print out the name of the solution.
+    //Loops through the positions and print them in a specific arrangement
+    for(int i=0;i<8;i++){
+        if(i==0||i==6){     //conditions are used to print the position in a specific format: 
+            cout<<" "<<cross[i];
+        }else if(i==1||i==5){ 
+            cout<<cross[i]<<endl;
+        }else{
+            cout<<cross[i];
+        }
+        cout<<endl;
+        return; 
+    }
 }
 int main(){
 
