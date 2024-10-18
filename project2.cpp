@@ -1,3 +1,4 @@
+//1D 8 queens program
 #include <iostream>
 using namespace std;
 
