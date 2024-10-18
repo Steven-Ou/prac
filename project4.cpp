@@ -42,6 +42,7 @@ void print(int cross[], int cap){//This function is used to print all valid solu
         }
     }
     cout<<endl;
+    cout<<endl;
     return;//Returns the solution
     
 }
