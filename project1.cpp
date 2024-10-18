@@ -1,5 +1,5 @@
+//8 queens Program 2d
 #include <iostream>
-
 using namespace std;
 
 int main()
