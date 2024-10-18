@@ -15,8 +15,8 @@ int adj[8][5]={//This is used to represent a position of each index.
 };
 
 bool ok(int cross[], int cap){//This function is used to check if the loop is following the adjacency rules. 
-    for(int i=0;i<cap;i++){
-        if( cross[i] == cross[cap]){//checking if the number repeats
+    for(int i=0;i<cap;i++){//checking for duplicated values using a forloop.
+        if( cross[i] == cross[cap]){//checking if it repeats. 
             return false;           
         }
     }
@@ -52,7 +52,7 @@ void eightNumbers(int cross[],int cap){//This function does backtracking to gene
     for(int i=1; i<9;i++){//placing all the number from 1 to 8.
         cross[cap]=i; //placing i's in position cap as the loops goes on.
 
-        
+
     }
 }   
 int main(){
