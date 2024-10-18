@@ -55,7 +55,9 @@ void eightNumbers(int cross[],int cap){//This function does backtracking to gene
         //check if the i's that was put into cap valid.
         if(ok(cross,cap)){
             cap++;//move to the next position 
+            eightNumbers(cross,cap);
         }
+
 
     }
 }   
