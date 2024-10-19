@@ -18,6 +18,6 @@ void print(int b[]){
     cout<<"Solution"<<++ct << ": \n";//Print the solution number
     //Print the positions of queens in each column. 
     for(int i=0;i<8;i++){
-        
+        cout<<
     }
 }
