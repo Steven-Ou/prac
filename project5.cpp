@@ -20,4 +20,5 @@ void print(int q[]){
     for(int i=0;i<8;i++){
         cout<<q[i]<<" | ";//Row number where the queens is placed for each column.
     }
-}
+    
+}   
