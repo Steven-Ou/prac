@@ -15,7 +15,7 @@ bool ok(int q[], int c){
 }
 //Print the board and the number of solutions
 void print(int q[]){
-    cout<<"Solution "<<++ct << ": \n";//Print the solution number
+    cout<<"Solution #"<<++ct << ": \n";//Print the solution number
     //Print the positions of queens in each column. 
     for(int i=0;i<8;i++){
         cout<<q[i]<<" | ";//Row number where the queens is placed for each column.
