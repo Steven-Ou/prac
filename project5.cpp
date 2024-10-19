@@ -47,7 +47,8 @@ int main(){
             print(q);//Print the current solution.
             c--; //Backtracking to find more solutions.
         }else{
-            q[]
+            q[c]=-1;//Reset the row for the current column.
         }
+        
     }
 }
