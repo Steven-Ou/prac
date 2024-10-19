@@ -32,4 +32,5 @@ void print(int q[]){
         }
         cout<<endl;//Next row.
     }
+    cout<<endl;//Create a new line after the entire board. 
 }   
