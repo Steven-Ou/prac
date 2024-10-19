@@ -21,5 +21,8 @@ void print(int q[]){
         cout<<q[i]<<" | ";//Row number where the queens is placed for each column.
     }
     cout<<endl;
-    
+    //printing out the 8x8 board
+    for(int i=0;i<8;i++){
+
+    }
 }   
