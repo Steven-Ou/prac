@@ -13,3 +13,4 @@ bool ok(int b[], int c){
     }
     return true;
 }
+//Print the board and the number of solutions
