@@ -45,7 +45,9 @@ int main(){
         //If we've placed queens in all 8 columns, we have a solution.
         if(c==8){
             print(q);//Print the current solution.
-            c--; 
+            c--; //Backtracking to find more solutions.
+        }else{
+            q[]
         }
     }
 }
