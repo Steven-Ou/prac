@@ -17,5 +17,5 @@ bool ok(int b[], int c){
 void print(int b[]){
     cout<<"Solution"<<++ct << ": \n";//Print the solution number
     //Print the positions of queens in each column. 
-    for(int i=0;)
+    for(int i=0;i<8;)
 }
