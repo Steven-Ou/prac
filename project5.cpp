@@ -52,7 +52,10 @@ int main(){
         //Try placing a queen in the next available row in the current column. 
         while(q[c]<8){
             q[c]++; //move to the next row;
-            
+            //If we exceed 8, backtrack to the previous column.
+            if(q[c]>7){
+                
+            }
         }
     }
 }
