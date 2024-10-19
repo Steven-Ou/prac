@@ -16,5 +16,5 @@ bool ok(int b[], int c){
 //Print the board and the number of solutions
 void print(int b[]){
     cout<<"Solution"<<++ct << ": \n";//Print the solution number
-     
+    //Print the positions of queens in each column. 
 }
