@@ -4,3 +4,4 @@ using namespace std;
 
 int count =0; //counting variable in the universe.
 
+bool ok()
