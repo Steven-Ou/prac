@@ -36,5 +36,6 @@ void print(int q[]){
 }   
 int main(){
     int q[8]; //Array to store the row and position of queens for each column.
-    
+    int c=0; // Start the first column.
+    q[c]=0; //Place the first queen at row 0 and column 0.
 }
