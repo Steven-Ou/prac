@@ -50,6 +50,8 @@ int main(){
             q[c]=-1;//Reset the row for the current column.
         }
         //Try placing a queen in the next available row in the current column. 
-        
+        while(q[c]<8){
+            
+        }
     }
 }
