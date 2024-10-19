@@ -38,4 +38,14 @@ int main(){
     int q[8]; //Array to store the row and position of queens for each column.
     int c=0; // Start the first column.
     q[c]=0; //Place the first queen at row 0 and column 0.
+
+    //Use backtracking to find all solutions.
+    while(c>-1){//Continue as long as column not reaching -1.
+        c++; //Move to the next column.
+        //If we've placed queens in all 8 columns, we have a solution.
+        if(c==8){
+            print(q);//Print the current solution.
+            c--; 
+        }
+    }
 }
