@@ -23,6 +23,8 @@ void print(int q[]){
     cout<<endl;
     //printing out the 8x8 board
     for(int i=0;i<8;i++){
-
+        for(int c=0;c<8;c++){
+            
+        }
     }
 }   
