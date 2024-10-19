@@ -57,7 +57,7 @@ int main(){
                 c--;//Go back to the previous column.
             }
             else if(ok(q,c)){
-                break;
+                break;//Found the position, break the loop and go to the next column.
             }
         }
     }
