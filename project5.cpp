@@ -56,6 +56,7 @@ int main(){
             if(q[c]>7){
                 c--;//Go back to the previous column.
             }
+            //If the current placements is available, move to the next column. 
             else if(ok(q,c)){
                 break;//Found the position, break the loop and go to the next column.
             }
