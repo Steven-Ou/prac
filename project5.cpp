@@ -11,5 +11,5 @@ bool ok(int b[], int c){
             return false;
        } 
     }
-   
+    return true;
 }
