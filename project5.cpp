@@ -35,5 +35,6 @@ void print(int q[]){
     cout<<endl;//Create a new line after the entire board. 
 }   
 int main(){
+    int q[8]; //Array to store the row and position of queens for each column.
     
 }
