@@ -24,7 +24,12 @@ void print(int q[]){
     //printing out the 8x8 board
     for(int i=0;i<8;i++){
         for(int c=0;c<8;c++){
-            
+            if(q[c]==i){//If there's a queen in this row and column.
+                cout<<"1";//Print '1' for queen.
+            }else{
+                cout<<"0";//for empty spaces.
+            }
         }
+        cout<<endl;//Next row.
     }
 }   
