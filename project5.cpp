@@ -19,6 +19,5 @@ void print(int q[]){
     //Print the positions of queens in each column. 
     for(int i=0;i<8;i++){
         cout<<q[i]<<" | ";//Row number where the queens is placed for each column.
-        
     }
 }
