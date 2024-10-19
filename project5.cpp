@@ -54,7 +54,7 @@ int main(){
             q[c]++; //move to the next row;
             //If we exceed 8, backtrack to the previous column.
             if(q[c]>7){
-                
+                c--;
             }
         }
     }
