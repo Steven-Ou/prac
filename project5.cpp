@@ -56,7 +56,9 @@ int main(){
             if(q[c]>7){
                 c--;//Go back to the previous column.
             }
-            else if()
+            else if(ok(q,c)){
+                break;
+            }
         }
     }
 }
