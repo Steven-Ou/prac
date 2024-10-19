@@ -34,3 +34,6 @@ void print(int q[]){
     }
     cout<<endl;//Create a new line after the entire board. 
 }   
+int main(){
+    
+}
