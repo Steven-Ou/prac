@@ -20,3 +20,10 @@ void print(int a[], int size){
     cout<<endl;
 }
 */
+void swapa(int n, double *u,double *v){
+    for(int i =0; i<n; i++){
+        double temp = u[i];
+        u[i]=v[i];
+        v[i]=temp;
+    }
+}
