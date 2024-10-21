@@ -21,6 +21,7 @@ void print(int a[], int size){
 }
 */
 /*
+//with pointer
 void swapa(int n, double *u,double *v){
     for(int i =0; i<n; i++){
         double temp = u[i];
