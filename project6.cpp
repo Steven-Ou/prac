@@ -15,7 +15,7 @@ int wp[3][3] = {//Women's preference list
 //Function is use to check if the marriage is stable
 bool ok(int b[], int c){
     //loop through all men before men c to check if the paring is valid
-    for(int i =0;i<c;i++){
+    for(int i =0;i<c;i++){ 
         if(b[i]==b[c]){
             return false;
         }
