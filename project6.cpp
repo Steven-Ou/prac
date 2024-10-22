@@ -7,7 +7,7 @@ int mp[3][3] = {//Men's preference list
     {0,2,1},
     {1,2,0}
 };
-int wp[3][3] = {
+int wp[3][3] = {//Women's preference list
     {2,1,0},
     {0,1,2},
     {2,0,1}
