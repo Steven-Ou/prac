@@ -1,7 +1,7 @@
 //Stable Marriage
 #include <iostream>
 using namespace std;
-int shu =0;
+int shu =0;//Count variable
 int mp[3][3] = {
     {0,2,1},
     {0,2,1},
