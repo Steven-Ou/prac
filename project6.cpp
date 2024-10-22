@@ -21,7 +21,7 @@ bool ok(int b[], int c){
             return false;
         }
     //Check if man i prefers the current woman (b[c]) over his current match 
-    //
+    //and if woman b[c] also prefers man i over man c 
         if((mp[i][b[c]]<mp[i][b[i]]) && (wp[b[c]][i]<wp[b[c]][c])){
             return false; 
         }
