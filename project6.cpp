@@ -16,7 +16,7 @@ int wp[3][3] = {//Women's preference list
 bool ok(int b[], int c){
     //loop through all men before men c to check if the paring is valid
     for(int i =0;i<c;i++){ 
-//check if any two men are paired with the same womans        
+    //check if any two men are paired with the same womans        
         if(b[i]==b[c]){
             return false;
         }
