@@ -49,7 +49,7 @@ void print(int b[]){
 }
 int main(){ 
     int q[3]={};//Stores the current matchings (q[i] is the woman paried with man i)
-    int c=0;// C is the index of the current man being paired
+    int c=0;// c is the index of the current man being paired
     q[c]=0;
     while(c>=0){
         c++;
