@@ -65,7 +65,7 @@ int main(){
             q[c]++;// Try the next woman
             if(q[c]>2){// If all woman have been tried, backtrack
                 c--;//Goes back to the previous man!
-            }else if(ok(q,c)){
+            }else if(ok(q,c)){ // If the current pairing pass the ok function, we break!
                 break;
             }
         }
