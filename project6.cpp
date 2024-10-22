@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 int shu =0;//Count variable
-int mp[3][3] = {
+int mp[3][3] = {//Men's preference list
     {0,2,1},
     {0,2,1},
     {1,2,0}
