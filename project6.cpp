@@ -60,7 +60,7 @@ int main(){
         }else{
             q[c]=-1;//Initialized the current man's woman as -1 (not paired yet)
         }
-        //
+        //Trying to pair the current man and woman with each other in turn
         while(q[c]<3){
             q[c]++;
             if(q[c]>2){
