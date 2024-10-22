@@ -31,7 +31,7 @@ bool ok(int b[], int c){
             return false;
         } 
     }
-
+    //if all pass, it's true!
     return true;
 }
 
