@@ -1,7 +1,7 @@
 //Stable Marriage
 #include <iostream>
 using namespace std;
-int count =0;
+int shu =0;
 int mp[3][3] = {
     {0,2,1},
     {0,2,1},
@@ -30,7 +30,7 @@ bool ok(int b[], int c){
 
 void print(int b[]){
    
-    cout<<" Solution Number # "<<++count<<": \n"; 
+    cout<<" Solution Number # "<<++shu<<": \n"; 
     cout<<" Man\t\tWoman\n"; //creating horizontal tab space 
 
 
