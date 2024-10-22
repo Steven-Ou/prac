@@ -48,7 +48,7 @@ void print(int b[]){
 
 }
 int main(){ 
-    int q[3]={};
+    int q[3]={};//Stores the current matchings
     int c=0;
     q[c]=0;
     while(c>=0){
