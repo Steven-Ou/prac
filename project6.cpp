@@ -63,7 +63,7 @@ int main(){
         //Trying to pair the current man and woman with each other in turn
         while(q[c]<3){
             q[c]++;// Try the next woman
-            if(q[c]>2){
+            if(q[c]>2){// If all woman have been tried, backtrack
                 c--;
             }else if(ok(q,c)){
                 break;
