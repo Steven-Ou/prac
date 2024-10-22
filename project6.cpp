@@ -5,7 +5,7 @@ int shu =0;//Count variable
 int mp[3][3] = {//Men's preference list
     {0,2,1},//Man 0 prefers woman 0 the most, then woman 2, then woman 1.
     {0,2,1},//the same thing as men 1
-    {1,2,0}//man 2 prefer
+    {1,2,0}//man 2 prefer woman 1 the most, then woman 2, then woman 0.
 };
 int wp[3][3] = {//Women's preference list
     {2,1,0},
