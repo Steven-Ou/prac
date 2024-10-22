@@ -53,7 +53,7 @@ int main(){
     q[c]=0;//Initialize the first pairing with woman 0. 
     //Loops to backtrack and generate all possible pairings
     while(c>=0){
-        c++;
+        c++; // next man!
         if(c==3){
             print(q);
             c--;
