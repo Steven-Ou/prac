@@ -35,8 +35,9 @@ void print(int b[]){
 
     //Printing out the parings 
     for(int i=0;i<3; i++){
-        
+        cout<< i << "\t\t" << b[i]<<"\n";
     }
+    cout<<endl; 
 
 }
 int main(){ 
