@@ -12,6 +12,7 @@ int wp[3][3] = {//Women's preference list
     {0,1,2},// the pattern should be understandable!
     {2,0,1}// it's similar to the man ways too!
 };
+
 bool ok(int b[], int c){
     for(int i =0;i<c;i++){
         if(b[i]==b[c]){
