@@ -64,7 +64,7 @@ int main(){
         while(q[c]<3){
             q[c]++;// Try the next woman
             if(q[c]>2){// If all woman have been tried, backtrack
-                c--;
+                c--;//Goes back to the previous man!
             }else if(ok(q,c)){
                 break;
             }
