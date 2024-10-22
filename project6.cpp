@@ -48,7 +48,7 @@ void print(int b[]){
 
 }
 int main(){ 
-    int q[3]={};//Stores the current matchings
+    int q[3]={};//Stores the current matchings (q[i] is the woman paried with man i)
     int c=0;
     q[c]=0;
     while(c>=0){
