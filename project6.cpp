@@ -30,7 +30,7 @@ bool ok(int b[], int c){
 void print(int b[]){
     int count =0;
     cout<<" Solution Number # "<<++count<<": \n"; 
-    cout<<" Man\t\tWoman\n";
+    cout<<" Man\t\tWoman\n"; //creating horizontal tab space 
 
 }
 int main(){ 
