@@ -8,7 +8,7 @@ int mp[3][3] = {//Men's preference list
     {1,2,0}//man 2 prefer woman 1 the most, then woman 2, then woman 0.
 };
 int wp[3][3] = {//Women's preference list
-    {2,1,0},
+    {2,1,0},//Woman 0 prefers man 2 the most, then man 1, then man 0.
     {0,1,2},
     {2,0,1}
 };
