@@ -55,8 +55,8 @@ int main(){
     while(c>=0){
         c++; // next man!
         if(c==3){// IF all men have been paired, print the solution
-            print(q);
-            c--;
+            print(q);//Calling the print function
+            c--;//Go back and explore for more possibilities!
         }else{
             q[c]=-1;
         }
