@@ -62,7 +62,7 @@ int main(){
         }
         //Trying to pair the current man and woman with each other in turn
         while(q[c]<3){
-            q[c]++;
+            q[c]++;// Try the next woman
             if(q[c]>2){
                 c--;
             }else if(ok(q,c)){
