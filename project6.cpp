@@ -3,7 +3,7 @@
 using namespace std;
 int shu =0;//Count variable
 int mp[3][3] = {//Men's preference list
-    {0,2,1},
+    {0,2,1},//Man 0 prefers woman 0 the most, then woman 2, then woman 1.
     {0,2,1},
     {1,2,0}
 };
