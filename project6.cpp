@@ -33,6 +33,10 @@ void print(int b[]){
     cout<<" Solution Number # "<<++shu<<": \n"; 
     cout<<" Man\t\tWoman\n"; //creating horizontal tab space 
 
+    //Printing out the parings 
+    for(int i=0;i<3; i++){
+        
+    }
 
 }
 int main(){ 
