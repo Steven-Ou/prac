@@ -9,8 +9,8 @@ int mp[3][3] = {//Men's preference list
 };
 int wp[3][3] = {//Women's preference list
     {2,1,0},//Woman 0 prefers man 2 the most, then man 1, then man 0.
-    {0,1,2},
-    {2,0,1}
+    {0,1,2},// the pattern should be understandable!
+    {2,0,1}// it's similar to the man ways too!
 };
 bool ok(int b[], int c){
     for(int i =0;i<c;i++){
