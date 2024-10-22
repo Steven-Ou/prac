@@ -54,7 +54,7 @@ int main(){
     //Loops to backtrack and generate all possible pairings
     while(c>=0){
         c++; // next man!
-        if(c==3){
+        if(c==3){// IF all men have been paired, print the solution
             print(q);
             c--;
         }else{
