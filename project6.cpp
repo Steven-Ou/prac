@@ -58,7 +58,7 @@ int main(){
             print(q);//Calling the print function
             c--;//Go back and explore for more possibilities!
         }else{
-            q[c]=-1;//Initialized the current man's
+            q[c]=-1;//Initialized the current man's woman as -1 (not paired yet)
         }
         while(q[c]<3){
             q[c]++;
