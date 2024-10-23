@@ -47,4 +47,6 @@ int main(){
     long double ld;//var of type long double
     int array[20];// built in array of int
     int *ptr =array;// var type int
+    cout<< "sizeof c = "<< sizeof(c)
+    <<"\tsizeof(char)"
 }
