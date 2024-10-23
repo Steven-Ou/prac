@@ -36,3 +36,6 @@ void print(double a[], int size){
     cout<<endl;
 }
 */
+int main(){
+    
+}
