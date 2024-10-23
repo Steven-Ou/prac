@@ -37,5 +37,5 @@ void print(double a[], int size){
 }
 */
 int main(){
-    
+    char c;
 }
