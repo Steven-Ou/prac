@@ -37,8 +37,8 @@ void print(double a[], int size){
 }
 */
 int main(){
-    char c;
-    short s;
+    char c; //var of type char
+    short s;//variable of type short
     int i;
     long l;
     long ll;
