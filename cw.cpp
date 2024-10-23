@@ -38,4 +38,13 @@ void print(double a[], int size){
 */
 int main(){
     char c;
+    short s;
+    int i;
+    long l;
+    long ll;
+    float f;
+    double d;
+    long double ld;
+    int array[20];
+    int *ptr =array;
 }
