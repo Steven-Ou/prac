@@ -39,12 +39,12 @@ void print(double a[], int size){
 int main(){
     char c; //var of type char
     short s;//variable of type short
-    int i;
-    long l;
-    long ll;
-    float f;
-    double d;
-    long double ld;
-    int array[20];
-    int *ptr =array;
+    int i;//var of type int
+    long l;//vart of type long;
+    long ll;//var of type long long;
+    float f;//var of type float;
+    double d;//var of type double;
+    long double ld;//var of type long double
+    int array[20];// built in array of int
+    int *ptr =array;// var type int
 }
