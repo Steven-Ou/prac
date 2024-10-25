@@ -58,5 +58,6 @@ int main(){
     <<"\nsizeof(ll) = "<<sizeof(ll)
     <<"\tsizeof(long long) = "<<sizeof(long long)
     <<"\nsizeof(f) = "<<sizeof(f)
+    <<"\tsizeof(float) = "<<sizeof(float)
     
 }
