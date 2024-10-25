@@ -49,7 +49,8 @@ int main(){
     int *ptr =array;// var type int
     cout<< "sizeof c = "<< sizeof(c)
     <<"\tsizeof(char) ="<< sizeof(char)
-    <<"\nsizeof s = "<<sizeof(s)
+    <<"\nsizeof(s) = "<<sizeof(s)
     <<"\tsizeof(short) = "<<sizeof(short)
+    <<"\nsizeof(i) = "<<sizeof(i)
     <<
 }
