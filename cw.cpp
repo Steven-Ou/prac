@@ -64,5 +64,5 @@ int main(){
     <<"\nsizeof(ld) = "<<sizeof(ld)
     <<"\tsizeof(long double) = "<<sizeof(long double)
     <<"\nsizeof(array) = "<<sizeof(array)
-    <<"\n"
+    <<"\nsizeof(ptr) = "<<sizeof(ptr)<<endl;
 }
