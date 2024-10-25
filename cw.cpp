@@ -47,13 +47,13 @@ int main(){
     long double ld;//var of type long double
     int array[20];// built in array of int
     int *ptr =array;// var type int
-    cout<< "sizeof c = "<< sizeof(c)
+    cout<< "sizeof(c) = "<< sizeof(c)
     <<"\tsizeof(char) ="<< sizeof(char)
     <<"\nsizeof(s) = "<<sizeof(s)
     <<"\tsizeof(short) = "<<sizeof(short)
     <<"\nsizeof(i) = "<<sizeof(i)
     <<"\tsizeof(int) = "<<sizeof(int)
-    <<"\nsizeof l = "<<sizeof(l)
+    <<"\nsizeof(l) = "<<sizeof(l)
     <<"\tsizeof(long) = "<<sizeof(long)
-    <<"\nsizeof ll ="
+    <<"\nsizeof(ll) ="
 }
