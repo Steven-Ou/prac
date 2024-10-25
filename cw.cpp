@@ -63,5 +63,5 @@ int main(){
     <<"\tsizeof(double) = "<<sizeof(double)
     <<"\nsizeof(ld) = "<<sizeof(ld)
     <<"\tsizeof(long double) = "<<sizeof(long double)
-     
+    <<"\n" 
 }
