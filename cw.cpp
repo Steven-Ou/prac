@@ -57,5 +57,6 @@ int main(){
     <<"\tsizeof(long) = "<<sizeof(long)
     <<"\nsizeof(ll) = "<<sizeof(ll)
     <<"\tsizeof(long long) = "<<sizeof(long long)
-    <<"\n"
+    <<"\nsizeof(f) = "<<sizeof(f)
+    
 }
