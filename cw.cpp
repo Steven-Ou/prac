@@ -55,5 +55,6 @@ int main(){
     <<"\tsizeof(int) = "<<sizeof(int)
     <<"\nsizeof(l) = "<<sizeof(l)
     <<"\tsizeof(long) = "<<sizeof(long)
-    <<"\nsizeof(ll) ="
+    <<"\nsizeof(ll) = "<<sizeof(ll)
+    <<""
 }
