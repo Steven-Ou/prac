@@ -40,7 +40,7 @@ int main(){
     char c; //var of type char
     short s;//variable of type short
     int i;//var of type int
-    long l;//vart of type long;
+    long l;//var of type long;
     long ll;//var of type long long;
     float f;//var of type float;
     double d;//var of type double;
@@ -55,5 +55,5 @@ int main(){
     <<"\tsizeof(int) = "<<sizeof(int)
     <<"\nsizeof l = "<<sizeof(l)
     <<"\tsizeof(long) = "<<sizeof(long)
-    
+
 }
