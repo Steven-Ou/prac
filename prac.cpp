@@ -207,10 +207,7 @@ int main(){
         return 0;
 }
 */
-#include <iostream>
-#include <cstdlib>
-#include <ctime>
-using namespace std;
+
 int main()
 {
     srand(time(0));
