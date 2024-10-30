@@ -8,7 +8,9 @@ void print(){
     cout<< "Solution #: "<< ++shu<<endl; //printing out the number of solution
     //Printing the board
     for(int i=0;i<8;i++){
-        
+        for(int k=0; k<5;k++){
+            
+        }    
 
     }
 }
