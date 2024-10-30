@@ -7,7 +7,7 @@ box bb, wb, *board[8][8];
 void print(){
    cout<< "Solution #: "<< ++shu<<endl; //printing out the number of solution
    //Printing the board
-   for(int i);i<8;i++) 
+   for(int i;i<8;i++) 
 
 }
 int main(){
