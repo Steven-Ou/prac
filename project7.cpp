@@ -3,7 +3,7 @@
 using namespace std;
 int shu; //Global count variable
 void print(){
-   cout<< "Solution #: " 
+   cout<< "Solution #: "<< ++shu<<endl; 
 }
 int main(){
 
