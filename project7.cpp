@@ -11,7 +11,7 @@ void print(){
         for(int k=0; k<5;k++){//for each box row 
             cout<<char(179);
             for(int j=0; j<8;j++){//each board column
-                for(int l=0;l<7;l++){
+                for(int l=0;l<7;l++){//each box column
                     
                 }
             }
