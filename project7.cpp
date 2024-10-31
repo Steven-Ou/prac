@@ -16,6 +16,8 @@ print:
                 else{
                     board[i][j]=&wb;
                 }
+            }else{
+                
             }
         }
     }
