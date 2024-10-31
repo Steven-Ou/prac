@@ -37,6 +37,7 @@ int main(){
 nextCol:
     // Move to the next column
     c++;
+    // If you have passed the last column goto print 
     
 print:
     for(int i=0;i<8;i++){
