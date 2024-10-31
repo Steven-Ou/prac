@@ -7,7 +7,7 @@ box bb, wb, bq,wq,*board[8][8];
 int main(){
     for(int i=0;i<5;i++){
         for(int j=0;j<7;j++){
-            bb[i][j]=char(219);
+            bb[i][j]=char(219); //"\u25A0"
         }
     }
     int p[8][8]={0};
