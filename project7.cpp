@@ -5,11 +5,17 @@ int shu=0; //Global count variable
 typedef char box[5][7];
 box bb, wb, bq,wq,*board[8][8];
 int main(){
+    int p[8][8]={0};
 print:
     for(int i=0;i<8;i++){
         for(int j=0; j<8;j++){
             if((i+j)%2==0){
+                if(p[i][j]==1){
                 board[i][j] = &bq;
+                }
+                else{
+                    board[i][j]=&wb;
+                }
             }
         }
     }
