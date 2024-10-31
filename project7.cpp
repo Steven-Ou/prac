@@ -29,6 +29,7 @@ int main(){
             }
         }
     }
+    //initialize the board to 0
     int p[8][8]={0};
 print:
     for(int i=0;i<8;i++){
