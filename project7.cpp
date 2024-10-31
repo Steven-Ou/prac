@@ -33,6 +33,8 @@ int main(){
     int p[8][8]={0};
     //Start in the first row, first column, and place a queen there 
     int r= 0,c=0; 
+    p[r][c] = 1; 
+    
 print:
     for(int i=0;i<8;i++){
         for(int j=0; j<8;j++){
