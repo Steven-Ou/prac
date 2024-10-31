@@ -3,7 +3,7 @@
 using namespace std;
 int shu=0; //Global count variable
 typedef char box[5][7];
-box bb, wb, *board[8][8];
+box bb, wb, bq,wq,*board[8][8];
 print:
     for(int i=0;i<8;i++){
         for(int j=0; j<8;j++){
