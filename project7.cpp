@@ -17,7 +17,9 @@ print:
                     board[i][j]=&wb;
                 }
             }else{
-                
+                if(p[i][j]==1){
+                    
+                }  
             }
         }
     }
