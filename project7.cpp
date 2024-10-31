@@ -8,6 +8,7 @@ int main(){
     for(int i=0;i<5;i++){
         for(int j=0;j<7;j++){
             bb[i][j]=char(219); //"\u25A0"
+            wb[i][j]= ' '; //"\u25A1"
         }
     }
     int p[8][8]={0};
