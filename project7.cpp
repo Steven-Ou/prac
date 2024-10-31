@@ -15,10 +15,11 @@ void print(){
                     cout<<(*board[i][k])[j][l];
                 }
             }
-            cout<<char(179)<<
+            cout<<char(179)<<endl;
         }    
 
     }
+    goto backtrack; // going to backtrack
 }
 int main(){
 
