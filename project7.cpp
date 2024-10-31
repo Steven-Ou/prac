@@ -14,7 +14,7 @@ int main(){
                 wq[i][j]= char(219);
             }else if(i==0||i==4){
                 bq[i][j]= ' ';
-                
+                wq[i][j]= char(219);
             }
         }
     }
