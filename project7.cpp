@@ -6,7 +6,9 @@ typedef char box[5][7];
 box bb, wb, bq,wq,*board[8][8];
 int main(){
     for(int i=0;i<5;i++){
-        for(int j=0;j<7;j++)
+        for(int j=0;j<7;j++){
+            bb[i][j]=char(219);
+        }
     }
     int p[8][8]={0};
 print:
