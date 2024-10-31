@@ -35,6 +35,8 @@ int main(){
     int r= 0,c=0; 
     p[r][c] = 1; 
 nextCol:
+    // Move to the next column
+    c++;
 
 print:
     for(int i=0;i<8;i++){
