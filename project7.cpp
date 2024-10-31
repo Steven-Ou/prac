@@ -12,9 +12,10 @@ void print(){
             cout<<char(179);
             for(int j=0; j<8;j++){//each board column
                 for(int l=0;l<7;l++){//each box column
-                    
+                    cout<<(*board[i][k])[j][l];
                 }
             }
+            cout<<char
         }    
 
     }
