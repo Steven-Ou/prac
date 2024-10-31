@@ -11,7 +11,7 @@ print:
         for(int j=0; j<8;j++){
             if((i+j)%2==0){
                 if(p[i][j]==1){
-                board[i][j] = &bq;
+                    board[i][j] = &bq;
                 }
                 else{
                     board[i][j]=&wb;
