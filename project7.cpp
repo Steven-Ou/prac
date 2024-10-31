@@ -21,6 +21,3 @@ void print(){
     }
     goto backtrack; // going to backtrack
 }
-int main(){
-
-}
