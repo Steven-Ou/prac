@@ -1,4 +1,4 @@
-//Fancy 8 queen
+//Fancy 8 queen with goto
 #include <iostream>
 using namespace std;
 int shu=0; //Global count variable
