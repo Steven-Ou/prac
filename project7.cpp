@@ -20,7 +20,7 @@ print:
                 if(p[i][j]==1){
                     board[i][j]=&wq;
                 }else{
-                    
+                    board[i][j]=&bb;
                 }  
             }
         }
