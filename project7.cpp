@@ -12,6 +12,8 @@ int main(){
             if(j==0 || j==6){
                 bq[i][j]= ' ';
                 wq[i][j]= char(219);
+            }else if(i==0||i==4){
+                
             }
         }
     }
