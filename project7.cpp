@@ -18,6 +18,8 @@ print:
                 }
             }else{
                 if(p[i][j]==1){
+                    board[i][j]=&wq;
+                }else{
                     
                 }  
             }
