@@ -23,6 +23,8 @@ int main(){
                     bq[i][j]= char(219);
                     wq[i][j]= ' ';
                 }
+            }else{
+                
             }
         }
     }
