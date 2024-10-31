@@ -15,7 +15,7 @@ void print(){
                     cout<<(*board[i][k])[j][l];
                 }
             }
-            cout<<char
+            cout<<char(179)<<
         }    
 
     }
