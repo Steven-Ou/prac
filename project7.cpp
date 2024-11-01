@@ -42,6 +42,8 @@ nextCol:
         goto print;
     }
     r=-1;//moving to one before the first row
+nextRow:
+
 print:
     for(int i=0;i<8;i++){
         for(int j=0; j<8;j++){
