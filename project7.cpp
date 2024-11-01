@@ -39,7 +39,7 @@ nextCol:
     c++;
     // If you have passed the last column goto print 
 
-    ///////STOPS!!! HERE
+    
 
 print:
     for(int i=0;i<8;i++){
