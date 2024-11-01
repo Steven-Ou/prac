@@ -44,6 +44,7 @@ nextCol:
     r=-1;//moving to one before the first row
 nextRow:
     //Move to the next row
+    r++;
 backtrack:
 print:
     for(int i=0;i<8;i++){
