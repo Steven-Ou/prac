@@ -45,6 +45,7 @@ nextCol:
 nextRow:
     //Move to the next row
     r++;
+    //If have passed the end of the column goto backtrack;
 backtrack:
 print:
     for(int i=0;i<8;i++){
