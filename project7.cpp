@@ -38,7 +38,9 @@ nextCol:
     // Move to the next column
     c++;
     // If you have passed the last column goto print 
-    if(c==8)
+    if(c==8){
+        goto print;
+    }
 
 print:
     for(int i=0;i<8;i++){
