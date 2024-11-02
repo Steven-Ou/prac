@@ -69,6 +69,7 @@ nextRow:
     }
     //Place a queen in the current square
     p[r][c]=1;
+    //
 backtrack:
 print:
     for(int i=0;i<8;i++){
