@@ -79,7 +79,7 @@ backtrack:
         if(c==-1){
             return 0;
         }
-    
+    //Find the square in the column with a queen in it and set r to the row number of that square
 print:
     for(int i=0;i<8;i++){
         for(int j=0; j<8;j++){
