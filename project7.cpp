@@ -81,7 +81,9 @@ backtrack:
         }
     //Find the square in the column with a queen in it and set r to the row number of that square
         r=0;
-        while(p[r][c])
+        while(p[r][c]!=1){
+            
+        }
 print:
     for(int i=0;i<8;i++){
         for(int j=0; j<8;j++){
