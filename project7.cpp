@@ -77,7 +77,7 @@ backtrack:
         c--;
     //If the queen have moved to the left of the chessboard, exit.
         if(c==-1){
-
+            return 0;
         }
 print:
     for(int i=0;i<8;i++){
