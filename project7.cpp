@@ -42,6 +42,7 @@ nextCol:
             goto print;
         }
     //moving to one before the first row
+        r=-1;
 nextRow:
     //Move to the next row
         r++;
