@@ -69,7 +69,7 @@ nextRow:
             }
         }
     //Place a queen in the current square
-    p[r][c]=1;
+        p[r][c]=1;
     //Goto nextCol
     goto nextCol;
 
