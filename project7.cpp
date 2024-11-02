@@ -116,7 +116,7 @@ print:
                     cout<<(*board[i][j])[k][l];
                 }
             }
-            cout<<char(179)<<endl;
+            cout<<endl;
         }    
 
     }
