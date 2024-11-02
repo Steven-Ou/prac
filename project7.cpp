@@ -72,7 +72,6 @@ nextRow:
         p[r][c]=1;
     //Goto nextCol
         goto nextCol;
-
 backtrack:
 print:
     for(int i=0;i<8;i++){
