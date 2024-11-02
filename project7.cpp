@@ -47,7 +47,7 @@ nextRow:
     //Move to the next row
         r++;
     //If have passed the end of the column goto backtrack;
-     if(r==8){
+        if(r==8){
             goto backtrack;
         }
     //If there is a queen in the same row(to the left), goto nextRow
