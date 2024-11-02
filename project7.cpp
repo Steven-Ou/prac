@@ -49,7 +49,7 @@ nextRow:
     if(r==8){
         goto backtrack;
     }
-    
+    //If there is a queen in the same row(to the left), goto nextRow
 backtrack:
 print:
     for(int i=0;i<8;i++){
