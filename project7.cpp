@@ -76,8 +76,8 @@ backtrack:
     //Move to the previous column
         c--;
     //If the queen have moved to the left of the chessboard, exit.
-        if(){
-            
+        if(c==-1){
+
         }
 print:
     for(int i=0;i<8;i++){
