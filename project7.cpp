@@ -62,7 +62,9 @@ nextRow:
         }
     }
     //If there is a queen in the lower left diagonal, goto NextRow
-    
+    for(){
+        
+    }
 backtrack:
 print:
     for(int i=0;i<8;i++){
