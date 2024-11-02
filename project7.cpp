@@ -50,7 +50,9 @@ nextRow:
         goto backtrack;
     }
     //If there is a queen in the same row(to the left), goto nextRow
-    for(int i =0; i<c;)
+    for(int i =0; i<c;i++){
+        
+    }
 backtrack:
 print:
     for(int i=0;i<8;i++){
