@@ -30,31 +30,31 @@ int main(){
         }
     }
     //initialize the board to 0
-    int p[8][8]={0};
+        int p[8][8]={0};
     //Start in the first row, first column, and place a queen there 
-    int r= 0,c=0; 
-    p[r][c] = 1; 
+        int r= 0,c=0; 
+        p[r][c] = 1; 
 nextCol:
     // Move to the next column
-    c++;
+        c++;
     // If you have passed the last column goto print 
-    if(c==8){
-        goto print;
-    }
+        if(c==8){
+            goto print;
+        }
     r=-1;//moving to one before the first row
 nextRow:
     //Move to the next row
-    r++;
+        r++;
     //If have passed the end of the column goto backtrack;
-    if(r==8){
-        goto backtrack;
-    }
+     if(r==8){
+            goto backtrack;
+        }
     //If there is a queen in the same row(to the left), goto nextRow
-    for(int i =0; i<c;i++){
-        if(p[r][i]==1){
-            goto nextRow;
-        } 
-    }
+        for(int i =0; i<c;i++){
+            if(p[r][i]==1){
+                 goto nextRow;
+            } 
+        }
     //If there is a queen in the upper left diagonal, goto NextRow
     for(int i=1;r-i>-1 &&c-i>-1;i++){
         if(p[r-i][c-i]==1){
@@ -71,7 +71,7 @@ nextRow:
     p[r][c]=1;
     //Goto nextCol
     goto nextCol;
-    
+
 backtrack:
 print:
     for(int i=0;i<8;i++){
