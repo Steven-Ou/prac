@@ -63,8 +63,8 @@ nextRow:
     }
     //If there is a queen in the lower left diagonal, goto NextRow
     for(int i=1;r+i<8 && c-i>-1;i++){
-        if(p[r+i][c-i]){
-
+        if(p[r+i][c-i]==1){
+            goto nextRow;
         }
     }
 backtrack:
