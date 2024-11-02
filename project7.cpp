@@ -62,8 +62,8 @@ nextRow:
         }
     }
     //If there is a queen in the lower left diagonal, goto NextRow
-    for(){
-        
+    for(int i=1;r+i<8 && c-i>-1;i++){
+
     }
 backtrack:
 print:
