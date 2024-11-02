@@ -53,7 +53,7 @@ nextRow:
     //If there is a queen in the same row(to the left), goto nextRow
         for(int i =0; i<c;i++){
             if(p[r][i]==1){
-                 goto nextRow;
+                goto nextRow;
             } 
         }
     //If there is a queen in the upper left diagonal, goto NextRow
