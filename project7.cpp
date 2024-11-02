@@ -41,7 +41,7 @@ nextCol:
         if(c==8){
             goto print;
         }
-    r=-1;//moving to one before the first row
+    //moving to one before the first row
 nextRow:
     //Move to the next row
         r++;
