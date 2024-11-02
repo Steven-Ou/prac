@@ -74,6 +74,7 @@ nextRow:
         goto nextCol;
 backtrack:
     //Move to the previous column
+        c--;
     
 print:
     for(int i=0;i<8;i++){
