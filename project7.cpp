@@ -127,7 +127,7 @@ print:
                 for(int l=0;l<7;l++){//each box column
                     cout<<(*board[i][j])[k][l];
                 }
-                
+                cout<<"│";
             }
             cout<<endl;
         }    
