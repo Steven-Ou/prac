@@ -106,7 +106,7 @@ print: // Label for printing the board
     cout <<"+"; // Print the top border
     for(int col=0; col<8; col++){ // Loop through each column
         cout << "-------"; // Print dashes for each column width
-        if(col<7){ 
+        if(col<8){ 
         cout << "+"; // Separator between columns
         }
     }
