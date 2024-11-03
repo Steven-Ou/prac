@@ -135,7 +135,7 @@ print:
         if(i<7){
             cout<<"├";
             for(int b=0;b<8;b++){
-                
+                cout<<"───────";
             }
         }
     }
