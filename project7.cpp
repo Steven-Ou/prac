@@ -3,8 +3,9 @@
 using namespace std;
 int shu=0; //Global count variable
 typedef char box[5][7]; //Box is defined as a 5x7 char array to represent board and queen
-box bb, wb, bq,wq,*board[8][8];
+box bb, wb, bq,wq,*board[8][8];//Declare b/w boxes and queen img for the board
 int main(){
+    //intialize the pattern for black/white queen square
     for(int i=0;i<5;i++){
         for(int j=0;j<7;j++){
             bb[i][j]=char(219); //"\u25A0"
