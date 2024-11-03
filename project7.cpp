@@ -138,6 +138,6 @@ print:
     }
     // Bottom border of the board
     cout << "└───────┴───────┴───────┴───────┴───────┴───────┴───────┴───────┘\n";
-    
-    goto backtrack; // going to backtrack
+
+    goto backtrack; // going to backtrack to find next solution
 }
