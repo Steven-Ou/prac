@@ -143,6 +143,6 @@ print:
             cout << "┤\n";
         }
     }
-    
+    // Bottom border of the board
     goto backtrack; // going to backtrack
 }
