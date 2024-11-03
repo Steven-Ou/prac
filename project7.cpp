@@ -137,13 +137,7 @@ print:
         }
     }
     // Bottom border of the board
-    cout<<"└";
-    for(int a=0;a<8;a++){
-        cout<<"───────";
-        if(a<7){
-            cout<<"┴";
-        }
-    }
-    cout<<"┘\n";
+    cout << "└───────┴───────┴───────┴───────┴───────┴───────┴───────┴───────┘\n";
+    
     goto backtrack; // going to backtrack
 }
