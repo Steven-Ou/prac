@@ -102,7 +102,7 @@ print: // Label for printing the board
         }
     }
 
-    cout << "Solution # " << ++shu << ":\n "; // Print the solution number
+    cout << "Solution # " << ++shu << ":\n"; // Print the solution number
     cout <<"+"; // Print the top border
     for(int col=0; col<8; col++){ // Loop through each column
         cout << "-------"; // Print dashes for each column width
