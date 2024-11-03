@@ -1,142 +1,132 @@
-#include <iostream>
-using namespace std;
-int shu = 0; // Global count variable
-typedef char box[5][7]; // Box is defined as a 5x7 char array to represent board and queen
-box bb, wb, bq, wq, *board[8][8]; // Declare b/w boxes and queen images for the board
+#include <iostream> // Include iostream for input and output
+using namespace std; // Use standard namespace to avoid typing std::
 
-int main() {
-    // Initialize the pattern for black/white queen square
-    for (int i = 0; i < 5; i++) {
-        for (int j = 0; j < 7; j++) {
-            bb[i][j] = '#'; // Black square
-            wb[i][j] = ' '; // White square
-            if (j == 0 || j == 6) {
-                bq[i][j] = ' '; // Border for black queen
-                wq[i][j] = '#';
-            } else if (i == 0 || i == 4) {
-                bq[i][j] = ' ';
-                wq[i][j] = '#';
-            } else if (i == 1) {
-                if (j % 2 == 0) {
-                    bq[i][j] = ' ';
-                    wq[i][j] = '#';
-                } else {
-                    bq[i][j] = '#';
-                    wq[i][j] = ' ';
+int shu=0; // Global count variable to track number of solutions found
+
+typedef char box[5][7]; // Define a box as a 5x7 character array to represent the board and queen squares
+box bb, wb, bq, wq, *board[8][8]; // Declare black and white boxes and queens, and the 8x8 board
+
+int main(){ // Main function
+    for(int i=0;i<5;i++){ // Loop through rows of the box pattern
+        for(int j=0;j<7;j++){ // Loop through columns of the box pattern
+            bb[i][j]= '#'; // Fill black box with '#'
+            wb[i][j]= ' '; // Fill white box with a space
+            if(j==0 || j==6){ // Check if on the border columns for the queen box
+                bq[i][j]= ' '; // Set black queen border to spaces
+                wq[i][j]= '#'; // Set white queen border to '#'
+            }else if(i==0||i==4){ // Check if on the border rows for the queen box
+                bq[i][j]= ' '; // Set black queen border rows to spaces
+                wq[i][j]= '#'; // Set white queen border rows to '#'
+            }else if(i==1){ // Check for the middle section of the queen box
+                if(j%2==0){ // Alternate pattern for middle section
+                    bq[i][j]= ' '; // Set even columns to spaces for black queen
+                    wq[i][j]= '#'; // Set even columns to '#' for white queen
+                }else{ // Alternate pattern
+                    bq[i][j]= '#'; // Set odd columns to '#' for black queen
+                    wq[i][j]= ' '; // Set odd columns to spaces for white queen
                 }
-            } else {
-                bq[i][j] = '#';
-                wq[i][j] = ' ';
+            }else{ // Middle rows for black queen
+                bq[i][j]='#'; // Set black queen middle to '#'
+                wq[i][j]= ' '; // Set white queen middle to spaces
             }
         }
     }
 
-    // Initialize the board to 0
-    int p[8][8] = {0};
+    int p[8][8]={0}; // Initialize the board positions with 0s (no queens)
+    int r=0, c=0; // Start at the first row, first column
+    p[r][c]=1; // Place a queen at the starting position
 
-    // Start in the first row, first column, and place a queen there
-    int r = 0, c = 0;
-    p[r][c] = 1;
+nextCol: // Label for moving to the next column
+    c++; // Move to the next column
+    if(c==8){ // Check if reached the last column
+        goto print; // If so, go to print the solution
+    }
+    r=-1; // Reset row to -1 before moving to the next row
 
-nextCol:
-    // Move to the next column
-    c++;
-    // If you have passed the last column, goto print
-    if (c == 8) {
-        goto print;
+nextRow: // Label for moving to the next row
+    r++; // Move to the next row
+    if(r==8){ // Check if row is out of bounds
+        goto backtrack; // If so, go to backtrack
     }
 
-    // Reset row to -1 to start from the beginning in the next row loop
-    r = -1;
-
-nextRow:
-    // Move to the next row
-    r++;
-    // If you passed the end of the column, backtrack
-    if (r == 8) {
-        goto backtrack;
-    }
-
-    // Check for a queen in the same row to the left
-    for (int i = 0; i < c; i++) {
-        if (p[r][i] == 1) {
-            goto nextRow;
+    for(int i=0;i<c;i++){ // Loop through columns in the row
+        if(p[r][i]==1){ // Check if there's a queen in the row
+            goto nextRow; // If so, move to the next row
         }
     }
 
-    // Check for a queen in the upper left diagonal
-    for (int i = 1; r - i > -1 && c - i > -1; i++) {
-        if (p[r - i][c - i] == 1) {
-            goto nextRow;
+    for(int i=1;r-i>-1 && c-i>-1;i++){ // Check upper left diagonal
+        if(p[r-i][c-i]==1){ // If a queen is found in the upper left diagonal
+            goto nextRow; // Move to the next row
         }
     }
 
-    // Check for a queen in the lower left diagonal
-    for (int i = 1; r + i < 8 && c - i > -1; i++) {
-        if (p[r + i][c - i] == 1) {
-            goto nextRow;
+    for(int i=1;r+i<8 && c-i>-1;i++){ // Check lower left diagonal
+        if(p[r+i][c-i]==1){ // If a queen is found in the lower left diagonal
+            goto nextRow; // Move to the next row
         }
     }
 
-    // Place a queen in the current square
-    p[r][c] = 1;
-    goto nextCol;
+    p[r][c]=1; // Place a queen in the current square
+    goto nextCol; // Move to the next column
 
-backtrack:
-    // Move to the previous column
-    c--;
-    if (c == -1) return 0;
-
-    // Find the square in the column with a queen and set `r` to its row number
-    r = 0;
-    while (p[r][c] != 1) {
-        r++;
+backtrack: // Label for backtracking
+    c--; // Move to the previous column
+    if(c==-1){ // Check if moved out of bounds on the left
+        return 0; // End the program if so
     }
 
-    // Remove the queen from the current square
-    p[r][c] = 0;
-    goto nextRow;
-
-print:
-    // Set up the board with appropriate squares and queens
-    for (int i = 0; i < 8; i++) {
-        for (int j = 0; j < 8; j++) {
-            if ((i + j) % 2 == 0) {
-                board[i][j] = (p[i][j] == 1) ? &bq : &wb;
-            } else {
-                board[i][j] = (p[i][j] == 1) ? &wq : &bb;
-            }
-        }
+    r=0; // Start at the top row
+    while(p[r][c]!=1){ // Find the queen in the current column
+        r++; // Move down a row
     }
+    p[r][c]=0; // Remove the queen from the current square
+    goto nextRow; // Move to the next row
 
-    cout << "Solution # " << ++shu << ":\n";
-
-    // Print the top border
-    cout << " ┌";
-    for (int col = 0; col < 8; col++) {
-        cout << "───────";
-        if (col < 7) cout << "┬";
-    }
-    cout << "┐\n";
-
-    // Print each row with side borders
-    for (int i = 0; i < 8; i++) { // For each board row
-        for (int k = 0; k < 5; k++) { // For each box row
-            cout << "│"; // Left border for each row
-            for (int j = 0; j < 8; j++) { // Each board column
-                for (int l = 0; l < 7; l++) { // Each box column
-                    cout << (*board[i][j])[k][l];
+print: // Label for printing the board
+    for(int i=0;i<8;i++){ // Loop through each row
+        for(int j=0;j<8;j++){ // Loop through each column
+            if((i+j)%2==0){ // Check if square is black or white
+                if(p[i][j]==1){ // If there's a queen
+                    board[i][j]=&bq; // Set black queen
+                }else{
+                    board[i][j]=&wb; // Set white square
                 }
-                cout << "│"; // Right border for each square
+            }else{ 
+                if(p[i][j]==1){ // If there's a queen
+                    board[i][j]=&wq; // Set white queen
+                }else{
+                    board[i][j]=&bb; // Set black square
+                }
             }
-            cout << "\n";
-        }
-        if (i < 7) {
-            cout << "├───────┼───────┼───────┼───────┼───────┼───────┼───────┼───────┤\n";
         }
     }
 
-    // Bottom border of the board
-    cout << "└───────┴───────┴───────┴───────┴───────┴───────┴───────┴───────┘\n";
-    goto backtrack;
+    cout << "Solution # " << ++shu << ":\n "; // Print the solution number
+    cout << " +"; // Print the top border
+    for(int col=0; col<8; col++){ // Loop through each column
+        cout << "-------"; // Print dashes for each column width
+        if(col<7) cout << "+"; // Separator between columns
+    }
+    cout << "+\n"; // End the top border line
+
+    for(int i=0;i<8;i++){ // Loop through each board row
+        for(int k=0;k<5;k++){ // Loop through each box row
+            cout << "|"; // Print left border
+            for(int j=0;j<8;j++){ // Loop through each board column
+                for(int l=0;l<7;l++){ // Loop through each box column
+                    cout << (*board[i][j])[k][l]; // Print the board character
+                }
+                cout << "|"; // Print right border for each box
+            }
+            cout << "\n"; // Newline after each box row
+        }
+
+        if(i<7){ // Check if not the last row
+            cout << "+-------+-------+-------+-------+-------+-------+-------+-------+\n"; // Print row separator
+        }
+    }
+
+    cout << "+-------+-------+-------+-------+-------+-------+-------+-------+\n"; // Print bottom border
+    goto backtrack; // Go to backtrack to find the next solution
 }
