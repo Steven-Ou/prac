@@ -110,7 +110,7 @@ print: // Label for printing the board
         cout << "+"; // Separator between columns
         }
     }
-    cout << "+\n"; // End the top border line
+    cout << "\n"; // End the top border line
 
     for(int i=0;i<8;i++){ // Loop through each board row
         for(int k=0;k<5;k++){ // Loop through each box row
