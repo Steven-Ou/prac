@@ -147,6 +147,9 @@ print:
     cout<<"└";
     for(int a=0;a<8;a++){
         cout<<"───────";
+        if(a<7){
+            
+        }
     }
     goto backtrack; // going to backtrack
 }
