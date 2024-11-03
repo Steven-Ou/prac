@@ -143,5 +143,6 @@ print:
             cout << "┤\n";
         }
     }
+    
     goto backtrack; // going to backtrack
 }
