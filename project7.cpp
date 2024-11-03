@@ -15,11 +15,11 @@ int main(){
                 wq[i][j]= '#';
             }else if(i==0||i==4){
                 bq[i][j]= ' ';
-                wq[i][j]= char(219);
+                wq[i][j]= '#';
             }else if(i==1){
                 if(j%2==0){
                     bq[i][j]= ' ';
-                    wq[i][j]= char(219);  
+                    wq[i][j]= '#';  
                 }else{
                     bq[i][j]= char(219);
                     wq[i][j]= ' ';
