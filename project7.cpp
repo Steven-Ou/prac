@@ -103,10 +103,12 @@ print: // Label for printing the board
     }
 
     cout << "Solution # " << ++shu << ":\n "; // Print the solution number
-    cout << " +"; // Print the top border
+    cout <<"+"; // Print the top border
     for(int col=0; col<8; col++){ // Loop through each column
         cout << "-------"; // Print dashes for each column width
-        if(col<7) cout << "+"; // Separator between columns
+        if(col<7){ 
+        cout << "+"; // Separator between columns
+        }
     }
     cout << "+\n"; // End the top border line
 
