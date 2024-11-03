@@ -131,7 +131,7 @@ print:
             }
             cout<<endl;
         }    
-
+        //Bottom border for each row, except the last row
     }
     goto backtrack; // going to backtrack
 }
