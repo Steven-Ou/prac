@@ -132,7 +132,9 @@ print:
             cout<<endl;
         }    
         //Bottom border for each row, except the last row
-        
+        if(i<7){
+            
+        }
     }
     goto backtrack; // going to backtrack
 }
