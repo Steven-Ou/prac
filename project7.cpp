@@ -134,6 +134,7 @@ print:
         //Bottom border for each row, except the last row
         if(i<7){
             cout<<"├";
+            
         }
     }
     goto backtrack; // going to backtrack
