@@ -146,7 +146,7 @@ print:
     // Bottom border of the board
     cout<<"└";
     for(int a=0;a<8;a++){
-        
+        cout<<"───────";
     }
     goto backtrack; // going to backtrack
 }
