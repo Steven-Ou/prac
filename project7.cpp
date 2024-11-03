@@ -21,11 +21,11 @@ int main(){
                     bq[i][j]= ' ';
                     wq[i][j]= '#';  
                 }else{
-                    bq[i][j]= char(219);
+                    bq[i][j]= '#';
                     wq[i][j]= ' ';
                 }
             }else{
-                bq[i][j]=char(219);
+                bq[i][j]='#';
                 wq[i][j]= ' '; 
             }
         }
