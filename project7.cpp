@@ -115,7 +115,7 @@ print:
     for(int j=0;j<8;j++){
         cout<<"───────";//Top of each square
         if(j<7){
-            
+            cout<<"";
         }
     }
     for(int i=0;i<8;i++){ //for each board row
