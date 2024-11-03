@@ -144,6 +144,6 @@ print:
         }
     }
     // Bottom border of the board
-    
+    cout<<"└";
     goto backtrack; // going to backtrack
 }
