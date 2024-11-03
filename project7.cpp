@@ -110,10 +110,15 @@ print:
     }
     cout<< "Solution # "<< ++shu<<": \n "; //printing out the number of solution
     //Printing the board
-    //Top border of the board
-   
-    cout << "┌───────┬───────┬───────┬───────┬───────┬───────┬───────┬───────┐\n";
-   
+    // Printing the top border
+    cout << " ┌";
+    for (int col = 0; col < 8; col++) {
+        cout << "───────"; // 7 dashes for each box width
+        if (col < 7) {
+            cout << "┬";
+        }
+    }
+    cout << "┐" << endl;
     //Print each row with side borders
     for(int i=0;i<8;i++){ //for each board row
         for(int k=0; k<5;k++){//for each box row 
