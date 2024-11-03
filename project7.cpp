@@ -118,7 +118,7 @@ print:
             cout<<"┬";//Column separator for top border
         }
     }
-    cout<<"";
+    cout<<"┐\n";
     for(int i=0;i<8;i++){ //for each board row
         for(int k=0; k<5;k++){//for each box row 
             for(int j=0; j<8;j++){//each board column
