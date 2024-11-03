@@ -12,7 +12,7 @@ int main(){
             wb[i][j]= ' '; //"\u25A1"(white box)
             if(j==0 || j==6){
                 bq[i][j]= ' ';//Border for black queen
-                wq[i][j]= char(219);
+                wq[i][j]= '#';
             }else if(i==0||i==4){
                 bq[i][j]= ' ';
                 wq[i][j]= char(219);
