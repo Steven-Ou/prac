@@ -113,7 +113,7 @@ print:
     //Top border of the board
     cout<<"┌";
     for(int j=0;j<8;j++){
-        cout<<"";
+        cout<<"───────";
     }
     for(int i=0;i<8;i++){ //for each board row
         for(int k=0; k<5;k++){//for each box row 
