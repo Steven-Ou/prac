@@ -136,6 +136,7 @@ print:
             cout<<"├";
             for(int b=0;b<8;b++){
                 cout<<"───────";
+                if(b)
             }
         }
     }
