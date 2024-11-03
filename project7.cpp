@@ -8,7 +8,7 @@ int main(){
     //intialize the pattern for black/white queen square
     for(int i=0;i<5;i++){
         for(int j=0;j<7;j++){
-            bb[i][j]=char(219); //"\u25A0"
+            bb[i][j]=char(219); //"\u25A0"(black)
             wb[i][j]= ' '; //"\u25A1"
             if(j==0 || j==6){
                 bq[i][j]= ' ';
