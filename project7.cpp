@@ -140,6 +140,7 @@ print:
                     cout<<"┼";
                 }
             }
+            cout << "┤\n";
         }
     }
     goto backtrack; // going to backtrack
