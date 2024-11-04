@@ -87,4 +87,8 @@ int main(){
 
     cout<< "the vector add 3 new elements is: "<<endl;
    
+    for(int i=0;i<8;i++){
+        cout<<example.at(i)<< " ";
+    }cout<<endl;
+    cout<<"The first element of the vector is: "<< example.front()<<endl;
 }
