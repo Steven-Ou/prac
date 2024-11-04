@@ -36,6 +36,8 @@ void print(double a[], int size){
     cout<<endl;
 }
 */
+/*
+
 int main(){
     char c; //var of type char
     short s;//variable of type short
@@ -67,3 +69,4 @@ int main(){
     <<"\nsizeof(ptr) = "<<sizeof(ptr)<<endl;
     //end main
 }
+*/
