@@ -71,3 +71,20 @@ int main(){
     //end main
 }
 */
+int main(){
+    vector<double> example(5,1.1);
+
+    cout<<"The original vector is: "<<endl;
+
+    //for each loop is only provided since c++11 
+    for(double i:example){
+        cout<<i<<" ";
+    }cout<<endl;
+
+    example.push_back(1.2);
+    example.push_back(2.4);
+    example.push_back(3.6);
+
+    cout<< "the vector add 3 new elements is: "<<endl;
+   
+}
