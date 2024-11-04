@@ -91,4 +91,7 @@ int main(){
         cout<<example.at(i)<< " ";
     }cout<<endl;
     cout<<"The first element of the vector is: "<< example.front()<<endl;
+    cout<<"The last element of the vector is: "<< example.back()<<endl;
+    cout<<"The size of the vector is: "<< example.size()<<endl;
+
 }
