@@ -94,7 +94,7 @@ int main(){
     cout<<"The last element of the vector is: "<< example.back()<<endl;
     cout<<"The size of the vector is: "<< example.size()<<endl;
 
-    for(nt i=0; i<6;i++){
+    for(int i=0; i<6;i++){
         example.pop_back();
     }
     cout<< "After remove 6 elements, the size of vector is: "<<example.size() <<endl;
