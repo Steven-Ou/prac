@@ -7,29 +7,27 @@ typedef char box[5][7]; // Define a box as a 5x7 character array to represent th
 box bb, wb, bq, wq, *board[8][8]; // Declare black and white boxes and queens, and the 8x8 board
 
 int main(){ // Main function
-    char ww = char(219);
-    char bl = char(254);
     for(int i=0;i<5;i++){ // Loop through rows of the box pattern
         for(int j=0;j<7;j++){ // Loop through columns of the box pattern
-            bb[i][j]= ww; // Fill black box with 'white'
-            wb[i][j]= bl; // Fill white box with a space
+            bb[i][j]= char(219); // Fill black box with 'white'
+            wb[i][j]= ' '; // Fill white box with a space
             if(j==0 || j==6){ // Check if on the border columns for the queen box
-                bq[i][j]= bl; // Set black queen border to spaces
-                wq[i][j]= ww; // Set white queen border to 'white'
+                bq[i][j]= ' '; // Set black queen border to spaces
+                wq[i][j]= char(219); // Set white queen border to 'white'
             }else if(i==0||i==4){ // Check if on the border rows for the queen box
-                bq[i][j]= bl; // Set black queen border rows to spaces
-                wq[i][j]= ww; // Set white queen border rows to 'white'
+                bq[i][j]= ' '; // Set black queen border rows to spaces
+                wq[i][j]= char(219); // Set white queen border rows to 'white'
             }else if(i==1){ // Check for the middle section of the queen box
                 if(j%2==0){ // Alternate pattern for middle section
-                    bq[i][j]= bl; // Set even columns to spaces for black queen
-                    wq[i][j]= ww; // Set even columns to 'white' for white queen
+                    bq[i][j]= ' '; // Set even columns to spaces for black queen
+                    wq[i][j]= char(219); // Set even columns to 'white' for white queen
                 }else{ // Alternate pattern
-                    bq[i][j]= ww; // Set odd columns to 'white' for black queen
-                    wq[i][j]=bl; // Set odd columns to spaces for white queen
+                    bq[i][j]= char(219); // Set odd columns to 'white' for black queen
+                    wq[i][j]= ' '; // Set odd columns to spaces for white queen
                 }
             }else{ // Middle rows for black queen
-                bq[i][j]=ww; // Set black queen middle to 'white'
-                wq[i][j]=bl; // Set white queen middle to spaces
+                bq[i][j]=char(219); // Set black queen middle to 'white'
+                wq[i][j]= ' '; // Set white queen middle to spaces
             }
         }
     }
