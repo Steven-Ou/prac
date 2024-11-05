@@ -9,24 +9,24 @@ box bb, wb, bq, wq, *board[8][8]; // Declare black and white boxes and queens, a
 int main(){ // Main function
     for(int i=0;i<5;i++){ // Loop through rows of the box pattern
         for(int j=0;j<7;j++){ // Loop through columns of the box pattern
-            bb[i][j]= '\u2588\u2588'; // Fill black box with 'white'
+            bb[i][j]= '\u2588'; // Fill black box with 'white'
             wb[i][j]= ' '; // Fill white box with a space
             if(j==0 || j==6){ // Check if on the border columns for the queen box
                 bq[i][j]= ' '; // Set black queen border to spaces
-                wq[i][j]= '\u2588\u2588'; // Set white queen border to 'white'
+                wq[i][j]= '\u2588'; // Set white queen border to 'white'
             }else if(i==0||i==4){ // Check if on the border rows for the queen box
                 bq[i][j]= ' '; // Set black queen border rows to spaces
-                wq[i][j]= '\u2588\u2588'; // Set white queen border rows to 'white'
+                wq[i][j]= '\u2588'; // Set white queen border rows to 'white'
             }else if(i==1){ // Check for the middle section of the queen box
                 if(j%2==0){ // Alternate pattern for middle section
                     bq[i][j]= ' '; // Set even columns to spaces for black queen
-                    wq[i][j]= '\u2588\u2588'; // Set even columns to 'white' for white queen
+                    wq[i][j]= '\u2588'; // Set even columns to 'white' for white queen
                 }else{ // Alternate pattern
-                    bq[i][j]= '\u2588\u2588'; // Set odd columns to 'white' for black queen
+                    bq[i][j]= '\u2588'; // Set odd columns to 'white' for black queen
                     wq[i][j]= ' '; // Set odd columns to spaces for white queen
                 }
             }else{ // Middle rows for black queen
-                bq[i][j]='\u2588\u2588'; // Set black queen middle to 'white'
+                bq[i][j]='\u2588'; // Set black queen middle to 'white'
                 wq[i][j]= ' '; // Set white queen middle to spaces
             }
         }
