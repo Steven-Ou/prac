@@ -109,6 +109,8 @@ int main(){
     cin>>c;
     vector<vector<int>> v(c); 
     for(int i =0;i<c;i++){
+        cout<<"Enter the score of the student in class "<<i<<": ";
+        cin>>cS; 
         
     }
 }
