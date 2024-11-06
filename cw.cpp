@@ -104,7 +104,7 @@ int main(){
 }
 */
 int main(){
-    int c, cS; 
+    int c, cS,s; 
     cout<<"Enter the number of classes their are : \n";
     cin>>c;
     vector<vector<int>> v(c); 
