@@ -106,5 +106,6 @@ int main(){
 int main(){
     int c, cS; 
     cout<<"Enter the number of classes their are : ";
+    cin>>c;
     
 }
