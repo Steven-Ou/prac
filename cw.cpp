@@ -104,5 +104,6 @@ int main(){
 }
 */
 int main(){
+    int c, cS; 
     
 }
