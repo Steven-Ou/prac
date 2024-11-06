@@ -108,5 +108,7 @@ int main(){
     cout<<"Enter the number of classes their are : \n";
     cin>>c;
     vector<vector<int>> v(c); 
-    
+    for(int i =0;i<c;i++){
+        
+    }
 }
