@@ -71,6 +71,7 @@ int main(){
     //end main
 }
 */
+/*
 int main(){
     vector<double> example(5,1.1);
 
@@ -101,3 +102,4 @@ int main(){
     
     return 0;
 }
+*/
