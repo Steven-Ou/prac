@@ -113,5 +113,6 @@ int main(){
         cout<<"Enter the score of the student in class "<<i<<": ";
         cin>>cS; 
         v[i].push_back(cS);
+        for(int j = 0; j<)
     }
 }
