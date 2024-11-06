@@ -105,7 +105,7 @@ int main(){
 */
 int main(){
     int c, cS; 
-    cout<<"Enter the number of classes their are : ";
+    cout<<"Enter the number of classes their are : \n";
     cin>>c;
-    
+
 }
