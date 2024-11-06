@@ -105,6 +105,7 @@ int main(){
 */
 int main(){
     int c, cS,s; 
+    double sum =0, avg = 0; 
     cout<<"Enter the number of classes their are : \n";
     cin>>c;
     vector<vector<int>> v(c); 
