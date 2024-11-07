@@ -18,5 +18,7 @@ int main(){
             v[i].push_back(s);
         }
     }
-    f
+    for(int i=0;i<cS;i++){
+        
+    }
 }
