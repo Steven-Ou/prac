@@ -28,7 +28,7 @@ int main(){
                 avg++;
             }
         }
-        cout<< (avg/(v[i].size()-1))*10<<" % " <<endl;
+        cout<< (avg/(v[i].size()-1))*100.000<<" % " <<endl;
         sum=0;
         avg=0;
     }
