@@ -23,6 +23,8 @@ int main(){
             sum += v[i][j];
         }
         sum = sum/(v[i].size()-1);
-        
+        for(int j=1;j<v[i].size();j++){
+            
+        }
     }
 }
