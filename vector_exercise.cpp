@@ -28,6 +28,8 @@ int main(){
                 avg++;
             }
         }
-        cout<< above/(v[i].size()-1)
+        cout<< avg/(v[i].size()-1);
+        sum=0;
+        a
     }
 }
