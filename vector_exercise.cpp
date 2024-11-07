@@ -29,7 +29,7 @@ int main(){
                 avg++;
             }
         }
-        cout<< setprecision(3)<<(avg/(v[i].size()-1))*100.000<<" % " <<endl;
+        cout<< setprecision(5)<<(avg/(v[i].size()-1))*100.000<<" % " <<endl;
         sum=0;
         avg=0;
     }
