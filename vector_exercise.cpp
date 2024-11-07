@@ -30,6 +30,6 @@ int main(){
         }
         cout<< avg/(v[i].size()-1);
         sum=0;
-        a
+        avg =0;
     }
 }
