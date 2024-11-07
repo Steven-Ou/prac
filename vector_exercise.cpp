@@ -17,6 +17,6 @@ int main(){
             cin>>s;
             v[i].push_back(s);
         }
-        
     }
+    f
 }
