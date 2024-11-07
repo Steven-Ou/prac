@@ -28,5 +28,6 @@ int main(){
                 avg++;
             }
         }
+        cout<< above/(v[i].size()-1)
     }
 }
