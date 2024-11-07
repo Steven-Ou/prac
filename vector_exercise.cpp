@@ -13,7 +13,7 @@ int main(){
         cin>>cS; 
         v[i].push_back(cS);
         for(int j = 0; j<cS;j++){
-            
+            cout<< "Enter the score of student "<< j+1<< ": ";
         }
     }
 }
