@@ -16,5 +16,6 @@ int main(){
             cout<< "Enter the score of student "<< j+1<< ": ";
         }
         cin>>s;
+        v[i].push_back(s);
     }
 }
