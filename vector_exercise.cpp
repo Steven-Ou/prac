@@ -19,6 +19,8 @@ int main(){
         }
     }
     for(int i=0;i<cS;i++){
-        
+        for(int j=1;j<v[i].size();j++){
+            
+        }
     }
 }
