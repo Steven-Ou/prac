@@ -3,7 +3,7 @@
 using namespace std; 
 
 int main(){
-    int c, cS,s; //C for class number//cS class size//s is 
+    int c, cS,s; //C for class number//cS class size//s is score
     double sum =0, avg = 0; 
     cout<<"Enter the number of classes their are : \n";
     cin>>c;
