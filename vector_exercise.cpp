@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <iomanip>
 using namespace std; 
 
 int main(){
@@ -28,7 +29,7 @@ int main(){
                 avg++;
             }
         }
-        cout<< (avg/(v[i].size()-1))*100.000<<" % " <<endl;
+        cout<< setprecision(3)<<(avg/(v[i].size()-1))*100.000<<" % " <<endl;
         sum=0;
         avg=0;
     }
