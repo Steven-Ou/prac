@@ -16,7 +16,7 @@ int main(){
         for(int j = 0; j<cS;j++){
             cout<< "Enter the score of student "<< j+1<< ": ";
             cin>>s; //Ask for the score
-            v[i].push_back(s); 
+            v[i].push_back(s); //Push the score to the end of the array.
         }
     }
     for(int i=0;i<cS;i++){
