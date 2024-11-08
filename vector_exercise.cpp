@@ -6,9 +6,9 @@ using namespace std;
 int main(){
     int c, cS,s; //C for class number//cS class size//s is score
     double sum =0, avg = 0; //Sum to store the total//Avg is to store above avg
-    cout<<"Enter the number of classes are their: \n";
-    cin>>c;
-    vector<vector<int> > v(c); 
+    cout<<"Enter the number of classes are their: \n";//Prompting for number of classes
+    cin>>c;//Ask the user for the number
+    vector<vector<int> > v(c); //2d vector (Array)
     for(int i =0;i<c;i++){
         cout<<"Enter the number of the student in class "<<i+1<<": ";
         cin>>cS; 
