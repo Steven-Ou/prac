@@ -35,7 +35,7 @@ int main(){
         // setprecision to round the last digit and *100 to move the answer to whole percentage like 57%
         cout<< setprecision(5)<<(avg/(v[i].size()-1))*100.000<<" % " <<endl;
         sum=0;//set sum to 0 for resetting
-        avg=0;//
+        avg=0;//set avg to 0 for resetting
     }
     return 0;
 }
