@@ -24,7 +24,7 @@ int main(){
         for(int j=1;j<v[i].size();j++){
             sum += v[i][j]; //Accumulate all scores in the class 
         }
-        
+        //Calculate the average score for the class
         sum = sum/(v[i].size()-1);
         for(int j=1;j<v[i].size();j++){
             if(v[i][j]>sum){
