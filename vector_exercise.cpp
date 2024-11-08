@@ -26,6 +26,7 @@ int main(){
         }
         //Calculate the average score for the class
         sum = sum/(v[i].size()-1);
+        
         for(int j=1;j<v[i].size();j++){
             if(v[i][j]>sum){
                 avg++;
