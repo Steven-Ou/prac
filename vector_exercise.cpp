@@ -29,7 +29,7 @@ int main(){
         //Loop again to to see how much students are above average from the ratio of students
         for(int j=1;j<v[i].size();j++){
             if(v[i][j]>sum){
-                avg++;
+                avg++;//INCREASE this everytime if score is above average.
             }
         }
         // setprecision to round the last digit and *100 to move the answer to whole percentage like 57%
