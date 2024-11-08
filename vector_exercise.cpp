@@ -9,7 +9,7 @@ int main(){
     cout<<"Enter the number of classes are their: \n";//Prompting for number of classes
     cin>>c;//Ask the user for the number
     vector<vector<int> > v(c); //2d vector (Array)
-    for(int i =0;i<c;i++){
+    for(int i =0;i<c;i++){//Loop over each class to get the number of students and their scores
         cout<<"Enter the number of the student in class "<<i+1<<": ";
         cin>>cS; 
         v[i].push_back(cS);
