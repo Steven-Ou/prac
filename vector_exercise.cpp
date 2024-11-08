@@ -5,7 +5,7 @@ using namespace std;
 
 int main(){
     int c, cS,s; //C for class number//cS class size//s is score
-    double sum =0, avg = 0; 
+    double sum =0, avg = 0; //Sum to store the total//Avg is to store above avg
     cout<<"Enter the number of classes are their: \n";
     cin>>c;
     vector<vector<int> > v(c); 
