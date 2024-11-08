@@ -12,11 +12,11 @@ int main(){
     for(int i =0;i<c;i++){//Loop over each class to get the number of students and their scores
         cout<<"Enter the number of the student in class "<<i+1<<": ";
         cin>>cS; //Ask for the size.
-        v[i].push_back(cS);
+        v[i].push_back(cS);//Added the size number to the end of the array.
         for(int j = 0; j<cS;j++){
             cout<< "Enter the score of student "<< j+1<< ": ";
-            cin>>s;
-            v[i].push_back(s);
+            cin>>s; //Ask for the score
+            v[i].push_back(s); 
         }
     }
     for(int i=0;i<cS;i++){
