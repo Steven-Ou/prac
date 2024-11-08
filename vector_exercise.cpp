@@ -19,7 +19,7 @@ int main(){
             v[i].push_back(s); //Push the score to the end of the array.
         }
     }
-    
+    //Loop over each class to calculate average and determine scores above the average
     for(int i=0;i<cS;i++){
         for(int j=1;j<v[i].size();j++){
             sum += v[i][j];
