@@ -11,7 +11,7 @@ int main(){
     vector<vector<int> > v(c); //2d vector (Array)
     for(int i =0;i<c;i++){//Loop over each class to get the number of students and their scores
         cout<<"Enter the number of the student in class "<<i+1<<": ";
-        cin>>cS; 
+        cin>>cS; //Ask for the size.
         v[i].push_back(cS);
         for(int j = 0; j<cS;j++){
             cout<< "Enter the score of student "<< j+1<< ": ";
