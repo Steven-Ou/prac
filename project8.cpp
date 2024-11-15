@@ -9,5 +9,6 @@ int main(){
     int from =0;
     int to =1; 
     int candit =1;
+    int move =0;
     
 }
