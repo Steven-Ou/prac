@@ -11,4 +11,5 @@ int main(){
     int candit =1;
     int move =0;
     int ring; 
+    cout<< 
 }
