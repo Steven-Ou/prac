@@ -10,5 +10,5 @@ int main(){
     int to =1; 
     int candit =1;
     int move =0;
-    
+    int 
 }
