@@ -17,5 +17,6 @@ int main(){
         cout<< "Invalid input! Try again: ";
         cin>> n; //Asking the user for the numbers
     }
+    //Filling in the rings
 
 }
