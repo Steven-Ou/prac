@@ -12,5 +12,5 @@ int main(){
     int move =0;
     int n; //Ring
     cout<< "Enter an odd number of rings: ";
-    cin >> ring; 
+    cin >> n; 
 }
