@@ -15,7 +15,7 @@ int main(){
     cin >> n; 
     while(n%2 == 0|| n<0){
         cout<< "Invalid input! Try again: ";
-        cin>> n; //
+        cin>> n; //Asking the user for the numbers
     }
 
 }
