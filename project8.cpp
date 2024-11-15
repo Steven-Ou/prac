@@ -13,6 +13,7 @@ int main(){
     int n; //Ring
     cout<< "Enter an odd number of rings: ";
     cin >> n; 
+    //Checking if its even or negative
     while(n%2 == 0|| n<0){
         cout<< "Invalid input! Try again: ";
         cin>> n; //Asking the user for the numbers
