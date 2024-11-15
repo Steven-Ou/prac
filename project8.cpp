@@ -8,5 +8,5 @@ int main(){
     vector <int> tower[3];
     int from =0;
     int to =1; 
-    
+    int candit =1;
 }
