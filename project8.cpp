@@ -24,5 +24,5 @@ int main(){
     }
     //setting a placeholder for each tower
     tower[1].push_back(n+1);
-    
+    tower[2].push_back(n+1);
 }
