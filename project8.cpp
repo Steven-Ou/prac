@@ -22,4 +22,5 @@ int main(){
     for(int i=n+1; i>0; i-- ){
         tower[0].push_back(i);
     }
+    //
 }
