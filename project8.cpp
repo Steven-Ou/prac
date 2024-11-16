@@ -23,4 +23,6 @@ int main(){
         tower[0].push_back(i);
     }
     //setting a placeholder for each tower
+    tower[1].push_back(n+1);
+    
 }
