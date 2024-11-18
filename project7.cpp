@@ -20,7 +20,7 @@ int main(){ // Main function
             }else if(i==1){ // Check for the middle section of the queen box
                 if(j%2==0){ // Alternate pattern for middle section
                     bq[i][j]= " "; // Set even columns to spaces for black queen
-                    wq[i][j]= char(219); // Set even columns to 'white' for white queen
+                    wq[i][j]= "\u2588"; // Set even columns to 'white' for white queen
                 }else{ // Alternate pattern
                     bq[i][j]= char(219); // Set odd columns to 'white' for black queen
                     wq[i][j]= ' '; // Set odd columns to spaces for white queen
