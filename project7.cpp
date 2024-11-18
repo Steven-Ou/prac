@@ -3,13 +3,13 @@ using namespace std; // Use standard namespace to avoid typing std::
 
 int shu=0; // Global count variable to track number of solutions found
 
-typedef char box[5][7]; // Define a box as a 5x7 character array to represent the board and queen squares
+typedef string box[5][7]; // Define a box as a 5x7 character array to represent the board and queen squares
 box bb, wb, bq, wq, *board[8][8]; // Declare black and white boxes and queens, and the 8x8 board
 
 int main(){ // Main function
     for(int i=0;i<5;i++){ // Loop through rows of the box pattern
         for(int j=0;j<7;j++){ // Loop through columns of the box pattern
-            bb[i][j]= char(219); // Fill black box with 'white'
+            bb[i][j]= ""; // Fill black box with 'white'
             wb[i][j]= ' '; // Fill white box with a space
             if(j==0 || j==6){ // Check if on the border columns for the queen box
                 bq[i][j]= ' '; // Set black queen border to spaces
