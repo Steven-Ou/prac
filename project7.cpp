@@ -26,7 +26,7 @@ int main(){ // Main function
                     wq[i][j]= " "; // Set odd columns to spaces for white queen
                 }
             }else{ // Middle rows for black queen
-                bq[i][j]=char(219); // Set black queen middle to 'white'
+                bq[i][j]="\u2588"; // Set black queen middle to 'white'
                 wq[i][j]= ' '; // Set white queen middle to spaces
             }
         }
