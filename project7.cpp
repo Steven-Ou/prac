@@ -125,7 +125,7 @@ print: // Label for printing the board
         }
 
         if(i<7){ // Check if not the last row
-            cout << "+-------+-------+-------+-------+-------+-------+-------+-------+\n"; // Print row separator
+            cout << "\u2594\u2594\u2594\u2594\u2594\u2594\u2594\u2594\n"; // Print row separator
         }
     }
 
