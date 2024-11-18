@@ -27,7 +27,7 @@ int main(){ // Main function
                 }
             }else{ // Middle rows for black queen
                 bq[i][j]="\u2588"; // Set black queen middle to 'white'
-                wq[i][j]= ' '; // Set white queen middle to spaces
+                wq[i][j]= " "; // Set white queen middle to spaces
             }
         }
     }
