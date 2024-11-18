@@ -105,7 +105,7 @@ print: // Label for printing the board
     cout << "Solution # " << ++shu << ":\n"; // Print the solution number
     cout <<"\u2581"; // Print the top border
     for(int col=0; col<8; col++){ // Loop through each column
-        cout << "-------"; // Print dashes for each column width
+        cout << "\u2581\u2581\u2581\u2581\u2581\u2581\u2581"; // Print dashes for each column width
         if(col<8){ 
         cout << "\u258F"; // Separator between columns
         }
