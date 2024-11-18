@@ -103,32 +103,34 @@ print: // Label for printing the board
     }
 
     cout << "Solution # " << ++shu << ":\n"; // Print the solution number
-    cout <<"\u2581"; // Print the top border
-    for(int col=0; col<8; col++){ // Loop through each column
-        cout << "\u2581\u2581\u2581\u2581\u2581\u2581\u2581"; // Print dashes for each column width
-        if(col<8){ 
-        cout << "\u258F"; // Separator between columns
-        }
+    cout <<" "; // Print the top border
+    for(int col=0; col<56; col++){ // Loop through each column
+        cout << "\u2581"; // Print dashes for each column width
     }
     cout << "\n"; // End the top border line
 
     for(int i=0;i<8;i++){ // Loop through each board row
         for(int k=0;k<5;k++){ // Loop through each box row
-            cout << "\u258F"; // Print left border
+        cout << "\u2595";
             for(int j=0;j<8;j++){ // Loop through each board column
                 for(int l=0;l<7;l++){ // Loop through each box column
                     cout << (*board[i][j])[k][l]; // Print the board character
                 }
-                cout << "\u2595"; // Print right border for each box
+                //cout << "\u2595"; // Print right border for each box
             }
+            cout << "\u258F";
             cout << "\n"; // Newline after each box row
         }
 
-        if(i<7){ // Check if not the last row
+        /*if(i<7){ // Check if not the last row
             cout << "\u2594\u2594\u2594\u2594\u2594\u2594\u2594\u2594\n"; // Print row separator
-        }
+        }*/
     }
-
-    cout << "\u2594\u2594\u2594\u2594\u2594\u2594\u2594\u2594\n"; // Print bottom border
+    
+    cout << " ";
+    for(int col=0; col<56; col++){ // Loop through each column
+        cout << "\u2594"; // Print dashes for each column width
+    }
+    cout << "\n";
     goto backtrack; // Go to backtrack to find the next solution
 }
