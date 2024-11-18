@@ -129,6 +129,6 @@ print: // Label for printing the board
         }
     }
 
-    cout << "+-------+-------+-------+-------+-------+-------+-------+-------+\n"; // Print bottom border
+    cout << "\u2594\u2594\u2594\u2594\u2594\u2594\u2594\u2594\n"; // Print bottom border
     goto backtrack; // Go to backtrack to find the next solution
 }
