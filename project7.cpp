@@ -22,7 +22,7 @@ int main(){ // Main function
                     bq[i][j]= " "; // Set even columns to spaces for black queen
                     wq[i][j]= "\u2588"; // Set even columns to 'white' for white queen
                 }else{ // Alternate pattern
-                    bq[i][j]= char(219); // Set odd columns to 'white' for black queen
+                    bq[i][j]= "\u2588"; // Set odd columns to 'white' for black queen
                     wq[i][j]= ' '; // Set odd columns to spaces for white queen
                 }
             }else{ // Middle rows for black queen
