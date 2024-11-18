@@ -16,7 +16,7 @@ int main(){ // Main function
                 wq[i][j]= "\u2588"; // Set white queen border to 'white'
             }else if(i==0||i==4){ // Check if on the border rows for the queen box
                 bq[i][j]= " "; // Set black queen border rows to spaces
-                wq[i][j]= char(219); // Set white queen border rows to 'white'
+                wq[i][j]= "\u2588"; // Set white queen border rows to 'white'
             }else if(i==1){ // Check for the middle section of the queen box
                 if(j%2==0){ // Alternate pattern for middle section
                     bq[i][j]= ' '; // Set even columns to spaces for black queen
