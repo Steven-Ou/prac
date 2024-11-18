@@ -12,7 +12,7 @@ int main(){ // Main function
             bb[i][j]= "\u2588"; // Fill black box with 'white'
             wb[i][j]= " "; // Fill white box with a space
             if(j==0 || j==6){ // Check if on the border columns for the queen box
-                bq[i][j]= ' '; // Set black queen border to spaces
+                bq[i][j]= " "; // Set black queen border to spaces
                 wq[i][j]= char(219); // Set white queen border to 'white'
             }else if(i==0||i==4){ // Check if on the border rows for the queen box
                 bq[i][j]= ' '; // Set black queen border rows to spaces
