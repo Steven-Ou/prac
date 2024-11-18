@@ -119,7 +119,7 @@ print: // Label for printing the board
                 for(int l=0;l<7;l++){ // Loop through each box column
                     cout << (*board[i][j])[k][l]; // Print the board character
                 }
-                cout << "|"; // Print right border for each box
+                cout << "\u2595"; // Print right border for each box
             }
             cout << "\n"; // Newline after each box row
         }
