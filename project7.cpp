@@ -9,7 +9,7 @@ box bb, wb, bq, wq, *board[8][8]; // Declare black and white boxes and queens, a
 int main(){ // Main function
     for(int i=0;i<5;i++){ // Loop through rows of the box pattern
         for(int j=0;j<7;j++){ // Loop through columns of the box pattern
-            bb[i][j]= ""; // Fill black box with 'white'
+            bb[i][j]= "\u2588"; // Fill black box with 'white'
             wb[i][j]= ' '; // Fill white box with a space
             if(j==0 || j==6){ // Check if on the border columns for the queen box
                 bq[i][j]= ' '; // Set black queen border to spaces
