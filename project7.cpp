@@ -114,7 +114,7 @@ print: // Label for printing the board
 
     for(int i=0;i<8;i++){ // Loop through each board row
         for(int k=0;k<5;k++){ // Loop through each box row
-            cout << "|"; // Print left border
+            cout << "\u258F"; // Print left border
             for(int j=0;j<8;j++){ // Loop through each board column
                 for(int l=0;l<7;l++){ // Loop through each box column
                     cout << (*board[i][j])[k][l]; // Print the board character
