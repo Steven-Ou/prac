@@ -105,7 +105,7 @@ print: // Label for printing the board
     cout << "Solution # " << ++shu << ":\n| "; // Print the solution number
     for(int i=0; i<8; i++){
         for(int j=0; j<8;j++){
-            if(p[i][j]==1){
+            if(p[j][i]==1){
                 cout<<j<< " | ";
             }
         }
