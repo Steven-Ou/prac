@@ -121,7 +121,8 @@ int main(){
 }
 */
 int main(){
-    int b =3;
+    int b;
+    cout<<"Enter a number"<<endl;
     int *a = new int[b];
     delete []a;  
 }
