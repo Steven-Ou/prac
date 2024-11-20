@@ -123,6 +123,7 @@ int main(){
 int main(){
     int b;
     cout<<"Enter a number"<<endl;
+    cin>>b;
     int *a = new int[b];
     delete []a;  
 }
