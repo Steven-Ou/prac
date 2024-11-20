@@ -121,5 +121,5 @@ int main(){
 }
 */
 int main(){
-    
+    int b; 
 }
