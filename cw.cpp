@@ -103,6 +103,7 @@ int main(){
     return 0;
 }
 */
+/*
 int main(){
     int c, cS,s; 
     double sum =0, avg = 0; 
@@ -118,3 +119,4 @@ int main(){
         }
     }
 }
+*/
