@@ -38,5 +38,9 @@ int main(){
 
         tower[to].push_back(candit);
         tower[from].pop_back();
+
+        if(n%2 == 1){
+            
+        }
     }
 }
