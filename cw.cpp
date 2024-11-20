@@ -124,6 +124,10 @@ int main(){
     int b;
     cout<<"Enter a number"<<endl;
     cin>>b;
+    while(b<=0){
+        cout<<"Number can't be less than 1"<<endl;
+        cin>>b;
+    }
     int *a = new int[b];
     delete []a;  
 }
