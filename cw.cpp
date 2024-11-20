@@ -121,7 +121,7 @@ int main(){
 }
 */
 int main(){
-    int b;
+    int b,store;
     cout<<"Enter a number"<<endl;
     cin>>b;
     while(b<=0){
@@ -129,5 +129,19 @@ int main(){
         cin>>b;
     }
     int *a = new int[b];
+    cout<< "Enter "<< b << " elements into the array: "; 
+    for(int i =0; i< b;i++){
+        cin>>store;
+        *(a+i)= store; 
+    }
+    for(int i=0;i<b/2;i++){
+        int temp = *(a+1);
+        *(a+1) = *(a+n-(i+1));
+        *(a+n-(i+1)) = temp; 
+    }
+    for(int i=0;i<b;i++){
+        cout<< *(a+1)<< " "; 
+    }
+    cout<<endl;
     delete []a;  
 }
