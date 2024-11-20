@@ -18,6 +18,10 @@ int main(){
         cout<< "Invalid input! Try again: ";
         cin>> n; //Asking the user for the numbers
     }
+    if(n%2==1){
+        to ==1;
+    } 
+        
     //Filling in the rings, with the smallest on top and the largest on the bottom
     for(int i=n+1; i>0; i-- ){
         tower[0].push_back(i);
