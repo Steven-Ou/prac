@@ -121,5 +121,6 @@ int main(){
 }
 */
 int main(){
-    int b; 
+    int b =3;
+     
 }
