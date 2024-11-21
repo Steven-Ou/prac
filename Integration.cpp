@@ -5,7 +5,7 @@ typedef double (*FUNC) (double); // The existing type is double
 double integrate(FUNC f, double a, double b){
     double area =0;
     for(double i=a;i<b;i+=0.0001){
-        
+        area+=0.0001*f(i);
     }
 }
 
