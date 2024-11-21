@@ -20,6 +20,7 @@ double line(double x){
     return x;//Return the value of 'x'.
 }
 
+//
 double square(double x){
     return x*x;
 }
