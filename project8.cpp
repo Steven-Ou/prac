@@ -26,7 +26,7 @@ int main(){
     }
         
     //Initializing the towers!
-    for(int i=n+1; i>0; i-- ){
+    for(int i=n+1; i>0; i-- ){//n+1 is used for comparison 
         tower[0].push_back(i);//Pushing all the rings into Tower A base on the sizes
     }
     //setting a placeholder for each tower
