@@ -64,7 +64,7 @@ int main(){
             }else{
                 from =(to+1)%3;//Move to the next other side tower.
             }
-            candit = tower[from].back();
+            candit = tower[from].back();//Updating candit to the smallest ring on the chosen tower.
             if(candit<tower[(from+2)%3].back()){
                 to=(from+2)%3;
             }else{
