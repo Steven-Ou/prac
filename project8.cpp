@@ -30,8 +30,8 @@ int main(){
         tower[0].push_back(i);//Pushing all the rings into Tower A base on the sizes
     }
     //Forcing a rule onto the tower so it won't put larger rings on top of smaller rings.
-    tower[1].push_back(n+1);
-    tower[2].push_back(n+1);
+    tower[1].push_back(n+1);//n+1 is used as a logic to ensure that any empty- 
+    tower[2].push_back(n+1);//-tower can have rings placed on them
 
     while(tower[1].size()<n+1){
         cout<< "Move "<< ++move<< ": Transfer Ring "<< candit<< " from Tower "
