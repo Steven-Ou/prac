@@ -48,6 +48,8 @@ int main(){
             candit = tower[from].back();
             if(candit < tower[(from+1)%3].back()){
                 to=(from+1)%3;
+            }else{
+                
             }
         }
     }
