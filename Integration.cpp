@@ -33,7 +33,7 @@ double cube(double x){
 
 int main(){
     //Set precision for floating-point output to 6 decimal places.
-    cout<<fixed<<setprecision(5);
+    cout<<fixed<<setprecision(3);
     //displaying and computing the integral of f(x)=x from 1 to 5.
     cout<<"The integral of f(x)=x between 1 and 5 is: "<< integrate(line,1,5)<<endl;
     //displaying and computing the integral of f(x)=x^2 from 1 to 5.
