@@ -8,7 +8,7 @@ int main(){
     vector <int> tower[3];
     int from =0;// set to 0 to start at tower A
     int to =1; //set to 1 so it can move to the next destination tower B.
-    int candit =1;//
+    int candit =1;//the current ring being moved
     int move =0;
     int n; //Ring
     cout<< "Enter an odd number of rings: ";
