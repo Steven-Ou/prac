@@ -41,7 +41,7 @@ int main(){
         tower[to].push_back(candit);//moving the ring to destination tower
         tower[from].pop_back();//remove from the original place.
 
-        if(n%2 == 1){
+        if(n%2 == 1){//checks if the ring is odd:
             if(tower[(to+1)%3].back()< tower[(to+2)%3].back()){
                 from = (to+1)%3;
             }else{
