@@ -20,7 +20,7 @@ int main(){
         cin>> n; //Asking the user for the numbers
     }
     if(n%2==1){//checks if the number of the rigns are odd or even.
-        to =1;
+        to =1;// goes to tower B if its odd
     }else{
         to =2;
     }
