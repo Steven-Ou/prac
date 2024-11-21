@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-typedef double (*FUNC) (double);
+typedef double (*FUNC) (double); // The existing type is double
 
 double integrate(FUNC f, double a, double b){
 
