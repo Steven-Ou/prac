@@ -18,3 +18,6 @@ double cube(double x){
     return x*x*x;
 }
 
+int main(){
+    
+}
