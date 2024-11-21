@@ -15,7 +15,7 @@ double integrate(FUNC f, double a, double b){
     return area;//Return the total area as the approximate integral value
 }
 
-//Function line that computes a straight line
+//Line function that computes a straight line
 double line(double x){
     return x;//Return the value of 'x'.
 }
