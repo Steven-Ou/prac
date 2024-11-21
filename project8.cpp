@@ -52,7 +52,7 @@ int main(){
                 to=(from+2)%3;
             }
         }else{
-            
+            if(tower)
         }
     }
 }
