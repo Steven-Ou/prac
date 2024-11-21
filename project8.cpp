@@ -6,7 +6,7 @@ using namespace std;
 int main(){
     //Declaring an array of 3 vectors to represents each tower
     vector <int> tower[3];
-    int from =0;
+    int from =0;// set to 0 to start at tower A
     int to =1; 
     int candit =1;
     int move =0;
