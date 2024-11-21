@@ -25,6 +25,7 @@ double square(double x){
     return x*x;// returning a x^2.
 }
 
+
 double cube(double x){
     return x*x*x;
 }
