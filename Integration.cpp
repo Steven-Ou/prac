@@ -9,7 +9,7 @@ typedef double (*FUNC) (double); // The existing type is double-
 double integrate(FUNC f, double a, double b){
     double area =0;// Initializing the variable 'area' to store the accumulated area.
     for(double i=a;i<b;i+=0.0001){//Looping from a to b with a small steps of 0.0001
-        area+=0.0001*f(i);
+        area+=0.0001*f(i);//Calculating the area of each tiny rectangle
     }
     return area;
 }
