@@ -2,4 +2,6 @@
 using namespace std;
 typedef double (*FUNC) (double);
 
-double 
+double integrate(FUNC f, double a, double b){
+    
+}
