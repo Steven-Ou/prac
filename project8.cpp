@@ -9,7 +9,7 @@ int main(){
     int from =0;// set to 0 to start at tower A
     int to =1; //set to 1 so it can move to the next destination tower B.
     int candit =1;//the current ring being moved
-    int move =0;
+    int move =0;//To track the number it takes for the ring to move.
     int n; //Ring
     cout<< "Enter an odd number of rings: ";
     cin >> n; 
