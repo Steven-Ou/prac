@@ -11,6 +11,7 @@ int main(){
     int candit =1;//the current ring being moved
     int move =0;//To track the number it takes for the ring to move.
     int n; //The number of rings provided by the user
+    //Asking the user for the number of rings with prompt
     cout<< "Enter an odd or even number of rings: ";
     cin >> n; 
     //Checking if its even or negative
