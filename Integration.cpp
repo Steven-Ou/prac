@@ -2,7 +2,7 @@
 using namespace std;
 typedef double (*FUNC) (double); // The existing type is double-
 //-the new type name is a pointer FUNC double and it will be used- 
-//-to identify the existing type
+//-to identify the existing type and returns a double.
 double integrate(FUNC f, double a, double b){
     double area =0;
     for(double i=a;i<b;i+=0.0001){
