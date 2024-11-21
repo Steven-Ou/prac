@@ -54,6 +54,8 @@ int main(){
         }else{
             if(tower[(to+2)%3].back()<tower[(to+1)%3].back()){
                 from =(to+2)%3;
+            }else{
+                from =(to+1)%3;
             }
         }
     }
