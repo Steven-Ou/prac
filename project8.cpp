@@ -51,6 +51,8 @@ int main(){
             }else{
                 to=(from+2)%3;
             }
+        }else{
+            
         }
     }
 }
