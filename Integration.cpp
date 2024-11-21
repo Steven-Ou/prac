@@ -33,7 +33,7 @@ double cube(double x){
 
 int main(){
     //Set precision to 1 so it can round to it's closes answer!
-    cout<<fixed<<setprecision(0);
+    cout<<fixed<<setprecision(1);
     //displaying and computing the integral of f(x)=x from 1 to 5.
     cout<<"The integral of f(x)=x between 1 and 5 is: "<< integrate(line,1,5)<<endl;
     //displaying and computing the integral of f(x)=x^2 from 1 to 5.
