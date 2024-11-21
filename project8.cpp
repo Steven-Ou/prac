@@ -40,7 +40,11 @@ int main(){
         tower[from].pop_back();
 
         if(n%2 == 1){
-            
+            if(tower[(to+1)%3].back()< tower[(to+2)%3].back()){
+                from = (to+1)%3;
+            }else{
+                from = (to+2)%3;
+            }
         }
     }
 }
