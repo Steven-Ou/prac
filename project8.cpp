@@ -47,7 +47,7 @@ int main(){
             if(tower[(to+1)%3].back()< tower[(to+2)%3].back()){
                 from = (to+1)%3;//Choose the next tower.
             }else{
-                from = (to+2)%3;//Choose the other side tower
+                from = (to+2)%3;//Choose the other side tower.
             }
             candit = tower[from].back();
             if(candit < tower[(from+1)%3].back()){
