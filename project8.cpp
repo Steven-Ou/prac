@@ -53,7 +53,7 @@ int main(){
             candit = tower[from].back();
             //Determine the destination tower for the next move
             if(candit < tower[(from+1)%3].back()){
-                to=(from+1)%3;
+                to=(from+1)%3;//Move to the next tower.
             }else{
                 to=(from+2)%3;
             }
