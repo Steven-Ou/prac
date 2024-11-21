@@ -61,7 +61,7 @@ int main(){
             if(candit<tower[(from+2)%3].back()){
                 to=(from+2)%3;
             }else{
-                
+                to =(from+1)%3;
             }
         }
     }
