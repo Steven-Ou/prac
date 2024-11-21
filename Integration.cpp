@@ -15,5 +15,5 @@ double square(double x){
 }
 
 double cube(double x){
-    
+    return x*x*x;
 }
