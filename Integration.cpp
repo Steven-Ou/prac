@@ -25,7 +25,7 @@ double square(double x){
     return x*x;// returning a x^2.
 }
 
-
+//Cube function that computes f(x)=x^3 and represents cubic curves.
 double cube(double x){
     return x*x*x;
 }
