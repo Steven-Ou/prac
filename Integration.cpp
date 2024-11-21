@@ -8,7 +8,7 @@ typedef double (*FUNC) (double); // The existing type is double-
 //f between limits a and b
 double integrate(FUNC f, double a, double b){
     double area =0;// Initializing the variable 'area' to store the accumulated area.
-    for(double i=a;i<b;i+=0.0001){
+    for(double i=a;i<b;i+=0.0001){//Looping from a to b 
         area+=0.0001*f(i);
     }
     return area;
