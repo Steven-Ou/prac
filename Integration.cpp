@@ -19,5 +19,5 @@ double cube(double x){
 }
 
 int main(){
-    cout<<""
+    cout<<"The integral of f(x)=x between 1 and 5 is: "
 }
