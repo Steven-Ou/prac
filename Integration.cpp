@@ -16,7 +16,7 @@ double integrate(FUNC f, double a, double b){
 }
 //Function line that computes a straight line
 double line(double x){
-    return x;//
+    return x;//Return the value of 'x'.
 }
 
 double square(double x){
