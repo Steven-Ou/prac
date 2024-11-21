@@ -13,3 +13,4 @@ double line(double x){
 double square(double x){
     return x*x;
 }
+
