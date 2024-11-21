@@ -7,7 +7,7 @@ typedef double (*FUNC) (double); // The existing type is double-
 //The integrate function is used to compute the definite integral of a function
 //f between limits a and b
 double integrate(FUNC f, double a, double b){
-    double area =0;
+    double area =0;// Initializing the variable 'area' to store the accumulated area.
     for(double i=a;i<b;i+=0.0001){
         area+=0.0001*f(i);
     }
