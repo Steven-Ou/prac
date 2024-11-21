@@ -69,7 +69,7 @@ int main(){
             if(candit<tower[(from+2)%3].back()){
                 to=(from+2)%3;//Move to the next tower.
             }else{
-                to =(from+1)%3;
+                to =(from+1)%3;//Move to the next other side tower.
             }
         }
     }
