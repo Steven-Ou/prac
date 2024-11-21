@@ -27,7 +27,7 @@ double square(double x){
 
 //Cube function that computes f(x)=x^3 and represents cubic curves.
 double cube(double x){
-    return x*x*x;//
+    return x*x*x;//returning a value of x^3
 }
 
 int main(){
