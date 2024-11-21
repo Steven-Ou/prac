@@ -25,7 +25,7 @@ int main(){
         to =2;// goes to tower C if its even
     }
         
-    //Intializing the towers!
+    //Initializing the towers!
     for(int i=n+1; i>0; i-- ){
         tower[0].push_back(i);
     }
