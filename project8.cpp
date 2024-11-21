@@ -38,7 +38,7 @@ int main(){
         cout<< "Move "<< ++move<< ": Transfer Ring "<< candit<< " from Tower "
         << char(from+ 'A')<<" to Tower "<< char(to+'A')<<endl;
         //^ converting tower indexes to character A B C 
-        tower[to].push_back(candit);
+        tower[to].push_back(candit);//moving the ring to destination
         tower[from].pop_back();
 
         if(n%2 == 1){
