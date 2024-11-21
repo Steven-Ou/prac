@@ -46,7 +46,9 @@ int main(){
                 from = (to+2)%3;
             }
             candit = tower[from].back();
-            if(candit < tower[()])
+            if(candit < tower[(from+1)%3].back()){
+                to=(from+1)%3;
+            }
         }
     }
 }
