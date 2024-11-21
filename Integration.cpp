@@ -12,7 +12,7 @@ double integrate(FUNC f, double a, double b){
         area+=0.0001*f(i);//Calculating the area of each tiny rectangle
         //width 0.0001* height f(i) 
     }
-    return area;
+    return area;//Return the total area as the approximate integral value
 }
 
 double line(double x){
