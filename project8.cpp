@@ -45,7 +45,7 @@ int main(){
             //choosing the next tower with the smallest top ring that is- 
             //-smaller than candit the candidates that was selected.
             if(tower[(to+1)%3].back()< tower[(to+2)%3].back()){
-                from = (to+1)%3;
+                from = (to+1)%3;//Choose the next clockwise tower.
             }else{
                 from = (to+2)%3;
             }
