@@ -1,5 +1,5 @@
 #include <iostream>
-
+#include <iomanip>
 using namespace std;
 typedef double (*FUNC) (double); // The existing type is double-
 //-the new type name is a pointer FUNC double and it will be used- 
