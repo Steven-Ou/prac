@@ -7,6 +7,7 @@ double integrate(FUNC f, double a, double b){
     for(double i=a;i<b;i+=0.0001){
         area+=0.0001*f(i);
     }
+    return area;
 }
 
 double line(double x){
