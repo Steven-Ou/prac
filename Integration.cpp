@@ -2,3 +2,4 @@
 using namespace std;
 typedef double (*FUNC) (double);
 
+double 
