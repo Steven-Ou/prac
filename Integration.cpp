@@ -4,6 +4,7 @@ typedef double (*FUNC) (double); // The existing type is double
 //the new type name is *FUNC double and it will be used to identify the existing type
 double integrate(FUNC f, double a, double b){
     double area =0;
+    for(double)
 }
 
 double line(double x){
