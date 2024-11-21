@@ -34,6 +34,7 @@ int main(){
     tower[2].push_back(n+1);//-tower can have rings placed on them
     //THE WHILE LOOP: Loops to move all rings until all rings  are on tower B
     while(tower[1].size()<n+1){
+        //Prints out the current move
         cout<< "Move "<< ++move<< ": Transfer Ring "<< candit<< " from Tower "
         << char(from+ 'A')<<" to Tower "<< char(to+'A')<<endl;
 
