@@ -20,7 +20,7 @@ double line(double x){
     return x;//Return the value of 'x'.
 }
 
-//
+//Function square that computes f(x)=x^2. Represents a parabola curve.
 double square(double x){
     return x*x;
 }
