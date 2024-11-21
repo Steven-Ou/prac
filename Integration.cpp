@@ -22,7 +22,7 @@ double line(double x){
 
 //Function square that computes f(x)=x^2. Represents a parabola curve.
 double square(double x){
-    return x*x;
+    return x*x;// returning
 }
 
 double cube(double x){
