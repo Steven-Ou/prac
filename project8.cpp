@@ -60,7 +60,7 @@ int main(){
         }else{//If the number of the ring is even
         //choose the next tower with the smallest top ring that is smallest than candit
             if(tower[(to+2)%3].back()<tower[(to+1)%3].back()){
-                from =(to+2)%3;
+                from =(to+2)%3;//Move to the next tower.
             }else{
                 from =(to+1)%3;
             }
