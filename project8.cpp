@@ -57,7 +57,7 @@ int main(){
             }else{
                 to=(from+2)%3;//Move to the other side of the tower.
             }
-        }else{
+        }else{//If the number of the ring is even
             if(tower[(to+2)%3].back()<tower[(to+1)%3].back()){
                 from =(to+2)%3;
             }else{
