@@ -9,3 +9,4 @@ double integrate(FUNC f, double a, double b){
 double line(double x){
     return x;
 }
+
