@@ -58,7 +58,7 @@ int main(){
                 from =(to+1)%3;
             }
             candit = tower[from].back();
-            if(candit<towe)
+            if(candit<tower[(from+2)%3].back())
         }
     }
 }
