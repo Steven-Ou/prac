@@ -52,7 +52,9 @@ int main(){
                 to=(from+2)%3;
             }
         }else{
-            if(tower)
+            if(tower[(to+2)%3].back()<tower[(to+1)%3].back()){
+                
+            }
         }
     }
 }
