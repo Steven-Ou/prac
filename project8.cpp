@@ -57,6 +57,7 @@ int main(){
             }else{
                 from =(to+1)%3;
             }
+            candit = tower[from].back();
         }
     }
 }
