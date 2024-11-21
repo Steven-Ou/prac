@@ -19,5 +19,5 @@ double cube(double x){
 }
 
 int main(){
-    
+    cout<<""
 }
