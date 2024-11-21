@@ -6,4 +6,6 @@ double integrate(FUNC f, double a, double b){
 
 }
 
-double
+double line(double x){
+    
+}
