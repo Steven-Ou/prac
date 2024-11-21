@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 typedef double (*FUNC) (double); // The existing type is double
-//the new tupe name is *FUNC double
+//the new type name is *FUNC double
 double integrate(FUNC f, double a, double b){
 
 }
