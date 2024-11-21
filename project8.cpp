@@ -60,6 +60,8 @@ int main(){
             candit = tower[from].back();
             if(candit<tower[(from+2)%3].back()){
                 to=(from+2)%3;
+            }else{
+                
             }
         }
     }
