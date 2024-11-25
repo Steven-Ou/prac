@@ -22,7 +22,7 @@ int main(){
         cout<<endl;
     }
     
-    for(int i=0; i<row;i++){
+    for(int i=0; i<n;i++){
         delete []arr[i];
     }
 
