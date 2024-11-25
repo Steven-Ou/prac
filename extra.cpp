@@ -6,7 +6,7 @@ int main(){
     cout<<"Enter a number: ";
     //Asking the user with a speech
     cin>>n;
-    while(n<1){//
+    while(n<1){//Condition checking while loop
         cout<<"Number can't be less than 1\n";
         cin>>n;
     }
