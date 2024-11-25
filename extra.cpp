@@ -26,6 +26,6 @@ int main(){
         delete []arr[i];
     }
 
-    
+    delete[] arr;
 
 }
