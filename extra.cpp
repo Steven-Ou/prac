@@ -9,6 +9,6 @@ int main(){
         cout<<"Number can't be less than 1\n";
         cin>>n;
     }
-    int arr = n*n; 
-
+    int put = n*n; 
+    int** arr
 }
