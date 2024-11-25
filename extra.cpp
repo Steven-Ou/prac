@@ -20,4 +20,5 @@ int main(){
             cout<<arr[i][c]<<"\t";
         }
     }
+    cout<<endl;
 }
