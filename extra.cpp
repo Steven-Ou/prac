@@ -3,7 +3,7 @@
 using namespace std; 
 int main(){
     int n; //initalizing the variable 
-    cout<<"Enter a number: ";//
+    cout<<"Enter a number: ";//Asking the user with a speech
     cin>>n;
     while(n<1){
         cout<<"Number can't be less than 1\n";
