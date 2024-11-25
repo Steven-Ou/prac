@@ -19,6 +19,8 @@ int main(){
             arr[i][c] = put--;
             cout<<arr[i][c]<<"\t";
         }
+        cout<<endl;
     }
-    cout<<endl;
+    
+
 }
