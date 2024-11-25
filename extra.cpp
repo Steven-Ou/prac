@@ -16,6 +16,7 @@ int main(){
     int put = n*n; 
     for(int i =0; i<n; i++ ){
         for(int c =0; i<c; i++){
+            arr[i][c] = put--;
             
         }
     }
