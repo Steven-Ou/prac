@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std; 
 int main(){
-    int n; 
+    int n; //initalizing the variable 
     cout<<"Enter a number: ";
     cin>>n;
     while(n<1){
