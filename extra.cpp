@@ -14,4 +14,5 @@ int main(){
         arr[i]= new int[n]; 
     }
     int put = n*n; 
+    
 }
