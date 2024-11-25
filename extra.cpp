@@ -15,7 +15,7 @@ int main(){
     }
     int put = n*n; 
     for(int i =0; i<n; i++ ){
-        for(int c =0; i<c; i++){
+        for(int c =0; c<n; c++){
             arr[i][c] = put--;
             cout<<arr[i][c]<<"\t";
         }
