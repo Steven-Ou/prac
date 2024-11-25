@@ -8,7 +8,7 @@ int main(){
     cin>>n;
     while(n<1){//Condition checking while loop
         cout<<"Number can't be less than 1\n";
-        //
+        //Printing a warning also asking the user to enter a number again
         cin>>n;
     }
     int** arr = new int *[n];
