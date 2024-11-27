@@ -15,7 +15,7 @@ int main(){
     int** arr = new int *[n];
     //Using a loop take in number for each row in the 2d array
     for(int i=0; i<n;i++){
-        arr[i]= new int[n]; //
+        arr[i]= new int[n]; //Each array will have n integers
     }
     int put = n*n; 
     for(int i =0; i<n; i++ ){
