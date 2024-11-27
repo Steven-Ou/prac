@@ -26,7 +26,7 @@ int main(){
             //will continuously be subtracted as the loop goes on
             arr[i][c] = put--;//The number that it's subtracted everytime
             //will continuously be put into the row base on the column. 
-            cout<<arr[i][c]<<"\t";//
+            cout<<arr[i][c]<<"\t";//Printing the current 
         }
         cout<<endl;
     }
