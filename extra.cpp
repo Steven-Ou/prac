@@ -34,7 +34,7 @@ int main(){
     for(int i=0; i<n;i++){
         delete []arr[i];//Deleting the memory allocated for the i-th row
     }
-
+    //
     delete[] arr;
     return 0; 
 }
