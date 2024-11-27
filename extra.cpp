@@ -23,9 +23,9 @@ int main(){
     for(int i =0; i<n; i++ ){//row
         for(int c =0; c<n; c++){//column
             //The total number that has to be the square of n 
-            //will continiously be subtracted as the loop goes on
+            //will continuously be subtracted as the loop goes on
             arr[i][c] = put--;//The number that it's subtracted everytime
-            
+            //will continuously 
             cout<<arr[i][c]<<"\t";
         }
         cout<<endl;
