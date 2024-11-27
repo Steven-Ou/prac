@@ -22,7 +22,8 @@ int main(){
     //Using a forloop to nest another loop
     for(int i =0; i<n; i++ ){//row
         for(int c =0; c<n; c++){//column
-            //The total number that has to be the square of n will continiously be subtracted
+            //The total number that has to be the square of n 
+            will continiously be subtracted
             arr[i][c] = put--;
             cout<<arr[i][c]<<"\t";
         }
