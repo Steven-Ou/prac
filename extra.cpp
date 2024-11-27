@@ -25,6 +25,7 @@ int main(){
             //The total number that has to be the square of n 
             //will continiously be subtracted as the loop goes on
             arr[i][c] = put--;//The number that it's subtracted everytime
+            
             cout<<arr[i][c]<<"\t";
         }
         cout<<endl;
