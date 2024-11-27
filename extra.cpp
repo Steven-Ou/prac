@@ -17,7 +17,7 @@ int main(){
     for(int i=0; i<n;i++){
         arr[i]= new int[n]; //Each array will have n integers
     }
-    int put = n*n; 
+    int put = n*n; //
     for(int i =0; i<n; i++ ){
         for(int c =0; c<n; c++){
             arr[i][c] = put--;
