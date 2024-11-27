@@ -19,8 +19,8 @@ int main(){
     }
     int put = n*n; //Maximum value to be put inside put
     //^ Maximum value calculated by n*n
-    
-    for(int i =0; i<n; i++ ){//Using the forloop that is nesting another loop
+
+    for(int i =0; i<n; i++ ){
         for(int c =0; c<n; c++){
             arr[i][c] = put--;
             cout<<arr[i][c]<<"\t";
