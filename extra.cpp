@@ -36,5 +36,5 @@ int main(){
     }
     //Deallocating memory for the array of pointers
     delete[] arr;//Deleting the memory allocated for the array of row pointers
-    return 0; 
+    return 0; // 
 }
