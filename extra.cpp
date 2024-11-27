@@ -23,8 +23,8 @@ int main(){
     for(int i =0; i<n; i++ ){//row
         for(int c =0; c<n; c++){//column
             //The total number that has to be the square of n 
-            //will continiously be subtracted
-            arr[i][c] = put--;
+            //will continiously be subtracted as the loop goes on
+            arr[i][c] = put--;//The number that it's subtracted everytime
             cout<<arr[i][c]<<"\t";
         }
         cout<<endl;
