@@ -28,7 +28,7 @@ int main(){
             //will continuously be put into the row base on the column. 
             cout<<arr[i][c]<<"\t";//Printing the current row and column w/ tab
         }//end of the first loop
-        cout<<endl;
+        cout<<endl;//
     }
     
     for(int i=0; i<n;i++){
