@@ -13,7 +13,7 @@ int main(){
     }
     //Allocating memory to a 2d array
     int** arr = new int *[n];
-    //Using a loop take in numbers into the array
+    //Using a loop take in number for each row in the 2d array
     for(int i=0; i<n;i++){
         arr[i]= new int[n]; 
     }
