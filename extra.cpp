@@ -20,7 +20,7 @@ int main(){
     int put = n*n; //Maximum value to be put inside put
     //^ Maximum value calculated by n*n
     //Using a forloop to nest another loop
-    for(int i =0; i<n; i++ ){
+    for(int i =0; i<n; i++ ){//row
         for(int c =0; c<n; c++){
             //
             arr[i][c] = put--;
