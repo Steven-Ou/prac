@@ -30,7 +30,7 @@ int main(){
         }//end of the first loop
         cout<<endl;//The last loop we skip lines
     }
-    
+    //
     for(int i=0; i<n;i++){
         delete []arr[i];
     }
