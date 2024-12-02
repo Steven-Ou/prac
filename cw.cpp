@@ -160,7 +160,7 @@ public:
     double deposit(){
 
     }
-    int withdraw(){
+    double withdraw(){
 
     }
     double getBalance(){
