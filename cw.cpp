@@ -120,6 +120,7 @@ int main(){
     }
 }
 */
+/*
 int main(){
     int b,store;
     cout<<"Enter a number"<<endl;
@@ -145,3 +146,4 @@ int main(){
     cout<<endl;
     delete []a;  
 }
+*/
