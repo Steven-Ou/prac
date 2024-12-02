@@ -181,5 +181,5 @@ int main(){
     hi.withdraw(2000);
     cout<< "Current Balance: $"<< hi.getBalance()<< endl;
 
-
+    return 0; 
 }
