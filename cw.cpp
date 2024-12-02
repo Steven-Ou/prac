@@ -154,6 +154,10 @@ private:
     int accountNumber; 
 public:
 
-    int withdraw();
-    double getBalance();
+    int withdraw(){
+
+    }
+    double getBalance(){
+        
+    }
 };
