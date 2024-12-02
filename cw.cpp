@@ -155,4 +155,5 @@ private:
 public:
 
     int withdraw();
+    double getBalance();
 };
