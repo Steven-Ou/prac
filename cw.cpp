@@ -164,6 +164,8 @@ public:
     void withdraw(double amount){
         if(balance <amount){
             cout<<"Not enough money"<<endl;
+        }else{
+            balance = balance - amount; 
         }
     }
     double getBalance(){
