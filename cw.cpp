@@ -153,11 +153,13 @@ private:
     double balance; 
     int accountNumber; 
 public:
-
+    double deposit(){
+        
+    }
     int withdraw(){
 
     }
     double getBalance(){
-        
+
     }
 };
