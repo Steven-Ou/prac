@@ -149,6 +149,7 @@ int main(){
 */
 
 class BankAccount{
+private:
     double balance; 
     int accountNumber; 
 };
