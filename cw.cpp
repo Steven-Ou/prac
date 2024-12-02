@@ -157,10 +157,11 @@ public:
         balance =x;
         accountNumber =y; 
     }
-    double deposit(){
-
+    void deposit(double amount){
+        balance = balance + amount;
+        
     }
-    double withdraw(){
+    void withdraw(double amount){
 
     }
     double getBalance(){
