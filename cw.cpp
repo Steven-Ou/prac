@@ -149,5 +149,5 @@ int main(){
 */
 
 class BankAccount{
-    
-}
+
+};
