@@ -149,5 +149,6 @@ int main(){
 */
 
 class BankAccount{
-    
+    double balance; 
+    int accountNumber; 
 };
