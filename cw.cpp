@@ -152,4 +152,5 @@ class BankAccount{
 private:
     double balance; 
     int accountNumber; 
+public:
 };
