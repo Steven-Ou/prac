@@ -151,10 +151,14 @@ int main(){
 class BankAccount{
 private:
     double balance; 
-    int accountNumber; 
+    string accountNumber; 
 public:
+    BankAccount(double x, string y ){
+        balance =x;
+        accountNumber =y; 
+    }
     double deposit(){
-        
+
     }
     int withdraw(){
 
