@@ -153,4 +153,6 @@ private:
     double balance; 
     int accountNumber; 
 public:
+
+    int withdraw();
 };
