@@ -175,6 +175,7 @@ public:
 
 int main(){
     BankAccount hi = BankAccount(1000.00,"ACCT12345"); 
+    cout<<""
     hi.deposit(500);
     cout<< "Current Balance: $"<< hi.getBalance()<< endl;
     hi.withdraw(2000);
