@@ -13,5 +13,6 @@ int main(){
     cout<<"Enter a number"<<endl;
     int a;
     cin>>a;
+    cout<<"Enter another number"<<endl;
     
 }
