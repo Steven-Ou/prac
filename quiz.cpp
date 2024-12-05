@@ -46,8 +46,7 @@ int main(int argc, const char * argv[]) {
 
 }
 */
-int main()
-{
+int main(){
     int classCount, classSize, maxI = 0;
     cout << "Enter the number of classes: ";
     cin >> classCount;
@@ -73,8 +72,7 @@ int main()
         cout << endl;
     }
     double* averages = new double[classCount];
-    for (int i = 0; i < classCount; i++)
-    {
+    for (int i = 0; i < classCount; i++){
         cout << "Average of class " << i+1 << ": ";
         for (int j = 0; j < classSize; j++)
         {
