@@ -14,5 +14,8 @@ int main(){
     int a;
     cin>>a;
     cout<<"Enter another number"<<endl;
-    
+    int b;
+    cin>>b;
+    cout<<"The Greatest Common Denominator: "<<gcd(a,b)<<endl; 
+
 }
