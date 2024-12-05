@@ -53,8 +53,7 @@ int main(){
     cout << "Enter the number of students in each class: ";
     cin >> classSize;
     int** scores = new int*[classCount];
-    for (int i = 0; i < classCount; i++)
-    {
+    for (int i = 0; i < classCount; i++){
         scores[i] = new int[classSize];
         cout << "Enter the scores of class " << i+1 << ": ";
         for (int j = 0; j < classSize; j++)
