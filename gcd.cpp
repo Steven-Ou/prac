@@ -10,5 +10,8 @@ int gcd(int a, int b){
 
 int main(){
     cout<< gcd(112,42)<<endl;
+    cout<<"Enter a number"<<endl;
+    int a;
+    cin>>a;
     
 }
