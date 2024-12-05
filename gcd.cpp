@@ -17,5 +17,5 @@ int main(){
     int b;
     cin>>b;
     cout<<"The Greatest Common Denominator: "<<gcd(a,b)<<endl; 
-
+    return 0; 
 }
