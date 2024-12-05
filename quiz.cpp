@@ -56,8 +56,7 @@ int main(){
     for (int i = 0; i < classCount; i++){
         scores[i] = new int[classSize];
         cout << "Enter the scores of class " << i+1 << ": ";
-        for (int j = 0; j < classSize; j++)
-        {
+        for (int j = 0; j < classSize; j++){
             cin >> scores[i][j];
         }
     }
