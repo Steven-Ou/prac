@@ -80,8 +80,7 @@ int main(){
     }
     double max = averages[0];
     for (int i = 1; i < classCount; i++){
-        if (averages[i] > max)
-        {
+        if (averages[i] > max){
             max = averages[i];
             maxI = i;
         }
