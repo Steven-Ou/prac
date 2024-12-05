@@ -72,8 +72,7 @@ int main(){
     double* averages = new double[classCount];
     for (int i = 0; i < classCount; i++){
         cout << "Average of class " << i+1 << ": ";
-        for (int j = 0; j < classSize; j++)
-        {
+        for (int j = 0; j < classSize; j++){
             averages[i] += scores[i][j];
         }
         averages[i] /= classSize;
