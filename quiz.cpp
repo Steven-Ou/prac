@@ -79,8 +79,7 @@ int main(){
         cout << averages[i] << endl;
     }
     double max = averages[0];
-    for (int i = 1; i < classCount; i++)
-    {
+    for (int i = 1; i < classCount; i++){
         if (averages[i] > max)
         {
             max = averages[i];
