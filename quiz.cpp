@@ -62,8 +62,7 @@ int main(){
             cin >> scores[i][j];
         }
     }
-    for (int i = 0; i < classCount; i++)
-    {
+    for (int i = 0; i < classCount; i++){
         cout << "Scores of students in class " << i+1 << ": ";
         for (int j = 0; j < classSize; j++)
         {
