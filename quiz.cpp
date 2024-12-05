@@ -87,8 +87,7 @@ int main(){
     }
     cout << "Class " << maxI+1 << " has the highest average of " << max << endl;
     delete[] averages;
-    for (int i = 0; i < classCount; i++)
-    {
+    for (int i = 0; i < classCount; i++){
         delete[] scores[i];
     }
     delete[] scores;
