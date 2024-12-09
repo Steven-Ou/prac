@@ -7,4 +7,5 @@ class Frac {
     int numerator, denominator;
 
     //A function to find the gcd using Euclidean algorithm
+    
 }
