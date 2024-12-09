@@ -21,4 +21,7 @@ public:
         denominator = den;
         simplify();
     }
+    int getNumerator() const {
+        return numerator;
+    }
 }
