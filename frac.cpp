@@ -16,4 +16,9 @@ private:
         return a;
     }
 public:
+    Fraction(int num, int den){
+        numerator = num;
+        denominator = den;
+        simplify();
+    }
 }
