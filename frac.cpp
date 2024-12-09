@@ -24,4 +24,7 @@ public:
     int getNumerator() const {
         return numerator;
     }
+    int getDenominator() const {
+        return denominator;
+    }
 }
