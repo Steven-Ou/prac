@@ -27,4 +27,7 @@ public:
     int getDenominator() const {
         return denominator;
     }
+    void simplify(){
+        
+    }
 }
