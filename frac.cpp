@@ -40,8 +40,24 @@ public:
 	    }
 	    denominator = abs(denominator);
     }
-}
+};
 Frac operator+(const Frac& f1, const Frac& f2) {
+    int num = f1.getNumerator() * f2.getDenominator() + f2.getNumerator() * f1.getDenominator();
+    int den = f1.getDenominator() * f2.getDenominator();
+    return Fraction(num, den);
+}
+
+Frac operator-(const Frac& f1, const Frac& f2) {
+    int num = f1.getNumerator() * f2.getDenominator() - f2.getNumerator() * f1.getDenominator();
+    int den = f1.getDenominator() * f2.getDenominator();
+    return Fraction(num, den);
+}
+Frac operator*(const Frac& f1, const Frac& f2) {
+    int num = f1.getNumerator() * f2.getNumerator();
+    int den = f1.getDenominator() * f2.getDenominator();
+    return Fraction(num, den);
+}
+Frac operator/(const Frac& f1, const Frac& f2) {
     int num = f1.getNumerator() * f2.getDenominator() + f2.getNumerator() * f1.getDenominator();
     int den = f1.getDenominator() * f2.getDenominator();
     return Fraction(num, den);
