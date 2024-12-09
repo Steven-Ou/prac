@@ -28,6 +28,8 @@ public:
         return denominator;
     }
     void simplify(){
-        
+        int commonDivisor = gcd(abs(numerator), abs(denominator)); // Calculate GCD using absolute values
+	    numerator /= commonDivisor;
+	    denominator /= commonDivisor;
     }
 }
