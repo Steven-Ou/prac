@@ -13,5 +13,6 @@ class Frac {
             b=a%b;
             a = temp;
         }
+        return a;
     }
 }
