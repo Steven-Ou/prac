@@ -58,7 +58,9 @@ Frac operator*(const Frac& f1, const Frac& f2) {
     return Fraction(num, den);
 }
 Frac operator/(const Frac& f1, const Frac& f2) {
+    if(f2.getNumerator()!=0){
     int num = f1.getNumerator() * f2.getDenominator();
     int den = f1.getDenominator() * f2.getNumerator();
     return Fraction(num, den);
+    }
 }
