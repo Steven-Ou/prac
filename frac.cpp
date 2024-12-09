@@ -3,7 +3,7 @@
 using namespace std; 
 
 class Frac {
-    private:
+private:
     int numerator, denominator;
 
     //A function to find the gcd using Euclidean algorithm
@@ -15,5 +15,5 @@ class Frac {
         }
         return a;
     }
-    
+public:
 }
