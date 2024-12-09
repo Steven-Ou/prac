@@ -41,7 +41,7 @@ public:
 	    denominator = abs(denominator);
     }
 }
-Fraction operator+(const Fraction& f1, const Fraction& f2) {
+Frac operator+(const Frac& f1, const Frac& f2) {
     int num = f1.getNumerator() * f2.getDenominator() + f2.getNumerator() * f1.getDenominator();
     int den = f1.getDenominator() * f2.getDenominator();
     return Fraction(num, den);
