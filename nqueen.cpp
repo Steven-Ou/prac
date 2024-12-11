@@ -12,6 +12,9 @@ bool ok(int*a, int b){
     }
     return true;
 }
+void number(int*a, int b, int c){
+    
+}
 int main(){
 
 }
