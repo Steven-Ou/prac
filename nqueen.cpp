@@ -15,7 +15,9 @@ bool ok(int*a, int b){
 void number(int*a, int b, int c){
     if(b == c){
         counter++;
+        return; 
     }
+    
 }
 int main(){
 
