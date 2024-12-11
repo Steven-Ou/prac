@@ -1,61 +1,30 @@
+//last project
 #include <iostream>
 #include <cmath>
-using namespace std;
+using namespace std; 
+int counter = 0; 
 
-// Function to check if a placement is valid
-bool isSafe(int* q, int c) {
-    for (int i = 0; i < c; i++) {
-        if (q[i] == q[c] || abs(q[c] - q[i]) == c - i) {
-            return false; // Conflict detected
+bool okay(int*a, int b){
+    for(int i=0;i<b;i++){
+        if(*(a+i)==*(a+b) || b-i == abs(*(a+b)-*(a+i))){
+            return false;
         }
     }
-    return true; // No conflict
+    return true;
 }
+void number(int*a, int b, int c){
+    if(b == c){
+        counter++;
+        return; 
+    }
 
-// Iterative method to solve N-Queens
-void solveNQueens(int n) {
-    int* q = new int[n]; // Array to store queen positions
-    int solCount = 0;    // Count of solutions
-    int c = 0;           // Current column index
-    for (int i = 0; i < n; i++) q[i] = -1; // Initialize all positions to -1
-
-    while (c >= 0) {
-        q[c]++; // Move to the next row in the current column
-
-        if (q[c] == n) { 
-            // If we've tried all rows in this column
-            q[c] = -1; // Reset column and backtrack
-            c--;       // Move back to the previous column
-        } 
-        else if (isSafe(q, c)) {
-            // If the placement is valid
-            if (c == n - 1) {
-                // If all queens are placed
-                solCount++;
-            } else {
-                // Move to the next column
-                c++;
-            }
+    for(int i=0;i<c; i++){
+        *(a+b)= i;
+        if(okay(a,b)){
+            number(a,b+1, c);
         }
     }
-
-    cout << "There are " << solCount << " solutions to the " << n << " queens problem" << endl;
-    delete[] q; // Clean up memory
 }
+int main(){
 
-int main() {
-    int n;
-    cout << "How many queens? ";
-    cin >> n;
-
-    while (n < 1) {
-        cout << "Invalid input! Try again: ";
-        cin >> n;
-    }
-
-    for (int i = 1; i <= n; i++) {
-        solveNQueens(i); // Solve for each board size from 1 to n
-    }
-
-    return 0;
 }
