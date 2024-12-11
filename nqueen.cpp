@@ -6,7 +6,7 @@ int counter = 0;
 
 bool ok(int*a, int b){
     for(int i=0;i<c;i++){
-        if(*(a+i)==*)
+        if(*(a+i)==*(a+b))
     }
 }
 int main(){
