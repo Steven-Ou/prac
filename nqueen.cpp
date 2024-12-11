@@ -4,8 +4,8 @@
 using namespace std; 
 int counter = 0; 
 
-bool ok(int*q, int c){
-    
+bool ok(int*a, int b){
+
 }
 int main(){
 
