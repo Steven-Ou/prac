@@ -44,7 +44,7 @@ int main(){
 
 */
 //3
-/**/
+/*
 void g(int b, string& text){
     if(b==0){
         return;
@@ -73,3 +73,4 @@ int main(){
     f(m,n,text);
     return 0; 
 }
+*/
