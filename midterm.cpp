@@ -1,4 +1,5 @@
 #include <iostream>
+#include <vector>
 using namespace std;
 
 //#1
@@ -18,5 +19,12 @@ using namespace std;
 struct Student{
     string name;
     double midterm, finalgrade;
-     
+
+}
+
+int main(){
+    vector <Student> students; 
+    while(students.name != " "){
+
+    }
 }
