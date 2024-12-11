@@ -77,7 +77,7 @@ int main() {
     Frac result_add = f1 + f2;
     Frac result_sub = f1 - f2;
     Frac result_mul = f1 * f2;
-    Fraction result_div = f1 / f2;
+    Frac result_div = f1 / f2;
 
     display(result_add); // Output: Fraction: 5/4
     display(result_sub); // Output: Fraction: -1/4
