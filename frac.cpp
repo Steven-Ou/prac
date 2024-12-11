@@ -16,7 +16,7 @@ private:
         return a;
     }
 public:
-    Fraction(int num, int den){
+    Frac(int num, int den){
         numerator = num;
         denominator = den;
         simplify();
@@ -44,24 +44,24 @@ public:
 Frac operator+(const Frac& f1, const Frac& f2) {
     int num = f1.getNumerator() * f2.getDenominator() + f2.getNumerator() * f1.getDenominator();
     int den = f1.getDenominator() * f2.getDenominator();
-    return Fraction(num, den);
+    return Frac(num, den);
 }
 
 Frac operator-(const Frac& f1, const Frac& f2) {
     int num = f1.getNumerator() * f2.getDenominator() - f2.getNumerator() * f1.getDenominator();
     int den = f1.getDenominator() * f2.getDenominator();
-    return Fraction(num, den);
+    return Frac(num, den);
 }
 Frac operator*(const Frac& f1, const Frac& f2) {
     int num = f1.getNumerator() * f2.getNumerator();
     int den = f1.getDenominator() * f2.getDenominator();
-    return Fraction(num, den);
+    return Frac(num, den);
 }
 Frac operator/(const Frac& f1, const Frac& f2) {
     if(f2.getNumerator()!=0){
     int num = f1.getNumerator() * f2.getDenominator();
     int den = f1.getDenominator() * f2.getNumerator();
-    return Fraction(num, den);
+    return Frac(num, den);
     }else{
         cout<<"Error"; 
         
