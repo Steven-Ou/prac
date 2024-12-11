@@ -22,6 +22,7 @@ struct Student{
     double midterm, finalgrade;
 
 }
+/*
 
 int main(){
     int index = 0;
@@ -39,4 +40,35 @@ int main(){
         cin>> St;
         students(index) = St; 
     }
+}
+
+*/
+
+void g(int b, string& text){
+    if(b==0){
+        return;
+    }
+    cout<<text<< "**";
+    g(b-1,text);
+}
+void f(int m, int n, string& text){
+    if(m==0){
+        return;
+    }
+    g(n,text);
+    cout<<endl;
+    f(m-1,n,text);
+}
+
+int main(){
+    int m,n;
+    string text;
+    cout<<"Enter m: ";
+    cin>>m;
+    cout<<"Enter n: ";
+    cin>>n;
+    cout<<"Enter text: ";
+    cin>>text;
+    f(m,n,text);
+    return 0; 
 }
