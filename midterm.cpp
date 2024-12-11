@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std;
+
 //#1
 /*
     void f(int f){
@@ -11,3 +14,7 @@
         //It will return nothing 
     }
 */
+
+struct Student{
+
+}
