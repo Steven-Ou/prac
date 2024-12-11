@@ -13,7 +13,9 @@ bool ok(int*a, int b){
     return true;
 }
 void number(int*a, int b, int c){
-    
+    if(b == c){
+        
+    }
 }
 int main(){
 
