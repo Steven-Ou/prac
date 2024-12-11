@@ -67,3 +67,6 @@ Frac operator/(const Frac& f1, const Frac& f2) {
         return Frac(0,1);
     }
 }
+void display(const Fraction& result) {
+    cout << "Fraction: " << result.getNumerator() << "/" << result.getDenominator() << endl;
+}
