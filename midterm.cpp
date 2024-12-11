@@ -31,6 +31,8 @@ int main(){
         cout<<"Enter a student name ";
         cin>> St;
         students(index) = St; 
-        
+        if(St = ""){
+            break;
+        }
     }
 }
