@@ -15,6 +15,7 @@ using namespace std;
         //It will return nothing 
     }
 */
+//#2
 
 struct Student{
     string name;
@@ -28,13 +29,14 @@ int main(){
     string St;
     while(true){
         
-        cout<<"Enter a student name ";
-        cin>> St;
-        students(index) = St; 
+        
         if(St = ""){
             break;
         }
         Student s; 
         students.push_back(s);
+        cout<<"Enter a student name ";
+        cin>> St;
+        students(index) = St; 
     }
 }
