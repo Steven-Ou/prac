@@ -26,5 +26,7 @@ void number(int*a, int b, int c){
     }
 }
 int main(){
-
+    int a;
+    cout<<"How many queens are there? :";
+    cin>> a;
 }
