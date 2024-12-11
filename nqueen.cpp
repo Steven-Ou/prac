@@ -10,6 +10,7 @@ bool ok(int*a, int b){
             return false;
         }
     }
+    return true;
 }
 int main(){
 
