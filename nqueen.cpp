@@ -17,7 +17,10 @@ void number(int*a, int b, int c){
         counter++;
         return; 
     }
-    
+
+    for(int i=0;i<c; i++){
+        
+    }
 }
 int main(){
 
