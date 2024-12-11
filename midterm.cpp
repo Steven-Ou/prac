@@ -34,5 +34,7 @@ int main(){
         if(St = ""){
             break;
         }
+        Student s; 
+        students.push_back(s);
     }
 }
