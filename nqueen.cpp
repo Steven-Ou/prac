@@ -4,7 +4,7 @@
 using namespace std; 
 int counter = 0; 
 
-bool ok(int*a, int b){
+bool okay(int*a, int b){
     for(int i=0;i<b;i++){
         if(*(a+i)==*(a+b) || b-i == abs(*(a+b)-*(a+i))){
             return false;
@@ -20,8 +20,8 @@ void number(int*a, int b, int c){
 
     for(int i=0;i<c; i++){
         *(a+b)= i;
-        if(ok(a,b)){
-            
+        if(okay(a,b)){
+
         }
     }
 }
