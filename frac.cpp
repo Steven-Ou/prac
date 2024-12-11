@@ -73,7 +73,7 @@ void display(const Frac& result) {
 
 int main() {
     Frac f1(1, 2);
-    Fraction f2(3, 4);
+    Frac f2(3, 4);
     Fraction result_add = f1 + f2;
     Fraction result_sub = f1 - f2;
     Fraction result_mul = f1 * f2;
