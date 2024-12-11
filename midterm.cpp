@@ -24,6 +24,7 @@ struct Student{
 
 int main(){
     vector <Student> students; 
+    string St = "";
     while(students.name != " "){
 
     }
