@@ -63,7 +63,7 @@ Frac operator/(const Frac& f1, const Frac& f2) {
     int den = f1.getDenominator() * f2.getNumerator();
     return Frac(num, den);
     }else{
-        cout<<"Error"; 
-        
+        cout<<"Error"<<endl; 
+        return Frac(0,1);
     }
 }
