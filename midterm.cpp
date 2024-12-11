@@ -16,5 +16,7 @@ using namespace std;
 */
 
 struct Student{
-
+    string name;
+    double midterm, finalgrade;
+     
 }
