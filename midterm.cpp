@@ -23,9 +23,14 @@ struct Student{
 }
 
 int main(){
+    int index = 0;
     vector <Student> students; 
-    string St = "";
-    while(students.name != " "){
-
+    string St;
+    while(true){
+        
+        cout<<"Enter a student name ";
+        cin>> St;
+        students(index) = St; 
+        
     }
 }
