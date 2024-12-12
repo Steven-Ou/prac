@@ -47,6 +47,7 @@ int main(){
         number(a,0,i);// Recursive function call
         //The solution and the statements
         cout<<"There are "<<counter<< " solutions to the "<< i <<" queens!"<<endl;
+        //Reset all the board size
         counter= 0;
         delete[] a;
     }
