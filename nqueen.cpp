@@ -23,7 +23,7 @@ void number(int*a, int b, int c){
     }
     //Iterate over all rows for the current column
     for(int i=0;i<c; i++){
-        *(a+b)= i;
+        *(a+b)= i;//Place the queen at the row 'i' in column 'c'
         if(okay(a,b)){
             number(a,b+1, c);
         }
