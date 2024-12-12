@@ -43,7 +43,7 @@ int main(){
         cin>>a; //asking the user and prompting them
     }
     for(int i=1; i<a+1; i++){//for loop using amount of the number given
-        int*a = new int[i];
+        int*a = new int[i]; //Dynamically allocate memory array
         number(a,0,i);
         cout<<"There are "<<counter<< " solutions to the "<< i <<" queens!"<<endl;
         counter= 0;
