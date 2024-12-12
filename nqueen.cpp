@@ -49,6 +49,7 @@ int main(){
         cout<<"There are "<<counter<< " solutions to the "<< i <<" queens!"<<endl;
         //Reset all the board size
         counter= 0;
+        //Free allocated memory so memory doesn't leak.
         delete[] a;
     }
     return 0;
