@@ -17,7 +17,7 @@ bool okay(int*a, int b){
 }
 //Recursive function to check how many solutions base on the queens
 void number(int*a, int b, int c){
-    if(b == c){
+    if(b == c){ // If all queens are placed successfully 
         counter++;
         return; 
     }
