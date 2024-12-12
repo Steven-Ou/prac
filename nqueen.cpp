@@ -29,7 +29,7 @@ int main(){
     int a;
     cout<<"How many queens are there? :";
     cin>> a;
-    while(n<1){
+    while(a<1){
         cout<<"INVALID INPUT! Try again: ";
         cin>>n; 
     }
