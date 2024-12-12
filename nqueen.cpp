@@ -44,7 +44,7 @@ int main(){
     }
     for(int i=1; i<a+1; i++){//for loop using amount of the number given
         int*a = new int[i]; //Dynamically allocate memory array
-        number(a,0,i);
+        number(a,0,i);// Recursive function call
         cout<<"There are "<<counter<< " solutions to the "<< i <<" queens!"<<endl;
         counter= 0;
         delete[] a;
