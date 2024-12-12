@@ -35,5 +35,6 @@ int main(){
     }
     for(int i=1; i<a+1; i++){
         int*a = new int[i];
+        
     }
 }
