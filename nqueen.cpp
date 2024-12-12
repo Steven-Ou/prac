@@ -32,6 +32,7 @@ void number(int*a, int b, int c){
 //MAIN
 int main(){ 
     int a;
+    //Prompting the user
     cout<<"How many queens are there? :";
     cin>> a;
     while(a<1){
