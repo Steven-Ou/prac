@@ -42,7 +42,7 @@ int main(){
         cout<<"INVALID INPUT! Try again: ";
         cin>>a; //asking the user and prompting them
     }
-    for(int i=1; i<a+1; i++){
+    for(int i=1; i<a+1; i++){//for loop using amount of the number given
         int*a = new int[i];
         number(a,0,i);
         cout<<"There are "<<counter<< " solutions to the "<< i <<" queens!"<<endl;
