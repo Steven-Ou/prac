@@ -8,6 +8,7 @@ int counter = 0;
 //Creating the checking function
 bool okay(int*a, int b){
     for(int i=0;i<b;i++){
+        
         if(*(a+i)==*(a+b) || b-i == abs(*(a+b)-*(a+i))){
             return false;
         }
