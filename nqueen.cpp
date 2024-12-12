@@ -31,6 +31,7 @@ int main(){
     cin>> a;
     while(a<1){
         cout<<"INVALID INPUT! Try again: ";
-        cin>>n; 
+        cin>>a; 
     }
+    
 }
