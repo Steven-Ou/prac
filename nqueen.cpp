@@ -24,7 +24,7 @@ void number(int*a, int b, int c){
     //Iterate over all rows for the current column
     for(int i=0;i<c; i++){
         *(a+b)= i;//Place the queen at the row 'i' in column 'c'
-        if(okay(a,b)){
+        if(okay(a,b)){//check if the placement is valid
             number(a,b+1, c);
         }
     }
