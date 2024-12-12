@@ -36,6 +36,6 @@ int main(){
     for(int i=1; i<a+1; i++){
         int*a = new int[i];
         number(a,0,i);
-        cout<<"There are "<<counter<<
+        cout<<"There are "<<counter<< " solutions to the "<< i <<" queens!"<<endl;
     }
 }
