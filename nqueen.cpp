@@ -36,7 +36,7 @@ int main(){
     cout<<"How many queens are there? :";
     //Asking the user
     cin>> a;
-    /
+    //Ensure the user enters a valid size
     while(a<1){
         cout<<"INVALID INPUT! Try again: ";
         cin>>a; 
