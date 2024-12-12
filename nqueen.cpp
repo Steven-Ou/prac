@@ -2,7 +2,7 @@
 #include <iostream>
 #include <cmath>
 using namespace std;
- 
+ //Counting the solution
 int counter = 0; 
 
 bool okay(int*a, int b){
