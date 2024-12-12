@@ -37,7 +37,7 @@ int main(){
     //Asking the user
     cin>> a;
     //Ensure the user enters a valid size
-    while(a<1){
+    while(a<1){//check
         //Check if the a is less than 1
         cout<<"INVALID INPUT! Try again: ";
         cin>>a; 
