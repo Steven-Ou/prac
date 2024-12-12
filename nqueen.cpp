@@ -40,4 +40,5 @@ int main(){
         counter= 0;
         delete[] a;
     }
+    return 0;
 }
