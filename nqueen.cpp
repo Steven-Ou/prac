@@ -13,7 +13,7 @@ bool okay(int*a, int b){
             return false;//return false if its wrong
         }
     }
-    return true;
+    return true;// return true since everything is checked correct
 }
 void number(int*a, int b, int c){
     if(b == c){
