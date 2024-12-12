@@ -1,7 +1,8 @@
 //last project
 #include <iostream>
 #include <cmath>
-using namespace std; 
+using namespace std;
+ 
 int counter = 0; 
 
 bool okay(int*a, int b){
