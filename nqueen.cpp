@@ -21,7 +21,7 @@ void number(int*a, int b, int c){
         counter++; //Increase the solution count
         return; 
     }
-
+    
     for(int i=0;i<c; i++){
         *(a+b)= i;
         if(okay(a,b)){
