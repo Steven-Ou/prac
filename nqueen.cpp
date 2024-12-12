@@ -29,4 +29,5 @@ int main(){
     int a;
     cout<<"How many queens are there? :";
     cin>> a;
+    while(n<1)
 }
