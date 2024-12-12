@@ -10,7 +10,7 @@ bool okay(int*a, int b){
     for(int i=0;i<b;i++){//Loop to check if the condition is met
     //The condition is used to check if the condition is met
         if(*(a+i)==*(a+b) || b-i == abs(*(a+b)-*(a+i))){
-            return false;
+            return false;//return false if its wrong
         }
     }
     return true;
