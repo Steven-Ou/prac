@@ -40,7 +40,7 @@ int main(){
     while(a<1){//check
         //Check if the a is less than 1
         cout<<"INVALID INPUT! Try again: ";
-        cin>>a; 
+        cin>>a; //asking the user and prompting them
     }
     for(int i=1; i<a+1; i++){
         int*a = new int[i];
