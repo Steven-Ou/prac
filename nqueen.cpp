@@ -37,5 +37,6 @@ int main(){
         int*a = new int[i];
         number(a,0,i);
         cout<<"There are "<<counter<< " solutions to the "<< i <<" queens!"<<endl;
+        counter= 0;
     }
 }
