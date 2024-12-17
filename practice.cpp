@@ -18,3 +18,8 @@ vector<int> merge(vector<int> a, vector<int> b){
     }
     return b;
 }
+
+int main(){
+    vector<int> a{2,4,6,8};
+    
+}
