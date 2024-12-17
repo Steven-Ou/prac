@@ -29,6 +29,8 @@ int main(){
     b.push_back(1);
     b.push_back(5);
     b.push_back(3);
+    b.push_back(10);
+    b.push_back(13);
     vector <int> c = merge(a,b);
     for (int i = 0; i < c.size(); i++)
     {
