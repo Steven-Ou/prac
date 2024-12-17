@@ -21,6 +21,7 @@ vector<int> merge(vector<int> a, vector<int> b){
 
 int main(){
     //This way from line 25-35 is the only way for vscode
+    //This method is would work else where b = {1,3,7,10,13};
     vector<int> a;
     a.push_back(2);
     a.push_back(4);
