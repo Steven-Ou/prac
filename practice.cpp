@@ -27,5 +27,7 @@ int main(){
     {
         cout << c[i] << " ";
     }
+    cout<<endl;
+
     return 0;
 }
