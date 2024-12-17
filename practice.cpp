@@ -22,6 +22,7 @@ vector<int> merge(vector<int> a, vector<int> b){
 int main(){
     vector<int> a;
     a.push_back(2);
+    a.push_back(4);
     vector<int>b = {1,3,7,10,13};
     vector <int> c = merge(a,b);
     for (int i = 0; i < c.size(); i++)
