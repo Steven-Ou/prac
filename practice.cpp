@@ -9,7 +9,10 @@ vector<int> merge(vector<int> a, vector<int> b){
     }
     for(int i=0;i<b.size()-1;i++){
         for(int j=i+1;j<b.size();j++){
-            
+            if(b[i]>b[j]){
+                int temp = b[i];
+                
+            }
         }
     }
 }
