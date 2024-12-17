@@ -16,4 +16,5 @@ vector<int> merge(vector<int> a, vector<int> b){
             }
         }
     }
+    return b;
 }
