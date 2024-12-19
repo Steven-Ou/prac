@@ -19,7 +19,9 @@ void swap(int* a, int* b)
 
 void printArray(int a, int size)
 {
-    // create a print function using only pointers
+    for(int i=0;i<size;i++){
+        
+    }
 }
 
 int main()
