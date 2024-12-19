@@ -11,8 +11,8 @@ void swap(int* a, int* b)
 {
     // create a swap() function using only pointers
     int temp;
-    int temp = &a; 
-    
+    int temp = *a; 
+
 }
 
 void printArray(int a, int size)
