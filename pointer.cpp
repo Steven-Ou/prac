@@ -17,9 +17,9 @@ void swap(int* a, int* b)
 
 }
 
-void printArray(int *a, int size)
+void printArray(int *a, int *size)
 {
-    for(int i=0;i<size;i++){
+    for(int i=0;i<*size;i++){
         cout<<*a[i];
 
     }
