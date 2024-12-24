@@ -43,7 +43,7 @@ int main()
     // using ptr1, change the value of i to 10
     *ptr1 = 10; 
     // using ptr1, print the value of i to the terminal
-
+    cout<<*&ptr1;
     // using i, print the address of i
 
     // using ptr1, print the address of i
