@@ -41,7 +41,7 @@ int main()
     // print the size of ptr1
     cout<<sizeof(ptr1);
     // using ptr1, change the value of i to 10
-
+    *ptr1 = 10; 
     // using ptr1, print the value of i to the terminal
 
     // using i, print the address of i
