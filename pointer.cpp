@@ -45,7 +45,7 @@ int main()
     // using ptr1, print the value of i to the terminal
     cout<<*&ptr1;
     // using i, print the address of i
-
+    cout<<&i;
     // using ptr1, print the address of i
 
     // declare and initialize another integer variable, and name it j
