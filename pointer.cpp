@@ -36,7 +36,7 @@ int main()
     // declare an integer pointer, and name it ptr1
     int *ptr1; 
     // assign ptr1 to the address of i
-
+    *ptr1 = &i; 
     // print the size of ptr1
 
     // using ptr1, change the value of i to 10
