@@ -39,7 +39,7 @@ int main()
     // assign ptr1 to the address of i
     ptr1 = &i; 
     // print the size of ptr1
-
+    cout<<sizeof(ptr1);
     // using ptr1, change the value of i to 10
 
     // using ptr1, print the value of i to the terminal
