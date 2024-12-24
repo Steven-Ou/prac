@@ -2,6 +2,7 @@
 POINTER PRACTICE
     Follow all of the directions carefully
     Include your code directly below each comment
+    created by Allen Singleton
 */
 
 #include <iostream>
