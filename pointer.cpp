@@ -33,7 +33,7 @@ int main()
     int i = 20;
 
     // print the size of i
-    cout<<sizeof(i)<endl;
+    cout<<sizeof(i)<<endl;
     // declare an integer pointer, and name it ptr1
     int *ptr1; 
     // assign ptr1 to the address of i
