@@ -67,9 +67,9 @@ int main()
         // PART 2: swap() function
     
     // using i, print the value of i
-    
+    cout<<i;
     // using j, print the value of j
-
+    cout<<j;
     // using ptr1, print the value of i
 
     // using ptr2, print the value of j
