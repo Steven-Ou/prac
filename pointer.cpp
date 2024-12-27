@@ -77,9 +77,9 @@ int main()
     ptr2 = &j;
     cout<<*ptr2<<endl;
     // using ptr1 and ptr2, swap the values of i and j
-
+    swap(*ptr1,*ptr2); 
     // using i, print the value of i
-
+    cout<<i<<endl;
     // using j, print the value of j
 
     // using ptr1, print the value of i
