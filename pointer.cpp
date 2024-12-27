@@ -61,7 +61,7 @@ int main()
     ptr2 = &j;
     ptr2 = &i; 
     // using ptr2, change the value of j to 100
-
+    *ptr2 = 100; 
 
 
         // PART 2: swap() function
