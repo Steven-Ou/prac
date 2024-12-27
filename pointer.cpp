@@ -81,7 +81,7 @@ int main()
     // using i, print the value of i
     cout<<i<<endl;
     // using j, print the value of j
-
+    cout<<j<<endl;
     // using ptr1, print the value of i
 
     // using ptr2, print the value of j
