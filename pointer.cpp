@@ -58,7 +58,8 @@ int main()
     // print the size of ptr2
     cout<<sizeof(ptr2)<<endl;
     // using ptr2, change the value of j to the value of i
-
+    ptr2 = &j;
+    ptr2 = &i; 
     // using ptr2, change the value of j to 100
 
 
