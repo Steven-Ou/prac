@@ -56,7 +56,7 @@ int main()
     // declare another integer pointer, and name it ptr2
     int *ptr2; 
     // print the size of ptr2
-    cout<<sizeof(ptr2);
+    cout<<sizeof(ptr2)<<endl;
     // using ptr2, change the value of j to the value of i
 
     // using ptr2, change the value of j to 100
