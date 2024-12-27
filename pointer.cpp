@@ -69,7 +69,7 @@ int main()
     // using i, print the value of i
     cout<<i<<endl;
     // using j, print the value of j
-    cout<<j;
+    cout<<j<<endl;
     // using ptr1, print the value of i
     ptr1 = &i;
     cout<<*ptr1;
