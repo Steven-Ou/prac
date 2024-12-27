@@ -47,7 +47,7 @@ int main()
     // using i, print the address of i
     cout<<&i<<endl;
     // using ptr1, print the address of i
-    cout<<ptr1; 
+    cout<<ptr1<<endl;
     // declare and initialize another integer variable, and name it j
     int j = 40;
 
