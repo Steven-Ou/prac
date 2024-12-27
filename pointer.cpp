@@ -52,7 +52,7 @@ int main()
     int j = 40;
 
     // print the size of j
-    cout<<sizeof(j);
+    cout<<sizeof(j)<<endl;
     // declare another integer pointer, and name it ptr2
     int *ptr2; 
     // print the size of ptr2
