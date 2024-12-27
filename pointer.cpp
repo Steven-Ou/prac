@@ -67,7 +67,7 @@ int main()
         // PART 2: swap() function
     
     // using i, print the value of i
-
+    
     // using j, print the value of j
 
     // using ptr1, print the value of i
