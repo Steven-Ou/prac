@@ -89,7 +89,7 @@ int main()
     // using the addresses of i and j, swap the values of i and j
     swap(&i,&j);
     // using i, print the value of i
-
+    cout<<i<<endl;
     // using j, print the value of j
 
     // using ptr1, print the value of i
