@@ -122,7 +122,7 @@ int main()
         // PART 4: printArray() function
 
     // using p, print the value of arr[0]
-
+    cout<<*(p+0)<<endl;
     // using p, print the value of arr[6]
 
     // using p, print the value of arr[9]
