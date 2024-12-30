@@ -116,7 +116,7 @@ int main()
     // using p, change the value of arr[4] to 1
     *(p+4)=1;
     // using p, change the value of arr[9] to 8
-
+    *(p+9)=8;
 
 
         // PART 4: printArray() function
