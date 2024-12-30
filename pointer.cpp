@@ -110,7 +110,7 @@ int main()
     // assign p to the address of arr
     p = &arr[10]; 
     // print the size of p
-
+    cout<<sizeof(p);
     // using p, change the value of arr[2] to 5
 
     // using p, change the value of arr[4] to 1
