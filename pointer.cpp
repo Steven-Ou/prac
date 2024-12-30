@@ -114,7 +114,7 @@ int main()
     // using p, change the value of arr[2] to 5
     *(p+2)=5; 
     // using p, change the value of arr[4] to 1
-
+    *(p+4)=1;
     // using p, change the value of arr[9] to 8
 
 
