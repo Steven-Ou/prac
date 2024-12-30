@@ -108,7 +108,7 @@ int main()
     // declare an integer pointer, and name it p
     int *p;
     // assign p to the address of arr
-
+    
     // print the size of p
 
     // using p, change the value of arr[2] to 5
