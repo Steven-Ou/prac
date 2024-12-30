@@ -112,7 +112,7 @@ int main()
     // print the size of p
     cout<<sizeof(p);
     // using p, change the value of arr[2] to 5
-    p
+    *(p+2)=5; 
     // using p, change the value of arr[4] to 1
 
     // using p, change the value of arr[9] to 8
