@@ -106,7 +106,7 @@ int main()
     // print the size of arr
     cout<<sizeof(arr)<<endl;
     // declare an integer pointer, and name it p
-
+    int *p;
     // assign p to the address of arr
 
     // print the size of p
