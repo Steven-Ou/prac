@@ -137,6 +137,7 @@ int main()
         cout<<*(p+i);
     }
     cout<<endl;
+    
     return 0;
 }
  
