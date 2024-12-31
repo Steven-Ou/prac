@@ -133,7 +133,7 @@ int main()
     }cout<<endl;
 
     // using p, print the values of arr
-    
+    for(int i=0;)
     return 0;
 }
  
