@@ -11,7 +11,6 @@ using namespace std;
 void swap(int* a, int* b)
 {
     // create a swap() function using only pointers
-    int temp;
     int temp = *a; 
     *a = *b;
     *b = temp; 
