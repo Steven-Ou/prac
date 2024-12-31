@@ -143,7 +143,7 @@ int main()
     }
     cout<<endl;
     for(int i=0; i<11; i++){
-        cout<<*(p+i);
+        printArray(p,i);
     }
     cout<<endl;
     return 0;
