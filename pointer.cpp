@@ -134,7 +134,7 @@ int main()
 
     // using p, print the values of arr
     for(int i=0; i<11; i++){
-        
+        cout<<*(p+i);
     }
     return 0;
 }
