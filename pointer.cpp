@@ -123,6 +123,7 @@ int main()
 
     // using p, print the value of arr[0]
     cout<<*(p+0)<<endl;
+    printArray(p,0);
     // using p, print the value of arr[6]
     cout<<*(p+6)<<endl;
     // using p, print the value of arr[9]
@@ -137,7 +138,7 @@ int main()
         cout<<*(p+i);
     }
     cout<<endl;
-    
+
     return 0;
 }
  
