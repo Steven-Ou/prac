@@ -130,7 +130,7 @@ int main()
     // using arr, print the values of arr
     for(int i; i<11;i++){
         cout<<a[i];
-    }
+    }cout<<endl;
 
     // using p, print the values of arr
 
