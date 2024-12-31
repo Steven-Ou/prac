@@ -126,6 +126,7 @@ int main()
     printArray(p,0);
     // using p, print the value of arr[6]
     cout<<*(p+6)<<endl;
+    printArray(p,6);
     // using p, print the value of arr[9]
     cout<<*(p+9)<<endl;
     // using arr, print the values of arr
