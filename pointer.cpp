@@ -129,11 +129,14 @@ int main()
     printArray(p,6);
     // using p, print the value of arr[9]
     cout<<*(p+9)<<endl;
+    printArray(p,9);
     // using arr, print the values of arr
     for(int i=0; i<11;i++){
         cout<<arr[i];
     }cout<<endl;
-
+    for(int i=0; i<11;i++){
+        cout<<arr[i];
+    }cout<<endl;
     // using p, print the values of arr
     for(int i=0; i<11; i++){
         cout<<*(p+i);
