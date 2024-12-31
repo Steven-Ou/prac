@@ -128,7 +128,7 @@ int main()
     // using p, print the value of arr[9]
     cout<<*(p+9)<<endl;
     // using arr, print the values of arr
-    for(int i; i<11;i++){
+    for(int i=0; i<11;i++){
         cout<<arr[i];
     }cout<<endl;
 
