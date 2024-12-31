@@ -135,14 +135,17 @@ int main()
         cout<<arr[i];
     }cout<<endl;
     for(int i=0; i<11;i++){
-        cout<<arr[i];
+        printArray(p,i);
     }cout<<endl;
     // using p, print the values of arr
     for(int i=0; i<11; i++){
         cout<<*(p+i);
     }
     cout<<endl;
-
+    for(int i=0; i<11; i++){
+        cout<<*(p+i);
+    }
+    cout<<endl;
     return 0;
 }
  
